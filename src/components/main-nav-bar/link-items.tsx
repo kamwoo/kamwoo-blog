@@ -8,8 +8,8 @@ export const LinkItems = ({ className }: React.ComponentProps<'div'>) => {
         <text className='font-bold text-sm text-neutral-400 hover:text-neutral-200'>About</text>
       </Link>
 
-      <Link href='/notes'>
-        <text className='font-bold text-sm text-neutral-400 hover:text-neutral-200'>Notes</text>
+      <Link href='/posts'>
+        <text className='font-bold text-sm text-neutral-400 hover:text-neutral-200'>Posts</text>
       </Link>
 
       <Link href='/portfolios'>
