@@ -4,7 +4,7 @@ export const HomeLink = () => {
   return (
     <Link href='/home'>
       <text className='font-bold text-md'>Kamwoo</text>
-      <text className='font-bold text-md text-neutral-400'>/dev</text>
+      <text className='font-bold text-md text-neutral-400'>/tech</text>
     </Link>
   );
 };
