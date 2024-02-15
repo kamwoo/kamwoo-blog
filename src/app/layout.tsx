@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { MainNavBar } from '@/components/main-nav-bar';
+import { QueryProvider } from '@/components/query-provider';
+import { MainFooter } from '@/components/main-footer';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -12,19 +14,26 @@ export const metadata: Metadata = {
   description: 'web/tech',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang='en'>
       <body className={cn('min-h-screen bg-background font-sans antialiased', inter.variable)}>
-        <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
-          <MainNavBar />
-          <div className='pt-10'>{children}</div>
-        </ThemeProvider>
+        <QueryProvider>
+          <ThemeProvider
+            attribute='class'
+            defaultTheme='dark'
+            enableSystem
+            disableTransitionOnChange>
+            <div className='pt-14'>
+              <MainNavBar />
+              {children}
+              <MainFooter />
+            </div>
+          </ThemeProvider>
+        </QueryProvider>
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

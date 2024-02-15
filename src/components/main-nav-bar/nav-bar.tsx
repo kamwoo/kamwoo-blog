@@ -10,7 +10,7 @@ interface NavbarProps {
 
 export const NavBar = ({ children }: NavbarProps) => {
   return (
-    <div className='w-full h-14 border-b-2 border-neutral-900 flex justify-center'>
+    <div className='w-full h-14 fixed top-0 z-10 bg-background border-b-2 border-neutral-900 flex justify-center'>
       <div className='w-full max-w-screen-2xl flex justify-between items-center px-6 md:px-14'>
         <SideBar className='md:hidden' />
 
