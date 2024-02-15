@@ -1,5 +1,6 @@
 'use client';
 
+import { PostBody } from '@/components/post/post-body';
 import { trpc } from '@/shared/utils/trpc-client';
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
@@ -23,6 +24,8 @@ const Post = ({ params }: { params: { id: string } }) => {
 
       <h1 className='text-4xl font-bold tracking-tight pb-2'>{data?.matter?.title}</h1>
       <text className='text-lg text-muted-foreground'>{data?.matter?.subtitle}</text>
+
+      {!!data && <PostBody content={data?.content || ''} />}
     </div>
   );
 };
