@@ -18,11 +18,9 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
     <html lang='en'>
       <body className={cn('min-h-screen bg-background font-sans antialiased', inter.variable)}>
         <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
-          <div className='pt-14'>
-            <MainNavBar />
-            {children}
-            <MainFooter />
-          </div>
+          <MainNavBar />
+          <div className='min-h-screen pt-14'>{children}</div>
+          <MainFooter />
         </ThemeProvider>
       </body>
     </html>

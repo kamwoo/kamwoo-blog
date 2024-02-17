@@ -1,24 +1,35 @@
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from '@/components/ui/pagination';
+'use client';
+
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { getPostMatters } from './api/post-matters/query';
+import { PostPagination } from '@/components/posts/post-pagination';
+import { usePagination } from '@/hooks/use-pagination';
+import { PostData, postSchema } from '@/types/post';
+import { useEffect, useState } from 'react';
 
-const PostsPage = async () => {
-  const posts = await getPostMatters();
+const PostsPage = () => {
+  const [posts, setPosts] = useState<PostData[]>([]);
+  const { contents, register } = usePagination({ contents: posts, presentContentCount: 6 });
+
+  useEffect(() => {
+    const getPost = async () => {
+      getPostMatters().then((posts) => {
+        setPosts(posts);
+      });
+    };
+
+    getPost();
+  }, []);
 
   return (
     <div className='flex flex-col md:max-2xl:max-w-lg 2xl:max-w-screen-md gap-20 pb-12'>
       <div className='flex flex-col gap-10 pt-4 px-6 md:px-0 '>
-        {posts.map(({ title, subtitle, category }) => (
-          <Link href={`/posts/${title}`} key={title} className='flex flex-col cursor-pointer group'>
+        {contents.map(({ title, subtitle, category }, index) => (
+          <Link
+            href={`/posts/${title}`}
+            key={`${title}${index}`}
+            className='flex flex-col cursor-pointer group'>
             <div className='flex gap-1 pb-3'>
               <text className='text-sm text-muted-foreground'>{`Posts`}</text>
               <ChevronRight size='20px' stroke='gray' />
@@ -32,30 +43,7 @@ const PostsPage = async () => {
         ))}
       </div>
 
-      <Pagination>
-        <PaginationContent>
-          <PaginationItem>
-            <PaginationPrevious href='#' />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href='#' isActive>
-              1
-            </PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href='#'>2</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href='#'>3</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationEllipsis />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationNext href='#' />
-          </PaginationItem>
-        </PaginationContent>
-      </Pagination>
+      <PostPagination {...register()} />
     </div>
   );
 };
