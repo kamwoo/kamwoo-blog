@@ -1,4 +1,4 @@
-import { PostData, postSchema } from '@/shared/types/post';
+import { PostData, postSchema } from '@/types/post';
 import { findPostList } from './find-post-list';
 import path from 'path';
 import fs from 'fs';

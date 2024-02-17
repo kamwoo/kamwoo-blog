@@ -1,12 +1,10 @@
-'use client';
-
-import { PostBody } from '@/components/post/post-body';
-import { trpc } from '@/shared/utils/trpc-client';
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
+import { getPost } from '../api/post/query';
+import { PostBody } from '@/components/post/post-body';
 
-const Post = ({ params }: { params: { id: string } }) => {
-  const { data } = trpc.postData.useQuery({ title: params.id });
+const Post = async ({ params }: { params: { id: string } }) => {
+  const { matter, content } = await getPost(params.id);
 
   return (
     <div className='flex flex-col'>
@@ -16,16 +14,18 @@ const Post = ({ params }: { params: { id: string } }) => {
           className='text-sm text-muted-foreground hover:underline'>{`Posts`}</Link>
 
         <ChevronRight size='20px' stroke='gray' />
-        <text className='text-sm text-muted-foreground'>{data?.matter?.category}</text>
+        <text className='text-sm text-muted-foreground'>{matter?.category}</text>
 
         <ChevronRight size='20px' stroke='gray' />
-        <text className='text-sm font-medium text-foreground'>{data?.matter?.title}</text>
+        <text className='text-sm font-medium text-foreground'>{matter?.title}</text>
       </div>
 
-      <h1 className='text-4xl font-bold tracking-tight pb-2'>{data?.matter?.title}</h1>
-      <text className='text-lg text-muted-foreground'>{data?.matter?.subtitle}</text>
+      <h1 className='text-4xl font-bold tracking-tight pb-2'>{matter?.title}</h1>
+      <text className='text-lg text-muted-foreground'>{matter?.subtitle}</text>
 
-      {!!data && <PostBody content={data?.content || ''} />}
+      <div className='pt-10'>
+        <PostBody content={content || ''} />
+      </div>
     </div>
   );
 };

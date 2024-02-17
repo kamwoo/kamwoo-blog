@@ -1,22 +1,27 @@
+// @ts-expect-error no types
+import remarkA11yEmoji from '@fec/remark-a11y-emoji';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import remarkA11yEmoji from '@fec/remark-a11y-emoji';
 import remarkToc from 'remark-toc';
-import { mdxComponents } from './markdown-components';
+import { mdxComponents } from './mdx-components';
+import remarkFrontMatter from 'remark-frontmatter';
 
 export const PostBody = ({ content }: { content: string }) => {
   return (
-    <MDXRemote
-      source={content}
-      options={{
-        mdxOptions: {
-          remarkPlugins: [remarkGfm, remarkA11yEmoji, remarkToc],
-          rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
-        },
-      }}
-      components={mdxComponents}
-    />
+    <article className='prose prose-neutral prose-invert md:prose-sm lg:prose-base'>
+      <MDXRemote
+        source={content}
+        options={{
+          mdxOptions: {
+            remarkPlugins: [remarkGfm, remarkA11yEmoji, remarkFrontMatter, remarkToc],
+            rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+            pragmaImportSource: '@mdx-js/react',
+          },
+        }}
+        components={mdxComponents}
+      />
+    </article>
   );
 };

@@ -1,5 +1,3 @@
-'use client';
-
 import {
   Pagination,
   PaginationContent,
@@ -9,17 +7,17 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from '@/components/ui/pagination';
-import { trpc } from '@/shared/utils/trpc-client';
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
+import { getPostMatters } from './api/post-matters/query';
 
-const PostsPage = () => {
-  const { data: postData } = trpc.postList.useQuery();
+const PostsPage = async () => {
+  const posts = await getPostMatters();
 
   return (
     <div className='flex flex-col gap-20 pb-12'>
       <div className='flex-1 flex flex-col gap-10 pt-4'>
-        {postData?.list.map(({ title, subtitle, category }) => (
+        {posts.map(({ title, subtitle, category }) => (
           <Link href={`/posts/${title}`} key={title} className='flex flex-col cursor-pointer group'>
             <div className='flex gap-1 pb-3'>
               <text className='text-sm text-muted-foreground'>{`Posts`}</text>
