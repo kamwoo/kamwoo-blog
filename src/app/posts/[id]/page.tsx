@@ -7,7 +7,7 @@ const Post = async ({ params }: { params: { id: string } }) => {
   const { matter, content } = await getPost(params.id);
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col px-8 md:px-0'>
       <div className='flex gap-1 pb-10'>
         <Link
           href='/posts'
@@ -20,8 +20,8 @@ const Post = async ({ params }: { params: { id: string } }) => {
         <text className='text-sm font-medium text-foreground'>{matter?.title}</text>
       </div>
 
-      <h1 className='text-4xl font-bold tracking-tight pb-2'>{matter?.title}</h1>
-      <text className='text-lg text-muted-foreground'>{matter?.subtitle}</text>
+      <h1 className='text-3xl md:text-4xl font-bold tracking-tight pb-2'>{matter?.title}</h1>
+      <text className='text-md  md:text-lg text-muted-foreground'>{matter?.subtitle}</text>
 
       <div className='pt-10'>
         <PostBody content={content || ''} />

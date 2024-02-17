@@ -10,7 +10,7 @@ import remarkFrontMatter from 'remark-frontmatter';
 
 export const PostBody = ({ content }: { content: string }) => {
   return (
-    <article className='prose prose-neutral prose-invert md:prose-sm lg:prose-base'>
+    <article className='prose prose-neutral prose-invert prose-sm md:prose-base'>
       <MDXRemote
         source={content}
         options={{

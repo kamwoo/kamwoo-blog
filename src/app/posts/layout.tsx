@@ -12,8 +12,10 @@ const PostLayout = async ({ children }: { children: React.ReactNode }) => {
   const categoryData = await getCategories();
 
   return (
-    <div className='h-full flex px-12 md:px-40 pt-12 gap-16'>
-      <ScrollArea className='w-52 h-fit sticky top-20' style={{ position: 'sticky' }}>
+    <div className='h-full flex md:px-40 pt-12 gap-16'>
+      <ScrollArea
+        className='hidden md:block w-52 h-fit sticky top-20'
+        style={{ position: 'sticky' }}>
         <Accordion className='flex flex-col gap-0' type='multiple'>
           {categoryData?.map(({ category, titles }) => (
             <AccordionItem key={category} value={category}>
@@ -35,7 +37,7 @@ const PostLayout = async ({ children }: { children: React.ReactNode }) => {
         </Accordion>
       </ScrollArea>
 
-      {children}
+      <div className='flex-1 items-start'>{children}</div>
     </div>
   );
 };
