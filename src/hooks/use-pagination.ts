@@ -35,7 +35,7 @@ export const usePagination = <T>(params: UsePaginationParams<T>) => {
     }
 
     return pageNumber + presentContentCount;
-  }, []);
+  }, [pageNumber]);
 
   const getPrev = useCallback(() => {
     if (pageNumber - presentContentCount <= 0) {
@@ -91,7 +91,7 @@ export const usePagination = <T>(params: UsePaginationParams<T>) => {
   };
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [hash]);
 
   const register = (): CustomPaginationProps => {
