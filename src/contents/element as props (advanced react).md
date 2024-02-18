@@ -1,5 +1,5 @@
 ---
-title: test
+title: element as props (advanced react)
 date: 2024-02-14
 published: true
 category: react

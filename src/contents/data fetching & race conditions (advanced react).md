@@ -1,5 +1,5 @@
 ---
-title: test
+title: data fetching & race conditions (advanced react)
 date: 2024-02-14
 published: true
 category: react
