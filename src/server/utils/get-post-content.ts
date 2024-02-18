@@ -20,7 +20,9 @@ export const getPostContent = (title: string) => {
       return prev;
     }, []);
 
-  const targetData = data.find(({ data }) => data.title === title);
+  const targetData = data.find(({ data }) => {
+    return data.title === decodeURI(title);
+  });
 
-  return { matter: targetData?.data, content: targetData?.content };
+  return { data: targetData?.data, content: targetData?.content };
 };

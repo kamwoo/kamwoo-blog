@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export const postDataSchema = z.object({
   title: z.string().optional(),
-  date: z.date().optional(),
+  date: z.union([z.date(), z.string()]),
   published: z.boolean().optional(),
   category: z.string(),
   subtitle: z.string().optional(),

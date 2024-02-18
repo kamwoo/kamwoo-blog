@@ -14,7 +14,7 @@ export const getPostData = () => {
       const { data } = postSchema.parse(matter(post));
 
       if (data.published !== false) {
-        prev.push({ ...data });
+        prev.push(data);
       }
 
       return prev;
