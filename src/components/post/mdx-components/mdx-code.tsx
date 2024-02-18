@@ -7,6 +7,7 @@ import scss from 'react-syntax-highlighter/dist/cjs/languages/prism/scss';
 import bash from 'react-syntax-highlighter/dist/cjs/languages/prism/bash';
 import markdown from 'react-syntax-highlighter/dist/cjs/languages/prism/markdown';
 import json from 'react-syntax-highlighter/dist/cjs/languages/prism/json';
+import { DetailedHTMLProps, HTMLAttributes } from 'react';
 
 SyntaxHighlighter.registerLanguage('tsx', tsx);
 SyntaxHighlighter.registerLanguage('typescript', typescript);
@@ -15,10 +16,10 @@ SyntaxHighlighter.registerLanguage('bash', bash);
 SyntaxHighlighter.registerLanguage('markdown', markdown);
 SyntaxHighlighter.registerLanguage('json', json);
 
-export const MDXCode = ({ inline, className, ...props }) => {
-  const hasLang = /language-(\w+)/.exec(className || '');
+export const MDXCode = (props: DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>) => {
+  const hasLang = /language-(\w+)/.exec(props.className || '');
 
-  return !inline && hasLang ? (
+  return hasLang ? (
     <SyntaxHighlighter
       style={oneDark}
       language={hasLang[1]}
@@ -29,6 +30,6 @@ export const MDXCode = ({ inline, className, ...props }) => {
       {String(props.children).replace(/\n$/, '')}
     </SyntaxHighlighter>
   ) : (
-    <code className={className} {...props} />
+    <code className={props.className} {...props} />
   );
 };
