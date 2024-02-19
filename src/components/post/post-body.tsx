@@ -7,12 +7,10 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import remarkToc from 'remark-toc';
 import { mdxComponents } from './mdx-components';
 import remarkFrontMatter from 'remark-frontmatter';
-import rehypeStringify from 'rehype-stringify';
-import remarkCodeExtra from 'remark-code-extra';
 
 export const PostBody = ({ content }: { content: string }) => {
   return (
-    <article className='prose prose-neutral prose-invert prose-sm md:prose-base'>
+    <article className='prose max-w-none prose-neutral prose-invert prose-sm md:prose-base'>
       <MDXRemote
         source={content}
         options={{
