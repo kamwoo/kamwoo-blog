@@ -1,16 +1,29 @@
 'use server';
 
-import { httpClient } from '@/utils/http-client';
-import { GET } from './route';
 import { z } from 'zod';
+import { getPostData } from '@/server/utils/get-post-data';
 
 export async function getCategories() {
-  const response = await httpClient.get<Awaited<ReturnType<typeof GET>>>('/posts/api/categories');
+  const { data } = getPostData();
+
+  const categories = data.map(({ category }) => category);
+
+  const categoryDict = categories
+    .filter((value, index) => categories.indexOf(value) === index)
+    .map((category) => ({ category, titles: [] as string[] }));
+
+  data.forEach(({ category, title }) => {
+    const target = categoryDict.find(({ category: key }) => key === category);
+
+    if (target && title) {
+      target.titles.push(title);
+    }
+  });
 
   const result = z
     .object({ titles: z.string().array(), category: z.string() })
     .array()
-    .safeParse(response.data);
+    .safeParse(categoryDict);
 
   if (result.success) {
     return result.data;

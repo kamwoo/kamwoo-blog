@@ -7,6 +7,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import remarkToc from 'remark-toc';
 import { mdxComponents } from './mdx-components';
 import remarkFrontMatter from 'remark-frontmatter';
+import rehypeStringify from 'rehype-stringify';
+import remarkCodeExtra from 'remark-code-extra';
 
 export const PostBody = ({ content }: { content: string }) => {
   return (

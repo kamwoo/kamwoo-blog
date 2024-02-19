@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { getPost } from '../api/post/query';
