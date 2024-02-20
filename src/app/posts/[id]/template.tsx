@@ -1,7 +1,10 @@
-'use client';
-
 const PostTemplate = ({ children }: { children: React.ReactNode }) => {
-  return <div className='pt-4 flex-1'>{children}</div>;
+  return (
+    <div className='flex pt-4 flex-1 shrink'>
+      <div className='flex-1'>{children}</div>
+      {/* <div className='hidden md:block md:w-60 bg-red-300'></div> */}
+    </div>
+  );
 };
 
 export default PostTemplate;

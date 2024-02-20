@@ -21,7 +21,7 @@ const PostLayout = async ({ children }: { children: React.ReactNode }) => {
             <AccordionItem key={category} value={category}>
               <AccordionTrigger>{category}</AccordionTrigger>
               <AccordionContent>
-                <div className='flex flex-col gap-1'>
+                <div className='flex flex-col gap-3'>
                   {titles.map((title) => (
                     <Link
                       key={title}

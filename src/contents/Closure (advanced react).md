@@ -25,20 +25,20 @@ subtitle: A set of two-state buttons that can be toggled on or off
 책에서는 예제로 아래와 같이 나온다.
 
 ```jsx
-const something = (value) => { 
+const something = (value) => {
 	const inside = () => {
-		console.log(value); 
+		console.log(value);
 	};
 
   return inside;
 };
 
 ---
-const first = something('first'); 
+const first = something('first');
 const second = something('second');
 
 ---
-first(); // logs "first" 
+first(); // logs "first"
 second(); // logs "second"
 ```
 
@@ -51,23 +51,23 @@ second(); // logs "second"
 ```jsx
 const cache = {};
 
-const something = (value) => { 
+const something = (value) => {
 	if (!cache.current) {
-		cache.current = () => { 
+		cache.current = () => {
 			console.log(value);
-		}; 
+		};
 	}
 
   return cache.current;
 };
 
 ---
-const first = something('first'); 
-const second = something('second'); 
+const first = something('first');
+const second = something('second');
 const third = something('third');
 
-first(); // logs "first" 
-second(); // logs "first" 
+first(); // logs "first"
+second(); // logs "first"
 third(); // logs "first"
 ```
 
@@ -81,11 +81,13 @@ useCallback의 인자로 전달된 콜백 또한 stale closure문제가 발생�
 
 ```jsx
 const Component = () => {
-	const [state, setState] = useState(() => {text: 1});
+  const [state, setState] = useState(() => {
+    text: 1;
+  });
 
-	const onClick = useCallback(() => {
-		console.log(state);
-	}, []); 
+  const onClick = useCallback(() => {
+    console.log(state);
+  }, []);
 };
 ```
 
@@ -106,16 +108,16 @@ ref로 선언한 함수는 리렌더링에도 최신 상태값을 사용할 수 
 
 ```jsx
 const Component = ({ someProp }) => {
-	const ref = useRef(() => {
-		console.log(someProp);
-		console.log(state); 
-	});
+  const ref = useRef(() => {
+    console.log(someProp);
+    console.log(state);
+  });
 
-	useEffect(() => {
-		ref.current = () => {
-			console.log(someProp);
-			console.log(state); 
-		};
+  useEffect(() => {
+    ref.current = () => {
+      console.log(someProp);
+      console.log(state);
+    };
   }, [state, someProp]);
 };
 ```
@@ -128,44 +130,40 @@ memo는 감싼 컴포넌트의 props의 변경을 레퍼런스 체크를 통해�
 const HeavyComponentMemo = React.memo(HeavyComponent);
 
 const Form = () => {
-	const [value, setValue] = useState();
+  const [value, setValue] = useState();
 
-	const onClick = () => {
-		console.log(value)
-	}
+  const onClick = () => {
+    console.log(value);
+  };
 
-	return ( 
-		<>
-			<input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
-			<HeavyComponentMemo title="Welcome to the form" onClick= {onClick} />
-		</> 
-	);
-}
+  return (
+    <>
+      <input type='text' value={value} onChange={(e) => setValue(e.target.value)} />
+      <HeavyComponentMemo title='Welcome to the form' onClick={onClick} />
+    </>
+  );
+};
 ```
 
 이러한 문제를 해결할 수 없는 방법
 
 1. useCallback
-    
-    위 예시에서 `onClick` 을 useCallback으로 감싼다면 `HeavyComponentMemo` 는 리렌더링되지 않는다. 하지만 onClick에서 입력값 value를 사용한다면, 입력될 때마다 onClick이 업데이트되고 memo 또한 쓸모없어진다.
-    
+
+   위 예시에서 `onClick` 을 useCallback으로 감싼다면 `HeavyComponentMemo` 는 리렌더링되지 않는다. 하지만 onClick에서 입력값 value를 사용한다면, 입력될 때마다 onClick이 업데이트되고 memo 또한 쓸모없어진다.
+
 2. memo 수동 비교
-    
-    이런 문제를 해결하기 위해서 memo의 두번째 인자를 사용할 수 있다. 두 번째 인자가 `false` 라면 리렌더링한다.
-    
-    리렌더링 조건으로 전달되는 props에서 원하는 prop만 설정하여 이전 prop과 새로운 prop을 비교한다.
-    
-    ```jsx
-    const HeavyComponentMemo = React.memo( 
-    	HeavyComponent,
-    	(before, after) => {
-    	    return before.onClick === after.onClick;
-      },
-    );
-    ```
-    
-    이 코드는 굳이 두번째 인자를 사용하지 않아도 기본 동작과 같기 때문에 문제를 해결할 수 없다.
-    
+
+   이런 문제를 해결하기 위해서 memo의 두번째 인자를 사용할 수 있다. 두 번째 인자가 `false` 라면 리렌더링한다.
+
+   리렌더링 조건으로 전달되는 props에서 원하는 prop만 설정하여 이전 prop과 새로운 prop을 비교한다.
+
+   ```jsx
+   const HeavyComponentMemo = React.memo(HeavyComponent, (before, after) => {
+     return before.onClick === after.onClick;
+   });
+   ```
+
+   이 코드는 굳이 두번째 인자를 사용하지 않아도 기본 동작과 같기 때문에 문제를 해결할 수 없다.
 
 **Ref를 사용해서 closure trap 피하기**
 
@@ -173,30 +171,23 @@ memo를 사용해서 리렌더링을 피하면서 onClick으로 새로운 값을
 
 ```jsx
 const Form = () => {
-	const [value, setValue] = useState(); 
-	const ref = useRef();
+  const [value, setValue] = useState();
+  const ref = useRef();
 
-	ref.current = () => {
-		console.log(value); 
-	};
+  ref.current = () => {
+    console.log(value);
+  };
 
-	const onClick = useCallback(() => {
-	    ref.current?.();
-	  }, []);
-	
-	return ( 
-		<>
-			<input
-				type="text"
-				value={value}
-				onChange={(e) => setValue(e.target.value)}
-			/>
-			<HeavyComponentMemo
-				title="Welcome closures"
-				onClick={onClick} 
-			/>
-		</> 
-	);
+  const onClick = useCallback(() => {
+    ref.current?.();
+  }, []);
+
+  return (
+    <>
+      <input type='text' value={value} onChange={(e) => setValue(e.target.value)} />
+      <HeavyComponentMemo title='Welcome closures' onClick={onClick} />
+    </>
+  );
 };
 ```
 
@@ -204,5 +195,3 @@ const Form = () => {
 2. useCallback은 onClick의 참조값을 유지한다.
 3. useCallback으로 전달된 콜백은 current를 실행한다.
 4. memo로 리렌더링을 막는다.
-
-memo 최적화 참…

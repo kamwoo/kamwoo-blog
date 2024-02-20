@@ -15,7 +15,7 @@ const PostsPage = () => {
   useEffect(() => {
     const getPost = async () => {
       getPostMatters().then((posts) => {
-        setPosts(posts);
+        if (posts) setPosts(posts);
       });
     };
 
@@ -35,7 +35,7 @@ const PostsPage = () => {
               <ChevronRight size='20px' stroke='gray' />
               <text className='text-sm font-medium text-foreground'>{category}</text>
             </div>
-            <text className='text-3xl md:text-4xl font-bold text-neutral-100 tracking-tight pb-2 group-hover:underline'>
+            <text className='text-2xl md:text-3xl font-bold text-neutral-100 tracking-tight pb-2 group-hover:underline'>
               {title}
             </text>
             <text className='text-md md:text-lg text-muted-foreground'>{subtitle}</text>

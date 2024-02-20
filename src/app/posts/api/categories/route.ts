@@ -1,5 +1,4 @@
 import { getPostData } from '@/server/utils/get-post-data';
-import { response } from '@/utils/response';
 
 export async function GET(request: Request) {
   const { data } = getPostData();
@@ -16,5 +15,5 @@ export async function GET(request: Request) {
     }
   });
 
-  return response(categoryDict);
+  return Response.json(categoryDict);
 }

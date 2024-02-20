@@ -1,12 +1,14 @@
 'use server';
 
-import { httpClient } from '@/utils/http-client';
-import { GET } from './route';
+import { postSchema } from '@/types/post';
+import { getPostContent } from '@/server/utils/get-post-content';
 
 export async function getPost(title: string) {
-  const response = await httpClient.get<Awaited<ReturnType<typeof GET>>>(`/posts/api/post`, {
-    params: { title },
-  });
+  const { data, content } = getPostContent(title);
 
-  return response.data;
+  const result = postSchema.safeParse({ data, content });
+
+  if (result.success) {
+    return result.data;
+  }
 }

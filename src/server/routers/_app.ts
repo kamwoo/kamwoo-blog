@@ -35,9 +35,9 @@ export const appRouter = router({
       })
     )
     .query(({ input: { title } }) => {
-      const { matter, content } = getPostContent(title);
+      const { data, content } = getPostContent(title);
 
-      return { matter, content };
+      return { data, content };
     }),
 });
 
