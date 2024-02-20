@@ -18,7 +18,10 @@ export const getPostData = () => {
       }
 
       return prev;
-    }, []);
+    }, [])
+    .sort((prev, next) => {
+      return new Date(next.date).getTime() - new Date(prev.date).getTime();
+    });
 
   return { data };
 };

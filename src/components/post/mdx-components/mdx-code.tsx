@@ -2,6 +2,7 @@ import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 import tsx from 'react-syntax-highlighter/dist/cjs/languages/prism/tsx';
+import jsx from 'react-syntax-highlighter/dist/cjs/languages/prism/jsx';
 import typescript from 'react-syntax-highlighter/dist/cjs/languages/prism/typescript';
 import scss from 'react-syntax-highlighter/dist/cjs/languages/prism/scss';
 import bash from 'react-syntax-highlighter/dist/cjs/languages/prism/bash';
@@ -10,6 +11,7 @@ import json from 'react-syntax-highlighter/dist/cjs/languages/prism/json';
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
 
 SyntaxHighlighter.registerLanguage('tsx', tsx);
+SyntaxHighlighter.registerLanguage('jsx', jsx);
 SyntaxHighlighter.registerLanguage('typescript', typescript);
 SyntaxHighlighter.registerLanguage('scss', scss);
 SyntaxHighlighter.registerLanguage('bash', bash);
