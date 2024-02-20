@@ -1,6 +1,6 @@
 ---
 title: element as props (advanced react)
-date: 2024-02-14
+date: 2023-12-07
 published: true
 category: react
 subtitle: A set of two-state buttons that can be toggled on or off

@@ -1,6 +1,6 @@
 ---
 title: re-render (advanced react)
-date: 2024-02-14
+date: 2023-11-28
 published: true
 category: react
 subtitle: A set of two-state buttons that can be toggled on or off
