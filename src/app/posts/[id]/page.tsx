@@ -34,7 +34,7 @@ const Post = async ({ params }: { params: { id: string } }) => {
                 <text className='text-sm font-medium text-muted-foreground'>Previous</text>
                 <Link href={`/posts/${prev.title}`} className='flex items-center gap-2'>
                   <ChevronLeft stroke='lightgray' size='20px' />
-                  <text className='text-lg whitespace-pre-wrap'>{prev.title}</text>
+                  <text className='text:sm md:text-lg whitespace-pre-wrap'>{prev.title}</text>
                 </Link>
               </>
             )}
@@ -44,7 +44,7 @@ const Post = async ({ params }: { params: { id: string } }) => {
               <>
                 <text className='text-sm font-medium text-muted-foreground'>Next</text>
                 <Link href={`/posts/${next.title}`} className='flex items-center gap-2'>
-                  <text className='text-lg whitespace-pre-wrap'>{next.title}</text>
+                  <text className='text-sm md:text-lg whitespace-pre-wrap'>{next.title}</text>
                   <ChevronRight stroke='lightgray' size='20px' />
                 </Link>
               </>
