@@ -5,12 +5,9 @@ import NextImage from 'next/image';
  * ![alt text](/image.png?width=500&height=400)
  */
 export function MDXImage({
-  src,
-  alt,
-}: React.DetailedHTMLProps<React.ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement> & {
-  src: string;
-  alt: string;
-}) {
+  src = '',
+  alt = '',
+}: React.DetailedHTMLProps<React.ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>) {
   let widthFromSrc, heightFromSrc;
   const url = new URL(src);
   const widthParam = url.searchParams.get('w') || url.searchParams.get('width');

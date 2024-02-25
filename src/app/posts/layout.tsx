@@ -7,19 +7,22 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import Link from 'next/link';
 import { getCategories } from './api/categories/query';
+import { useState } from 'react';
 
 const PostLayout = async ({ children }: { children: React.ReactNode }) => {
   const categoryData = await getCategories();
 
   return (
-    <div className='h-full flex md:px-40 pt-12 gap-16'>
+    <div className='h-full flex md:pl-40 md:pr-28 pt-12 gap-16'>
       <ScrollArea
         className='hidden md:block w-52 h-fit sticky top-20'
         style={{ position: 'sticky' }}>
         <Accordion className='flex flex-col gap-0' type='multiple'>
           {categoryData?.map(({ category, titles }) => (
             <AccordionItem key={category} value={category}>
-              <AccordionTrigger>{category}</AccordionTrigger>
+              <AccordionTrigger>
+                <Link href={`/posts?category=${category}`}>{category}</Link>
+              </AccordionTrigger>
               <AccordionContent>
                 <div className='flex flex-col gap-3'>
                   {titles.map((title) => (

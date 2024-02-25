@@ -35,7 +35,7 @@ subtitle: A set of two-state buttons that can be toggled on or off
     또 다른 보안 문제는 비밀 번호를 어떻게 서버로 전송하냐는 것이다. 비밀 번호를 전송하는 과정에서 탈취를 당할 가능성이 있고, 탈취를 당했을 때를 대비해하는 점이 있다는 것을 알게 되었다.
     기존에 https를 통해서 보안성을 높이고 있었다. https는 SSL 프로토콜의 인증 방식을 사용하게 되는데 다음의 그림과 같은 과정을 거친다.
 
-    {' '}
+    <img src="/images/posts/auth-system/test.jpeg" />
 
     https를 사용하게 되면 안전하게 대칭키를 전달할 수 있고, 대칭키를 통해서 HTTP 요청과 응답 데이터를 암호화할 수 있기 때문에 보안성을 높일 수 있다.
 
