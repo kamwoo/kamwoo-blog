@@ -1,26 +1,9 @@
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
-import { getPostMatters } from './api/post-matters/query';
-import { PostPagination } from '@/components/posts/post-pagination';
-import { usePagination } from '@/hooks/use-pagination';
-import { PostData, postSchema } from '@/types/post';
-import { useEffect, useState } from 'react';
 import { getPostData } from '@/server/utils/get-post-data';
 
 const PostsPage = async () => {
   const { data: contents } = getPostData();
-  // const [posts, setPosts] = useState<PostData[]>([]);
-  // const { contents, register } = usePagination({ contents: posts, presentContentCount: 6 });
-
-  // useEffect(() => {
-  //   const getPost = async () => {
-  //     getPostMatters().then((posts) => {
-  //       if (posts) setPosts(posts);
-  //     });
-  //   };
-
-  //   getPost();
-  // }, []);
 
   return (
     <div className='flex flex-col md:max-2xl:max-w-lg 2xl:max-w-screen-md gap-20 pb-12'>
@@ -42,8 +25,6 @@ const PostsPage = async () => {
           </Link>
         ))}
       </div>
-
-      {/* <PostPagination {...register()} /> */}
     </div>
   );
 };

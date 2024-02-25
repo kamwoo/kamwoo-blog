@@ -18,8 +18,6 @@ export async function getPrevNextPostMatter(title: string) {
   const { data } = getPostData();
   const currentPostIndex = data.findIndex(({ title: dataTitle }) => dataTitle === decodeURI(title));
 
-  console.log(decodeURI(title));
-
   if (typeof currentPostIndex !== 'number' || currentPostIndex === -1) {
     return { prev: null, next: null };
   }
