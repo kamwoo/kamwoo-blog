@@ -6,6 +6,10 @@ category: network
 subtitle: A set of two-state buttons that can be toggled on or off
 ---
 
+<div align="center">
+  <img src="/images/posts/auth-system/lock.png"/>
+</div>
+
 <br />
 
 ### 인증과 인가란
@@ -25,6 +29,8 @@ subtitle: A set of two-state buttons that can be toggled on or off
 1.  로그인
     먼저 자체 로그인 방식은 익숙한 방식으로 회원가입을 통해서 등록한 사용자의 ID와 비밀번호를 입력받아서 서버의 저장된 데이터와 비교하는 과정을 통해서 구현했다.
 
+    <img width='200px' src="/images/posts/auth-system/login-page.png" />
+
     이 과정에서 중요했던 점은 비밀번호를 어떻게 관리하냐는 것이었다. 비밀번호는 보안성을 높이는 것이 중요했기 때문에 서버에서는 평문으로 저장하는 것이 아니라 암호화한 뒤에 저장했다.
     sha3-256 암고리즘을 사용해서 암호화했다. 비밀번호를 전달받고 해싱 함수를 통해서 해싱한 값을 저장되어 있는 값과 비교해서 일치하면 인증 과정을 마치게 된다.
 
@@ -35,7 +41,9 @@ subtitle: A set of two-state buttons that can be toggled on or off
     또 다른 보안 문제는 비밀 번호를 어떻게 서버로 전송하냐는 것이다. 비밀 번호를 전송하는 과정에서 탈취를 당할 가능성이 있고, 탈취를 당했을 때를 대비해하는 점이 있다는 것을 알게 되었다.
     기존에 https를 통해서 보안성을 높이고 있었다. https는 SSL 프로토콜의 인증 방식을 사용하게 되는데 다음의 그림과 같은 과정을 거친다.
 
-    <img src="/images/posts/auth-system/test.jpeg" />
+    {' '}
+
+      <img width='300px' src="/images/posts/auth-system/ssl.png" />
 
     https를 사용하게 되면 안전하게 대칭키를 전달할 수 있고, 대칭키를 통해서 HTTP 요청과 응답 데이터를 암호화할 수 있기 때문에 보안성을 높일 수 있다.
 
@@ -53,6 +61,8 @@ subtitle: A set of two-state buttons that can be toggled on or off
     을 추가했다.
 
     {' '}
+
+      <img width='200px' src="/images/posts/auth-system/mobile.gif"/>
 
     OAuth2.0 방식을 사용해서 google에 등록된 사용자의 정보를 얻어왔다. 구현한 방식은 다음과 같다.<br />
 
@@ -88,7 +98,15 @@ subtitle: A set of two-state buttons that can be toggled on or off
 3.  이메일 인증 기존의 체크메이트에서는 아이디를 이메일 형식으로 사용하고 있었다. 보편적으로 이메일을 사용하는 이유는 사용자의 이메일로 이벤트를 전송하거나 정보를 전달하기 위해서라고 생각한다.
     체크메이트에서는 이메일로 전송하지는 않지만 모임 초대 링크를 보낼 수도 있고, 충분히 사용할 수 있는 방향이 많기 때문에 이메일을 인증하는 과정이 필요했다.
 
+        <img width='200px' src="/images/posts/auth-system/register.png" />
+        <img width='200px' src="/images/posts/auth-system/email-confirm.png"  />
+
+
         처음 생각했던 이메일 인증 구현하는 방식을 2가지가 있었다. 인증 코드를 통한 로그인 방식과 메일로 전달된 링크를 통한 방식이 있었다. 실서비스에서도 두 방식이 다 사용되서 고민이 되었다.
+
+
+          <img width='200px' src="/images/posts/auth-system/confirm.png" />
+
 
         결론적으로 인증 코드 방식을 사용하게 되었다. 이유는 콜백 링크같은 경우에는 이전 페이지를 포기하고 새로운 브라우저 탭을 연다는 점이 불편하다는 의견이 있었고, 일부 사용사들은
         이메일로 전달된 링크를 클릭하는 것에 부정적인라는 점이 있었다. 인증 코드 방식은 다음과 같이 구현했다.

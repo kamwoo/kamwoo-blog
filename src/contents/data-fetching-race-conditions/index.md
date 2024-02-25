@@ -21,7 +21,9 @@ subtitle: A set of two-state buttons that can be toggled on or off
 
 위 페이지에서 왼쪽 버튼을 빠르게 변경하면 fetching을 계속하고 response를 응답이 받을 때마다 렌더링된다. 또한 Issue 1이 보다 늦게 응답이 온다면 issue2 페이지에서 issue1의 내용을 보게된다.
 
-[화면 기록 2024-01-26 오전 11.00.46.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/f33f1550-130f-4c4d-a8c4-0590640fbf06/0c2fbe6f-069b-4493-a722-82a00fe07930/%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB_%E1%84%80%E1%85%B5%E1%84%85%E1%85%A9%E1%86%A8_2024-01-26_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.00.46.mov)
+<div align='center'>
+<video src="/videos/posts/data-fetching-race-conditions/ex.mov" height="240" controls></video>
+</div>
 
 해결 방법
 
