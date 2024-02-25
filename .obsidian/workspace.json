@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6d4b4779b0bf43df",
+        "id": "74dc0ea4aea8b0e8",
         "type": "tabs",
         "children": [
           {
-            "id": "f8ae0d68899cf200",
+            "id": "361f821a1af22436",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/auth-routing/index.md.md",
+                "file": "src/contents/auth-routing/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/auth-routing/index.md.md",
+                "file": "src/contents/auth-routing/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/auth-routing/index.md.md",
+                "file": "src/contents/auth-routing/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/auth-routing/index.md.md"
+                "file": "src/contents/auth-routing/index.md"
               }
             }
           },
@@ -155,12 +155,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8ae0d68899cf200",
+  "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
+    "src/contents/auth-routing/index.md",
     "src/contents/auth-routing/images/routing2.png",
     "src/contents/auth-routing/images/routing1.png",
     "templates/post.template.md",
-    "src/contents/auth-routing/index.md.md",
     "src/contents/auth-system/index.md",
     "templates",
     "src/contents/auth-routing/images",
@@ -186,7 +186,6 @@
     "src/contents/performance-improvement/images/svg-down.png",
     "src/contents/performance-improvement/images/speed.png",
     "src/contents/performance-improvement/images/rerender.png",
-    "src/contents/performance-improvement/images/preconnect.png",
     "src/contents/performance-improvement/index.md",
     "src/contents/module-explain/index.md",
     "src/contents/memoization-advanced-react/index.md",
