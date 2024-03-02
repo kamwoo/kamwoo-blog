@@ -13,7 +13,9 @@ Chromium을 사용하고 multi process다. 웹 컨테츠를 보여주는 것 이
 
 크롬팀은 탭은 여러개인데 탭 하나의 문제가 전체에 영향을 주지 않기 위해서 각 탭을 프로세스로 사용하였다.
 
-<img src="/images/posts/process-model/process.png" />
+<div align="center">
+	<img src="/images/posts/process-model/process.png" />
+</div>	
 
 electron도 비슷하게 Main과 Renderer 프로세스를 가진다.
 
