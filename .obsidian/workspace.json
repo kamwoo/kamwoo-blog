@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/process-model/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/process-model/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/process-model/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/auth-routing/index.md"
+                "file": "src/contents/process-model/index.md"
               }
             }
           },
@@ -155,9 +155,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f9ea639a3f74c7",
+  "active": "361f821a1af22436",
   "lastOpenFiles": [
     "src/contents/auth-routing/index.md",
+    "src/contents/Portal-advanced-react/index.md",
+    "src/contents/process-model/index.md",
+    "src/contents/process-model/images/process.png",
+    "src/contents/process-model/images",
+    "src/contents/process-model",
     "src/contents/auth-routing/images/routing2.png",
     "src/contents/auth-routing/images/routing1.png",
     "templates/post.template.md",
@@ -177,15 +182,12 @@
     "src/contents/this",
     "src/contents/routing/images/thumbnail.jpeg",
     "src/contents/routing/index.md",
-    "src/contents/routing/images",
-    "src/contents/routing",
     "src/contents/reconcilation-advanced-react/index.md",
     "src/contents/re-render-advanced-react/index.md",
     "src/contents/performance-improvement/images/webpagetest.png",
     "src/contents/performance-improvement/images/used-font1.png",
     "src/contents/performance-improvement/images/svg-down.png",
     "src/contents/performance-improvement/images/speed.png",
-    "src/contents/performance-improvement/images/rerender.png",
     "src/contents/performance-improvement/index.md",
     "src/contents/module-explain/index.md",
     "src/contents/memoization-advanced-react/index.md",
@@ -194,13 +196,11 @@
     "src/contents/element-as-props/index.md",
     "src/contents/data-fetching-race-conditions/index.md",
     "src/contents/Refs-advanced-react/index.md",
-    "src/contents/Portal-advanced-react/index.md",
     "src/contents/Object/index.md",
     "src/contents/HOC-advanced-react/index.md",
     "src/contents/Error-Handling-advanced-react/index.md",
     "src/contents/Closure-advenced-react/index.md",
     "src/contents/data fetching & race conditions (advanced react).md",
-    "src/contents/reconcilation (advanced react)/index.md",
-    "src/contents/re-render (advanced react)/index.md"
+    "src/contents/reconcilation (advanced react)/index.md"
   ]
 }
