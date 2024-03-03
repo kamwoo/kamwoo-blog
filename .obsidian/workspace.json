@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06a3ac4cb7536ab9",
+        "id": "2320e052ac2da326",
         "type": "tabs",
         "children": [
           {
-            "id": "caf2a31344ed0304",
+            "id": "f3aec479577e7b3e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -16,60 +16,60 @@
             }
           },
           {
-            "id": "1e7793e1d70ab27d",
+            "id": "647a372420a876d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/hollywood-principle/index.md",
+                "file": "src/contents/triple-slash-directives/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f25aeba800d1a64c",
+            "id": "367463d871eaa363",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/facade-pattern/index.md",
+                "file": "src/contents/ts-compiler/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "df57af97cc0d9c0a",
+            "id": "618a35555716b6ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/object-pool/index.md",
+                "file": "src/contents/typescript-infer/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d4d5eeee963648b3",
+            "id": "42a188bbbeb2d14e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/functional-programming/index.md",
+                "file": "src/contents/type system/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b8b0ed3e22bedfce",
+            "id": "ed18830d30db53db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/change-functional-programming/index.md",
+                "file": "src/contents/type-alias-interface/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/change-functional-programming/index.md",
+                "file": "src/contents/type-alias-interface/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/change-functional-programming/index.md",
+                "file": "src/contents/type-alias-interface/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/change-functional-programming/index.md"
+                "file": "src/contents/type-alias-interface/index.md"
               }
             }
           },
@@ -214,51 +214,51 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/functional-programming/index.md",
-    "src/contents/change-functional-programming/index.md",
-    "src/contents/change-functional-programming",
-    "src/contents/object-pool/index.md",
-    "src/contents/functional-programming",
-    "src/contents/facade-pattern/index.md",
-    "src/contents/object-pool",
+    "src/contents/type system/index.md",
+    "src/contents/type-alias-interface/index.md",
+    "src/contents/type-alias-interface",
+    "src/contents/typescript-infer/index.md",
+    "src/contents/type system",
+    "src/contents/ts-compiler/index.md",
+    "src/contents/typescript-infer",
+    "src/contents/triple-slash-directives/index.md",
+    "src/contents/ts-compiler",
+    "src/contents/triple-slash-directives",
+    "src/contents/object-type/index.md",
+    "src/contents/typescript-import/index.md",
+    "src/contents/overloading/index.md",
+    "src/contents/typescript-utility/index.md",
+    "src/contents/type-guard/index.md",
+    "src/contents/generic/index.md",
+    "src/contents/interface/index.md",
+    "src/contents/namespace/index.md",
+    "src/contents/typescript-class/index.md",
+    "src/contents/typescript-module/index.md",
+    "src/contents/declaration-merging/index.md",
+    "src/contents/object-type",
+    "src/contents/typescript-import",
+    "src/contents/overloading",
+    "src/contents/typescript-utility",
+    "src/contents/type-guard",
     "src/contents/auth-routing/index.md",
+    "src/contents/typescript-module/images/1.png",
+    "src/contents/types/index.md",
+    "src/contents/hotfix/index.md",
+    "src/contents/change-functional-programming/index.md",
+    "src/contents/functional-programming/index.md",
+    "src/contents/object-pool/index.md",
+    "src/contents/facade-pattern/index.md",
     "src/contents/facade-pattern/images/1.png",
-    "src/contents/facade-pattern/images",
     "src/contents/hollywood-principle/index.md",
-    "src/contents/facade-pattern",
-    "src/contents/hollywood-principle",
     "src/contents/mfa-spa/index.md",
     "src/contents/js-routing/index.md",
-    "src/contents/infinite-scroll/index.md",
-    "src/contents/web-resource/index.md",
-    "src/contents/ajax/index.md",
-    "src/contents/auth-system/index.md",
     "src/contents/ajax/images/1.png",
-    "src/contents/ajax/images",
-    "src/contents/ajax",
-    "src/contents/mfa-spa",
-    "src/contents/js-routing",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",
     "src/contents/web-resource/images/1.png",
     "src/contents/web-resource/images/2.png",
     "src/contents/web-resource/images/3.png",
     "src/contents/web-resource/images/4.png",
-    "src/contents/web-resource/images/5.png",
-    "src/contents/web-resource/images/6.png",
-    "src/contents/MIME/index.md",
-    "src/contents/dom-element-select/index.md",
-    "src/contents/event-delegate/index.md",
-    "src/contents/promise/index.md",
-    "src/contents/global-object/index.md",
-    "src/contents/Inheritance/index.md",
-    "src/contents/short-circuit-evaluation/index.md",
-    "src/contents/typeof-instanceof/index.md",
-    "src/contents/shallow-deep-copy/index.md",
-    "src/contents/every-some/index.md",
-    "src/contents/closure/index.md",
-    "src/contents/bind/index.md",
-    "src/contents/new/index.md",
-    "src/contents/js-function/index.md"
+    "src/contents/web-resource/images/5.png"
   ]
 }

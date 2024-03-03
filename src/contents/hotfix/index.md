@@ -2,7 +2,7 @@
 title: checkmate hotfix
 date: 2022-10-18
 published: true
-category: system
+category: etc
 subtitle: A set of two-state buttons that can be toggled on or off
 ---
 
