@@ -74,9 +74,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd517c8f57a4a255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/typescript-summary/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20c9b8a6fdd98c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/effective-typescript/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/type-alias-interface/index.md",
+                "file": "src/contents/effective-typescript/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/type-alias-interface/index.md",
+                "file": "src/contents/effective-typescript/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/type-alias-interface/index.md"
+                "file": "src/contents/effective-typescript/index.md"
               }
             }
           },
@@ -214,8 +238,15 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/type system/index.md",
+    "src/contents/typescript-summary/index.md",
+    "src/contents/effective-typescript/index.md",
+    "src/contents/effective-typescript",
+    "src/contents/typescript-summary/images/1.png",
+    "src/contents/auth-routing/index.md",
+    "src/contents/typescript-summary/images",
     "src/contents/type-alias-interface/index.md",
+    "src/contents/typescript-summary",
+    "src/contents/type system/index.md",
     "src/contents/type-alias-interface",
     "src/contents/typescript-infer/index.md",
     "src/contents/type system",
@@ -237,10 +268,6 @@
     "src/contents/declaration-merging/index.md",
     "src/contents/object-type",
     "src/contents/typescript-import",
-    "src/contents/overloading",
-    "src/contents/typescript-utility",
-    "src/contents/type-guard",
-    "src/contents/auth-routing/index.md",
     "src/contents/typescript-module/images/1.png",
     "src/contents/types/index.md",
     "src/contents/hotfix/index.md",
@@ -250,15 +277,12 @@
     "src/contents/facade-pattern/index.md",
     "src/contents/facade-pattern/images/1.png",
     "src/contents/hollywood-principle/index.md",
-    "src/contents/mfa-spa/index.md",
-    "src/contents/js-routing/index.md",
     "src/contents/ajax/images/1.png",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",
     "src/contents/web-resource/images/1.png",
     "src/contents/web-resource/images/2.png",
     "src/contents/web-resource/images/3.png",
-    "src/contents/web-resource/images/4.png",
-    "src/contents/web-resource/images/5.png"
+    "src/contents/web-resource/images/4.png"
   ]
 }
