@@ -62,9 +62,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "02b84624a4301c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/js-routing/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ba9bf74fa074dff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/mfa-spa/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/infinite-scroll/index.md",
+                "file": "src/contents/mfa-spa/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/infinite-scroll/index.md",
+                "file": "src/contents/mfa-spa/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/infinite-scroll/index.md"
+                "file": "src/contents/mfa-spa/index.md"
               }
             }
           },
@@ -200,10 +224,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f5838cd4b6895bf",
+  "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/auth-routing/index.md",
+    "src/contents/js-routing/index.md",
+    "src/contents/mfa-spa/index.md",
+    "src/contents/mfa-spa",
     "src/contents/infinite-scroll/index.md",
+    "src/contents/js-routing",
+    "src/contents/auth-routing/index.md",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",
     "src/contents/infinite-scroll/images",
@@ -228,9 +256,7 @@
     "src/contents/event-delegate",
     "src/contents/promise/index.md",
     "src/contents/global-object/index.md",
-    "src/contents/global-object",
     "src/contents/Inheritance/index.md",
-    "src/contents/Inheritance",
     "src/contents/short-circuit-evaluation/index.md",
     "src/contents/typeof-instanceof/index.md",
     "src/contents/shallow-deep-copy/index.md",
@@ -245,7 +271,6 @@
     "src/contents/var-let-cont/index.md",
     "src/contents/execution-context/index.md",
     "src/contents/prototype/index.md",
-    "src/contents/js-object/index.md",
-    "src/contents/ipc/index.md"
+    "src/contents/js-object/index.md"
   ]
 }
