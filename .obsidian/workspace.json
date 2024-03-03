@@ -98,9 +98,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6e2d027b94a69ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/3c4p/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/effective-typescript/index.md",
+                "file": "src/contents/3c4p/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/effective-typescript/index.md",
+                "file": "src/contents/3c4p/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/effective-typescript/index.md"
+                "file": "src/contents/3c4p/index.md"
               }
             }
           },
@@ -238,8 +250,10 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/typescript-summary/index.md",
     "src/contents/effective-typescript/index.md",
+    "src/contents/3c4p/index.md",
+    "src/contents/3c4p",
+    "src/contents/typescript-summary/index.md",
     "src/contents/effective-typescript",
     "src/contents/typescript-summary/images/1.png",
     "src/contents/auth-routing/index.md",
@@ -267,7 +281,6 @@
     "src/contents/typescript-module/index.md",
     "src/contents/declaration-merging/index.md",
     "src/contents/object-type",
-    "src/contents/typescript-import",
     "src/contents/typescript-module/images/1.png",
     "src/contents/types/index.md",
     "src/contents/hotfix/index.md",
@@ -276,7 +289,6 @@
     "src/contents/object-pool/index.md",
     "src/contents/facade-pattern/index.md",
     "src/contents/facade-pattern/images/1.png",
-    "src/contents/hollywood-principle/index.md",
     "src/contents/ajax/images/1.png",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",

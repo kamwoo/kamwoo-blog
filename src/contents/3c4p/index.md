@@ -1,0 +1,34 @@
+---
+title: 3C4P
+published: true
+category: etc
+subtitle: A set of two-state buttons that can be toggled on or off
+date: 2023-11-24
+---
+
+# 3C4P
+
+> 전략을 세우는 과정에서 아이디어 논리화 및 구조화하는 패턴, 작업 후에 정리하는 용도로도 사용
+
+## 3C
+
+1. 고객 니즈 조사(Customer)
+    - 대상에 대한 설명
+    - 대상이 필요로 하는 것
+2. 자사(Company)
+    - 자사의 문제 및 경쟁력, 기회 상황
+    - 본인의 목표 및 본인의 역할
+3. 타사(Competitor)
+    - 경쟁사의 강점 및 약점
+    - 경쟁사의 4P
+
+## 4P
+
+1. 결과물(Product)
+    - 만들어내야할 결과물이 무엇인지
+2. 문제해결(Place)
+    - 결과물을 내기위해서 어떤 문제를 해결해야하는지
+3. 생산성 개선(Price)
+    - 문제해결 과정에서 리소스(시간, 비용 등)를 어떻게 줄일지
+4. 의사소통 전략(Promotion)
+    - 고객이나 팀(상사)과 어떻게 소통할 것인지
