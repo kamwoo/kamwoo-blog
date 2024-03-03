@@ -38,9 +38,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "34a0dbb602041474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/web-resource/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f5838cd4b6895bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/infinite-scroll/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/MIME/index.md",
+                "file": "src/contents/infinite-scroll/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/MIME/index.md",
+                "file": "src/contents/infinite-scroll/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/MIME/index.md"
+                "file": "src/contents/infinite-scroll/index.md"
               }
             }
           },
@@ -176,15 +200,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f9ea639a3f74c7",
+  "active": "8f5838cd4b6895bf",
   "lastOpenFiles": [
-    "src/contents/dom-element-select/index.md",
+    "src/contents/auth-routing/index.md",
+    "src/contents/infinite-scroll/index.md",
+    "src/contents/infinite-scroll/images/1-1.png",
+    "src/contents/infinite-scroll/images/1-2.png",
+    "src/contents/infinite-scroll/images",
+    "src/contents/web-resource/index.md",
+    "src/contents/infinite-scroll",
+    "src/contents/web-resource/images/1.png",
+    "src/contents/web-resource/images/2.png",
+    "src/contents/web-resource/images/3.png",
+    "src/contents/web-resource/images/4.png",
+    "src/contents/web-resource/images/5.png",
+    "src/contents/web-resource/images/6.png",
+    "src/contents/web-resource/images/7.png",
+    "src/contents/web-resource/images/8.png",
+    "src/contents/web-resource/images",
     "src/contents/MIME/index.md",
+    "src/contents/web-resource",
+    "src/contents/dom-element-select/index.md",
     "src/contents/MIME",
     "src/contents/dom-element-select",
     "src/contents/event-delegate/index.md",
-    "src/contents/auth-routing/index.md",
-    "src/contents/event-delegate/images/1.png",
     "src/contents/event-delegate/images",
     "src/contents/event-delegate",
     "src/contents/promise/index.md",
@@ -193,13 +232,9 @@
     "src/contents/Inheritance/index.md",
     "src/contents/Inheritance",
     "src/contents/short-circuit-evaluation/index.md",
-    "src/contents/short-circuit-evaluation",
     "src/contents/typeof-instanceof/index.md",
-    "src/contents/typeof-instanceof",
     "src/contents/shallow-deep-copy/index.md",
-    "src/contents/promise",
     "src/contents/every-some/index.md",
-    "src/contents/shallow-deep-copy",
     "src/contents/closure/index.md",
     "src/contents/bind/index.md",
     "src/contents/new/index.md",
@@ -208,21 +243,9 @@
     "src/contents/Object/index.md",
     "src/contents/valueEqualStatement/index.md",
     "src/contents/var-let-cont/index.md",
-    "src/contents/var-let-cont/images/1.png",
     "src/contents/execution-context/index.md",
-    "src/contents/execution-context/images/1.png",
     "src/contents/prototype/index.md",
     "src/contents/js-object/index.md",
-    "src/contents/ipc/index.md",
-    "src/contents/executaionAndVariant/index.md",
-    "src/contents/context-isolation/index.md",
-    "templates/post.template.md",
-    "src/contents/process-model/images/process.png",
-    "src/contents/auth-routing/images/routing2.png",
-    "src/contents/auth-routing/images/routing1.png",
-    "src/contents/use/images/first.png",
-    "src/contents/this/images/ex.png",
-    "src/contents/routing/images/thumbnail.jpeg",
-    "src/contents/performance-improvement/images/webpagetest.png"
+    "src/contents/ipc/index.md"
   ]
 }
