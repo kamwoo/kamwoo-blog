@@ -20,7 +20,7 @@ date: 2022-05-22
 비동기 예
 
 1. 함수앞에 async를 붙이면 Promise객체가 리턴된다.
-2. fetch를 실행하면 Promise<response>가 리턴된다.
+2. fetch를 실행하면 `Promise<response>`가 리턴된다.
 
 이러한 비동기 작업은 Promise객체로 작업이 진행된다.
 
@@ -46,7 +46,7 @@ fetch 실행되고 resolve가 실행되기 전까지 pending
 
 실패시 rejected(error)를 실행하여 rejected상태가 된다.
 
-*await는 내부적으로 .then()을 실행시키며 then은 resolve를 받아 데이터를 사용한다.
+`await`는 내부적으로 .then()을 실행시키며 then은 resolve를 받아 데이터를 사용한다.
 
 ### async/await 예제
 
