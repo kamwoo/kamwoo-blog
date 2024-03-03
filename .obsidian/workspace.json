@@ -4,91 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "063b37555660dc56",
+        "id": "06a3ac4cb7536ab9",
         "type": "tabs",
         "children": [
           {
-            "id": "b8e94289bfbe25c1",
+            "id": "caf2a31344ed0304",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "147372f881b5dd2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/dom-element-select/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3261cbd245a0cb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/MIME/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34a0dbb602041474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/web-resource/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f5838cd4b6895bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/infinite-scroll/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02b84624a4301c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/js-routing/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ba9bf74fa074dff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/mfa-spa/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/mfa-spa/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/mfa-spa/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/contents/mfa-spa/index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -224,18 +147,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f9ea639a3f74c7",
+  "active": "caf2a31344ed0304",
   "lastOpenFiles": [
-    "src/contents/js-routing/index.md",
     "src/contents/mfa-spa/index.md",
-    "src/contents/mfa-spa",
+    "src/contents/js-routing/index.md",
     "src/contents/infinite-scroll/index.md",
-    "src/contents/js-routing",
+    "src/contents/web-resource/index.md",
+    "src/contents/ajax/index.md",
+    "src/contents/auth-system/index.md",
     "src/contents/auth-routing/index.md",
+    "Untitled.md",
+    "src/contents/ajax/images/1.png",
+    "src/contents/ajax/images",
+    "src/contents/ajax",
+    "src/contents/mfa-spa",
+    "src/contents/js-routing",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",
     "src/contents/infinite-scroll/images",
-    "src/contents/web-resource/index.md",
     "src/contents/infinite-scroll",
     "src/contents/web-resource/images/1.png",
     "src/contents/web-resource/images/2.png",
@@ -244,7 +173,6 @@
     "src/contents/web-resource/images/5.png",
     "src/contents/web-resource/images/6.png",
     "src/contents/web-resource/images/7.png",
-    "src/contents/web-resource/images/8.png",
     "src/contents/web-resource/images",
     "src/contents/MIME/index.md",
     "src/contents/web-resource",
@@ -252,8 +180,6 @@
     "src/contents/MIME",
     "src/contents/dom-element-select",
     "src/contents/event-delegate/index.md",
-    "src/contents/event-delegate/images",
-    "src/contents/event-delegate",
     "src/contents/promise/index.md",
     "src/contents/global-object/index.md",
     "src/contents/Inheritance/index.md",
@@ -268,9 +194,6 @@
     "src/contents/evaluation-system/index.md",
     "src/contents/Object/index.md",
     "src/contents/valueEqualStatement/index.md",
-    "src/contents/var-let-cont/index.md",
-    "src/contents/execution-context/index.md",
-    "src/contents/prototype/index.md",
-    "src/contents/js-object/index.md"
+    "src/contents/var-let-cont/index.md"
   ]
 }
