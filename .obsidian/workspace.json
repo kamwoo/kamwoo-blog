@@ -50,9 +50,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d4d5eeee963648b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/functional-programming/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8b0ed3e22bedfce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/change-functional-programming/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -118,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/object-pool/index.md",
+                "file": "src/contents/change-functional-programming/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/object-pool/index.md",
+                "file": "src/contents/change-functional-programming/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/object-pool/index.md"
+                "file": "src/contents/change-functional-programming/index.md"
               }
             }
           },
@@ -190,8 +214,12 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/facade-pattern/index.md",
+    "src/contents/functional-programming/index.md",
+    "src/contents/change-functional-programming/index.md",
+    "src/contents/change-functional-programming",
     "src/contents/object-pool/index.md",
+    "src/contents/functional-programming",
+    "src/contents/facade-pattern/index.md",
     "src/contents/object-pool",
     "src/contents/auth-routing/index.md",
     "src/contents/facade-pattern/images/1.png",
@@ -212,8 +240,6 @@
     "src/contents/js-routing",
     "src/contents/infinite-scroll/images/1-1.png",
     "src/contents/infinite-scroll/images/1-2.png",
-    "src/contents/infinite-scroll/images",
-    "src/contents/infinite-scroll",
     "src/contents/web-resource/images/1.png",
     "src/contents/web-resource/images/2.png",
     "src/contents/web-resource/images/3.png",
@@ -233,8 +259,6 @@
     "src/contents/closure/index.md",
     "src/contents/bind/index.md",
     "src/contents/new/index.md",
-    "src/contents/js-function/index.md",
-    "src/contents/evaluation-system/index.md",
-    "src/contents/Object/index.md"
+    "src/contents/js-function/index.md"
   ]
 }
