@@ -4,103 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "360fb4a28b609c4c",
+        "id": "1ebc84b768387a02",
         "type": "tabs",
         "children": [
           {
-            "id": "7f69757f55f7dac3",
+            "id": "a4a1b87444941ac4",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "9fb34a62baa0f40c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/js-function/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64d41c1d71a38243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/new/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a28114829be2f9d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/bind/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a52ca48080c5f10c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/closure/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1a8307c51c6b337",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/every-some/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fee302dfe814a8e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/shallow-deep-copy/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6712fec4692ce8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/promise/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/promise/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/promise/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/contents/promise/index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -236,10 +147,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f9ea639a3f74c7",
+  "active": "a4a1b87444941ac4",
   "lastOpenFiles": [
-    "src/contents/shallow-deep-copy/index.md",
+    "src/contents/typeof-instanceof/index.md",
     "src/contents/promise/index.md",
+    "src/contents/typeof-instanceof",
+    "src/contents/shallow-deep-copy/index.md",
     "src/contents/promise",
     "src/contents/every-some/index.md",
     "src/contents/shallow-deep-copy",
@@ -262,7 +175,6 @@
     "src/contents/var-let-cont",
     "src/contents/execution-context/index.md",
     "src/contents/execution-context/images/1.png",
-    "src/contents/execution-context/images",
     "src/contents/prototype/index.md",
     "src/contents/js-object/index.md",
     "src/contents/ipc/index.md",
@@ -281,7 +193,6 @@
     "src/contents/this/images/ex.png",
     "src/contents/this/index.md",
     "src/contents/routing/images/thumbnail.jpeg",
-    "src/contents/routing/index.md",
     "src/contents/performance-improvement/images/webpagetest.png",
     "src/contents/performance-improvement/images/used-font1.png"
   ]
