@@ -16,19 +16,31 @@
             }
           },
           {
-            "id": "da5d19e9221b242e",
+            "id": "147372f881b5dd2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/event-delegate/index.md",
+                "file": "src/contents/dom-element-select/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3261cbd245a0cb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/MIME/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/event-delegate/index.md",
+                "file": "src/contents/MIME/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/event-delegate/index.md",
+                "file": "src/contents/MIME/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/event-delegate/index.md"
+                "file": "src/contents/MIME/index.md"
               }
             }
           },
@@ -166,8 +178,12 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/auth-routing/index.md",
+    "src/contents/dom-element-select/index.md",
+    "src/contents/MIME/index.md",
+    "src/contents/MIME",
+    "src/contents/dom-element-select",
     "src/contents/event-delegate/index.md",
+    "src/contents/auth-routing/index.md",
     "src/contents/event-delegate/images/1.png",
     "src/contents/event-delegate/images",
     "src/contents/event-delegate",
@@ -185,9 +201,7 @@
     "src/contents/every-some/index.md",
     "src/contents/shallow-deep-copy",
     "src/contents/closure/index.md",
-    "src/contents/every-some",
     "src/contents/bind/index.md",
-    "src/contents/closure",
     "src/contents/new/index.md",
     "src/contents/js-function/index.md",
     "src/contents/evaluation-system/index.md",
@@ -203,7 +217,6 @@
     "src/contents/executaionAndVariant/index.md",
     "src/contents/context-isolation/index.md",
     "templates/post.template.md",
-    "src/contents/process-model/index.md",
     "src/contents/process-model/images/process.png",
     "src/contents/auth-routing/images/routing2.png",
     "src/contents/auth-routing/images/routing1.png",
