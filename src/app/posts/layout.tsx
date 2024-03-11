@@ -15,7 +15,7 @@ const PostLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className='h-full flex md:pl-40 md:pr-28 pt-12 gap-16'>
       <ScrollArea
-        className='hidden md:block w-52 h-fit sticky top-20'
+        className='hidden md:block w-56 pr-4 h-screen top-20'
         style={{ position: 'sticky' }}>
         <Accordion className='flex flex-col gap-0' type='multiple'>
           {categoryData?.map(({ category, titles }) => (
