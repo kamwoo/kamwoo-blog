@@ -7,19 +7,19 @@ export const LinkItems = ({
 }: React.ComponentProps<'div'> & Omit<LinkProps, 'href'>) => {
   return (
     <div className={cn('flex space-x-5', className)}>
-      <Link href='/about' onClick={onClick}>
+      {/* <Link href='/about' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>About</text>
-      </Link>
+      </Link> */}
 
       <Link href='/posts' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>Posts</text>
       </Link>
 
-      <Link href='/portfolios' onClick={onClick}>
+      {/* <Link href='/portfolios' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>
           Portfolios
         </text>
-      </Link>
+      </Link> */}
 
       <Link href='https://github.com/kamwoo' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>Github</text>

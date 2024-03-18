@@ -2,7 +2,7 @@
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   rewrites: async () => {
-    return [{ source: '/', destination: '/home' }];
+    return [{ source: '/', destination: '/posts' }];
   },
 };
 
