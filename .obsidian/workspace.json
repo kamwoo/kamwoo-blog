@@ -8,170 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3aec479577e7b3e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "647a372420a876d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/triple-slash-directives/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "367463d871eaa363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/ts-compiler/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "618a35555716b6ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/typescript-infer/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42a188bbbeb2d14e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/type system/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed18830d30db53db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/type-alias-interface/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd517c8f57a4a255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/typescript-summary/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20c9b8a6fdd98c25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/effective-typescript/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6e2d027b94a69ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/Closure-advenced-react/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f63e03617aac55aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/chakra-default-theme/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "526e7ea3015d9185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/chakra-default-theme/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d72deb790c7117f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/chakra-ui-component-style/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ced1fd97ca1d3e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/map-data/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78a8002f1bf94db9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/web-rtc/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c7a382e057e73083",
             "type": "leaf",
             "state": {
@@ -182,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d93a3d8ac9e02df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/websocket-lifecycle/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/websocket-verses/index.md",
+                "file": "src/contents/websocket-lifecycle/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/websocket-verses/index.md",
+                "file": "src/contents/websocket-lifecycle/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/websocket-verses/index.md"
+                "file": "src/contents/websocket-lifecycle/index.md"
               }
             }
           },
@@ -322,8 +170,16 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/ajax/index.md",
     "src/contents/websocket-verses/index.md",
+    "src/contents/websocket-lifecycle/index.md",
+    "src/contents/ajax/index.md",
+    "src/contents/websocket-lifecycle/images/head.png",
+    "src/contents/websocket-lifecycle/images/1.png",
+    "src/contents/websocket-lifecycle/images/2.png",
+    "src/contents/websocket-lifecycle/images/3.png",
+    "src/contents/websocket-lifecycle/images/4.png",
+    "src/contents/websocket-lifecycle/images",
+    "src/contents/websocket-lifecycle",
     "src/contents/websocket-verses/images/1.png",
     "src/contents/websocket-verses/images/2.png",
     "src/contents/websocket-verses/images/3.png",
@@ -332,11 +188,6 @@
     "src/contents/web-rtc/index.md",
     "src/contents/websocket-verses",
     "src/contents/web-rtc/images/nat.png",
-    "src/contents/web-rtc/images/webrtc1.png",
-    "src/contents/web-rtc/images/webrtc2.png",
-    "src/contents/web-rtc/images/webrtc3.png",
-    "src/contents/web-rtc/images/webrtc4.png",
-    "src/contents/web-rtc/images/webrtc5.png",
     "src/contents/web-rtc/images",
     "src/contents/map-data/index.md",
     "src/contents/web-rtc",
@@ -348,7 +199,6 @@
     "src/contents/chakra-ui-costumize/index.md",
     "src/contents/chakra-ui-costumize",
     "src/contents/Closure-advenced-react/index.md",
-    "src/contents/chakra-default-theme",
     "src/contents/closure/index.md",
     "src/contents/change-functional-programming/index.md",
     "src/contents/bind/index.md",
@@ -356,7 +206,6 @@
     "src/contents/auth-routing/index.md",
     "src/contents/3c4p/index.md",
     "src/contents/effective-typescript/index.md",
-    "src/contents/3c4p",
     "src/contents/typescript-summary/index.md",
     "src/contents/type-alias-interface/index.md",
     "src/contents/type system/index.md",
@@ -365,7 +214,6 @@
     "src/contents/triple-slash-directives/index.md",
     "src/contents/object-type/index.md",
     "src/contents/typescript-import/index.md",
-    "src/contents/overloading/index.md",
-    "src/contents/typescript-utility/index.md"
+    "src/contents/overloading/index.md"
   ]
 }

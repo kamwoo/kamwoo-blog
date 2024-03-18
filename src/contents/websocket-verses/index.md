@@ -1,9 +1,9 @@
 ---
 title: Websocke, HTTP Polling, SSE
 published: true
-category: ne
+category: network
 subtitle: Websocket concept
-date: 2022-04-13
+date: 2023-04-13
 ---
 ---
 
