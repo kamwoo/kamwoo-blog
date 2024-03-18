@@ -3,7 +3,7 @@ title: chakra ui - component style
 published: true
 category: react
 subtitle: chakra ui customize component
-date:
+date: 2023-06-14
 ---
 
 일관된 theme은 컴포넌트 스타일링을 유지하고 이해하기 쉽게 만든다.

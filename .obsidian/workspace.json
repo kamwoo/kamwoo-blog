@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2320e052ac2da326",
+        "id": "d21a9d65d6a24471",
         "type": "tabs",
         "children": [
           {
-            "id": "c7a382e057e73083",
+            "id": "aa4052600673f995",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/websocket-verses/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d93a3d8ac9e02df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/contents/websocket-lifecycle/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "video",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/websocket-lifecycle/index.md",
+                "file": "src/contents/socket-io-use/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/websocket-lifecycle/index.md",
+                "file": "src/contents/socket-io-use/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/websocket-lifecycle/index.md"
+                "file": "src/contents/socket-io-use/index.md"
               }
             }
           },
@@ -171,33 +154,37 @@
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
     "src/contents/websocket-verses/index.md",
-    "src/contents/websocket-lifecycle/index.md",
+    "src/contents/socket-io-use/index.md",
+    "src/contents/data-fetching-race-conditions/index.md",
+    "src/contents/socket-io-use/images/4.png",
+    "src/contents/socket-io-use/images/5.png",
+    "src/contents/socket-io-use/images/6.png",
+    "src/contents/socket-io-use/videos/2.mov",
+    "src/contents/socket-io-use/videos/3.mov",
+    "src/contents/socket-io-use/images/1.png",
+    "src/contents/socket-io-use/images",
+    "src/contents/socket-io-use/videos",
+    "src/contents/soket-io/index.md",
+    "src/contents/socket-io-use",
+    "src/contents/soket-io/images/4.png",
     "src/contents/ajax/index.md",
-    "src/contents/websocket-lifecycle/images/head.png",
-    "src/contents/websocket-lifecycle/images/1.png",
-    "src/contents/websocket-lifecycle/images/2.png",
-    "src/contents/websocket-lifecycle/images/3.png",
-    "src/contents/websocket-lifecycle/images/4.png",
+    "src/contents/soket-io/images/1.png",
+    "src/contents/soket-io/images/2.png",
+    "src/contents/soket-io/images/3.png",
+    "src/contents/soket-io/images/2-1.png",
+    "src/contents/soket-io/images/2-2.png",
+    "src/contents/soket-io/images",
+    "src/contents/chakra-ui-component-style/index.md",
+    "src/contents/chakra-ui-costumize/index.md",
+    "src/contents/web-resource/index.md",
+    "src/contents/web-rtc/index.md",
+    "src/contents/websocket-lifecycle/index.md",
+    "src/contents/soket-io",
     "src/contents/websocket-lifecycle/images",
     "src/contents/websocket-lifecycle",
-    "src/contents/websocket-verses/images/1.png",
-    "src/contents/websocket-verses/images/2.png",
-    "src/contents/websocket-verses/images/3.png",
-    "src/contents/websocket-verses/images/4.png",
     "src/contents/websocket-verses/images",
-    "src/contents/web-rtc/index.md",
-    "src/contents/websocket-verses",
-    "src/contents/web-rtc/images/nat.png",
-    "src/contents/web-rtc/images",
     "src/contents/map-data/index.md",
-    "src/contents/web-rtc",
-    "src/contents/chakra-ui-component-style/index.md",
-    "src/contents/map-data",
-    "src/components/post/headings-box.tsx",
     "src/contents/chakra-default-theme/index.md",
-    "src/contents/chakra-ui-component-style",
-    "src/contents/chakra-ui-costumize/index.md",
-    "src/contents/chakra-ui-costumize",
     "src/contents/Closure-advenced-react/index.md",
     "src/contents/closure/index.md",
     "src/contents/change-functional-programming/index.md",
@@ -210,10 +197,6 @@
     "src/contents/type-alias-interface/index.md",
     "src/contents/type system/index.md",
     "src/contents/typescript-infer/index.md",
-    "src/contents/ts-compiler/index.md",
-    "src/contents/triple-slash-directives/index.md",
-    "src/contents/object-type/index.md",
-    "src/contents/typescript-import/index.md",
-    "src/contents/overloading/index.md"
+    "src/contents/ts-compiler/index.md"
   ]
 }
