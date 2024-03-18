@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/socket-io-use/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/socket-io-use/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/auth-routing/index.md",
+                "file": "src/contents/socket-io-use/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/auth-routing/index.md"
+                "file": "src/contents/socket-io-use/index.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "912a05e76c31fe5c",
   "lastOpenFiles": [
-    "src/contents/socket-io-use/index.md",
     "src/contents/socket-io/index.md",
+    "src/contents/socket-io-use/index.md",
+    "src/contents/auth-routing/index.md",
     "src/contents/chakra-ui-component-style/index.md",
     "src/contents/websocket-verses/index.md",
     "src/contents/data-fetching-race-conditions/index.md",
@@ -194,7 +195,6 @@
     "src/contents/change-functional-programming/index.md",
     "src/contents/bind/index.md",
     "src/contents/auth-system/index.md",
-    "src/contents/auth-routing/index.md",
     "src/contents/3c4p/index.md",
     "src/contents/effective-typescript/index.md",
     "src/contents/typescript-summary/index.md",

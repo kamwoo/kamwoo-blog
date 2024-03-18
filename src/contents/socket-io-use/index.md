@@ -3,7 +3,7 @@ title: how to use socket.io
 published: true
 category: network
 subtitle: socket.io concept
-date: 0024-03-02
+date: 2024-03-02
 ---
 ### **namespace와 event를 분류하는 방법**
 
