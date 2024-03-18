@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d21a9d65d6a24471",
+        "id": "46a0ff8465010183",
         "type": "tabs",
         "children": [
           {
-            "id": "aa4052600673f995",
+            "id": "57f73e5c310d6984",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/socket-io/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/socket-io-use/index.md",
+                "file": "src/contents/socket-io/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/socket-io-use/index.md",
+                "file": "src/contents/socket-io/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/socket-io-use/index.md"
+                "file": "src/contents/socket-io/index.md"
               }
             }
           },
@@ -153,8 +157,9 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/websocket-verses/index.md",
+    "src/contents/chakra-ui-component-style/index.md",
     "src/contents/socket-io-use/index.md",
+    "src/contents/websocket-verses/index.md",
     "src/contents/data-fetching-race-conditions/index.md",
     "src/contents/socket-io-use/images/4.png",
     "src/contents/socket-io-use/images/5.png",
@@ -164,22 +169,21 @@
     "src/contents/socket-io-use/images/1.png",
     "src/contents/socket-io-use/images",
     "src/contents/socket-io-use/videos",
-    "src/contents/soket-io/index.md",
+    "src/contents/socket-io/index.md",
     "src/contents/socket-io-use",
-    "src/contents/soket-io/images/4.png",
+    "src/contents/socket-io/images/4.png",
     "src/contents/ajax/index.md",
-    "src/contents/soket-io/images/1.png",
-    "src/contents/soket-io/images/2.png",
-    "src/contents/soket-io/images/3.png",
-    "src/contents/soket-io/images/2-1.png",
-    "src/contents/soket-io/images/2-2.png",
-    "src/contents/soket-io/images",
-    "src/contents/chakra-ui-component-style/index.md",
+    "src/contents/socket-io/images/1.png",
+    "src/contents/socket-io/images/2.png",
+    "src/contents/socket-io/images/3.png",
+    "src/contents/socket-io/images/2-1.png",
+    "src/contents/socket-io/images/2-2.png",
+    "src/contents/socket-io/images",
     "src/contents/chakra-ui-costumize/index.md",
     "src/contents/web-resource/index.md",
     "src/contents/web-rtc/index.md",
     "src/contents/websocket-lifecycle/index.md",
-    "src/contents/soket-io",
+    "src/contents/socket-io",
     "src/contents/websocket-lifecycle/images",
     "src/contents/websocket-lifecycle",
     "src/contents/websocket-verses/images",
