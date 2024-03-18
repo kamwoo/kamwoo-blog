@@ -170,9 +170,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c7a382e057e73083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/websocket-verses/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -238,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/web-rtc/index.md",
+                "file": "src/contents/websocket-verses/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/web-rtc/index.md",
+                "file": "src/contents/websocket-verses/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/web-rtc/index.md"
+                "file": "src/contents/websocket-verses/index.md"
               }
             }
           },
@@ -310,15 +322,21 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/web-rtc/images/nat.png",
     "src/contents/ajax/index.md",
+    "src/contents/websocket-verses/index.md",
+    "src/contents/websocket-verses/images/1.png",
+    "src/contents/websocket-verses/images/2.png",
+    "src/contents/websocket-verses/images/3.png",
+    "src/contents/websocket-verses/images/4.png",
+    "src/contents/websocket-verses/images",
     "src/contents/web-rtc/index.md",
+    "src/contents/websocket-verses",
+    "src/contents/web-rtc/images/nat.png",
     "src/contents/web-rtc/images/webrtc1.png",
     "src/contents/web-rtc/images/webrtc2.png",
     "src/contents/web-rtc/images/webrtc3.png",
     "src/contents/web-rtc/images/webrtc4.png",
     "src/contents/web-rtc/images/webrtc5.png",
-    "src/contents/web-rtc/images/webrtc6.png",
     "src/contents/web-rtc/images",
     "src/contents/map-data/index.md",
     "src/contents/web-rtc",
@@ -340,9 +358,6 @@
     "src/contents/effective-typescript/index.md",
     "src/contents/3c4p",
     "src/contents/typescript-summary/index.md",
-    "src/contents/effective-typescript",
-    "src/contents/typescript-summary/images/1.png",
-    "src/contents/typescript-summary/images",
     "src/contents/type-alias-interface/index.md",
     "src/contents/type system/index.md",
     "src/contents/typescript-infer/index.md",
@@ -351,10 +366,6 @@
     "src/contents/object-type/index.md",
     "src/contents/typescript-import/index.md",
     "src/contents/overloading/index.md",
-    "src/contents/typescript-utility/index.md",
-    "src/contents/type-guard/index.md",
-    "src/contents/typescript-module/images/1.png",
-    "src/contents/facade-pattern/images/1.png",
-    "src/contents/ajax/images/1.png"
+    "src/contents/typescript-utility/index.md"
   ]
 }
