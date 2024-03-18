@@ -3,7 +3,7 @@ title: auth routing
 published: true
 category: next
 subtitle: 권한에 따른 페이지 접근 제어
-date: 2023-05-17
+date: 2024-02-29
 ---
 ## 개요
 

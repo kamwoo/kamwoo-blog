@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46a0ff8465010183",
+        "id": "862059a5c60ecbd3",
         "type": "tabs",
         "children": [
           {
-            "id": "57f73e5c310d6984",
+            "id": "912a05e76c31fe5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/auth-routing/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/auth-routing/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/auth-routing/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/socket-io/index.md"
+                "file": "src/contents/auth-routing/index.md"
               }
             }
           },
@@ -155,10 +155,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92f9ea639a3f74c7",
+  "active": "912a05e76c31fe5c",
   "lastOpenFiles": [
-    "src/contents/chakra-ui-component-style/index.md",
     "src/contents/socket-io-use/index.md",
+    "src/contents/socket-io/index.md",
+    "src/contents/chakra-ui-component-style/index.md",
     "src/contents/websocket-verses/index.md",
     "src/contents/data-fetching-race-conditions/index.md",
     "src/contents/socket-io-use/images/4.png",
@@ -169,7 +170,6 @@
     "src/contents/socket-io-use/images/1.png",
     "src/contents/socket-io-use/images",
     "src/contents/socket-io-use/videos",
-    "src/contents/socket-io/index.md",
     "src/contents/socket-io-use",
     "src/contents/socket-io/images/4.png",
     "src/contents/ajax/index.md",
