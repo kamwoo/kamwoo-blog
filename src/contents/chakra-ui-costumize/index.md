@@ -3,7 +3,7 @@ title: chakra ui - customize theme
 published: true
 category: react
 subtitle: chakra ui custom
-date: 2023-06-13
+date: 2024-02-13
 ---
 기본적으로 모든 chakra ui의 컴포넌트는 default theme을 따르지만
 

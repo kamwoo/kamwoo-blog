@@ -3,7 +3,7 @@ title: chakra ui - default theme(Foundation)
 published: true
 category: react
 subtitle: chakra ui foundation
-date: 2023-06-12
+date: 2024-02-12
 ---
 theme object에 아래 사항을 정의한다
 

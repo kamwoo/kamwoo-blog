@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/socket-io-use/index.md",
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/socket-io-use/index.md",
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/socket-io-use/index.md",
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/socket-io-use/index.md"
+                "file": "src/contents/chakra-ui-component-style/index.md"
               }
             }
           },
@@ -157,10 +157,12 @@
   },
   "active": "912a05e76c31fe5c",
   "lastOpenFiles": [
-    "src/contents/socket-io/index.md",
-    "src/contents/socket-io-use/index.md",
-    "src/contents/auth-routing/index.md",
+    "src/contents/chakra-ui-costumize/index.md",
     "src/contents/chakra-ui-component-style/index.md",
+    "src/contents/chakra-default-theme/index.md",
+    "src/contents/socket-io-use/index.md",
+    "src/contents/socket-io/index.md",
+    "src/contents/auth-routing/index.md",
     "src/contents/websocket-verses/index.md",
     "src/contents/data-fetching-race-conditions/index.md",
     "src/contents/socket-io-use/images/4.png",
@@ -180,7 +182,6 @@
     "src/contents/socket-io/images/2-1.png",
     "src/contents/socket-io/images/2-2.png",
     "src/contents/socket-io/images",
-    "src/contents/chakra-ui-costumize/index.md",
     "src/contents/web-resource/index.md",
     "src/contents/web-rtc/index.md",
     "src/contents/websocket-lifecycle/index.md",
@@ -189,7 +190,6 @@
     "src/contents/websocket-lifecycle",
     "src/contents/websocket-verses/images",
     "src/contents/map-data/index.md",
-    "src/contents/chakra-default-theme/index.md",
     "src/contents/Closure-advenced-react/index.md",
     "src/contents/closure/index.md",
     "src/contents/change-functional-programming/index.md",
