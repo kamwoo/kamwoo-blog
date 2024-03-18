@@ -42,7 +42,7 @@ date: 2023-05-12
 
 socket과 Manager 관계를 이해할 필요가 있다.
 
-<div align='center'>
+<div align='center' style={{backgroundColor: "white"}}>
 <img src="/images/posts/socket-io/2.png" />
 </div>
 
@@ -181,7 +181,7 @@ namespace 별로 io를 사용하는 것과 manager 하나를 사용하는 것과
 
 ### server
 
-<div align='center'>
+<div align='center' style={{backgroundColor: "white"}}>
 <img src="/images/posts/socket-io/3.png" />
 </div>
 
