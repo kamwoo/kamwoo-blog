@@ -2,11 +2,10 @@
 title: Closure
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 값 캡처
 date: 2022-05-06
 ---
 
->값 캡처
 
 함수가 생성될 때의 스코프를 활용하는 방법이고, 함수에서 함수를 리턴한다고 했을 때 상위 함수의 외부에서 내부 함수를 호출하더라도 상위 함수의 지역에 접근할 수 있는 함수를 클로저라고 한다.
 

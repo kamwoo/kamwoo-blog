@@ -105,14 +105,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/3c4p/index.md",
+                "file": "src/contents/Closure-advenced-react/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f63e03617aac55aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/chakra-default-theme/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "526e7ea3015d9185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/chakra-default-theme/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d72deb790c7117f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -178,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/3c4p/index.md",
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/3c4p/index.md",
+                "file": "src/contents/chakra-ui-component-style/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/3c4p/index.md"
+                "file": "src/contents/chakra-ui-component-style/index.md"
               }
             }
           },
@@ -250,13 +286,25 @@
   },
   "active": "92f9ea639a3f74c7",
   "lastOpenFiles": [
-    "src/contents/effective-typescript/index.md",
+    "src/contents/chakra-default-theme/index.md",
+    "src/contents/chakra-ui-component-style/index.md",
+    "src/contents/chakra-ui-component-style",
+    "src/contents/chakra-ui-costumize/index.md",
+    "src/contents/chakra-ui-costumize",
+    "src/contents/Closure-advenced-react/index.md",
+    "src/contents/chakra-default-theme",
+    "src/contents/closure/index.md",
+    "src/contents/change-functional-programming/index.md",
+    "src/contents/bind/index.md",
+    "src/contents/auth-system/index.md",
+    "src/contents/auth-routing/index.md",
+    "src/contents/ajax/index.md",
     "src/contents/3c4p/index.md",
+    "src/contents/effective-typescript/index.md",
     "src/contents/3c4p",
     "src/contents/typescript-summary/index.md",
     "src/contents/effective-typescript",
     "src/contents/typescript-summary/images/1.png",
-    "src/contents/auth-routing/index.md",
     "src/contents/typescript-summary/images",
     "src/contents/type-alias-interface/index.md",
     "src/contents/typescript-summary",
@@ -267,8 +315,6 @@
     "src/contents/ts-compiler/index.md",
     "src/contents/typescript-infer",
     "src/contents/triple-slash-directives/index.md",
-    "src/contents/ts-compiler",
-    "src/contents/triple-slash-directives",
     "src/contents/object-type/index.md",
     "src/contents/typescript-import/index.md",
     "src/contents/overloading/index.md",
@@ -277,17 +323,7 @@
     "src/contents/generic/index.md",
     "src/contents/interface/index.md",
     "src/contents/namespace/index.md",
-    "src/contents/typescript-class/index.md",
-    "src/contents/typescript-module/index.md",
-    "src/contents/declaration-merging/index.md",
-    "src/contents/object-type",
     "src/contents/typescript-module/images/1.png",
-    "src/contents/types/index.md",
-    "src/contents/hotfix/index.md",
-    "src/contents/change-functional-programming/index.md",
-    "src/contents/functional-programming/index.md",
-    "src/contents/object-pool/index.md",
-    "src/contents/facade-pattern/index.md",
     "src/contents/facade-pattern/images/1.png",
     "src/contents/ajax/images/1.png",
     "src/contents/infinite-scroll/images/1-1.png",

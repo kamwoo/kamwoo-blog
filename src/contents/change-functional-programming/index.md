@@ -2,7 +2,7 @@
 title: functional methods
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 함수형으로 전환
 date: 2022-05-29
 ---
 

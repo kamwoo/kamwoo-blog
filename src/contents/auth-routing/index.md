@@ -2,7 +2,7 @@
 title: auth routing
 published: true
 category: next
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 권한에 따른 페이지 접근 제어
 date: 2023-05-17
 ---
 ## 개요

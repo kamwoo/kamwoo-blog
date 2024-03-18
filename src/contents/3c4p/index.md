@@ -2,11 +2,11 @@
 title: 3C4P
 published: true
 category: etc
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 전략을 세우는 과정에서 아이디어 논리화 및 구조화하는 패턴
 date: 2023-11-24
 ---
 
-> 전략을 세우는 과정에서 아이디어 논리화 및 구조화하는 패턴, 작업 후에 정리하는 용도로도 사용
+>  작업 후에 정리하는 용도로도 사용
 
 ## 3C
 

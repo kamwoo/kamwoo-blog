@@ -2,7 +2,7 @@
 title: Bind
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 함수에 원하는 this 연결
 date: 2022-05-05
 ---
 

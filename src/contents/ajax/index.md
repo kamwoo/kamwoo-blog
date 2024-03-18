@@ -2,13 +2,11 @@
 title: AJAX
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: Asynchronous Javascript And XML
 date: 2022-06-17
 ---
 
 # AJAX
-
->Asynchronous Javascript And XML
 
 서버와 통신하기 위해 `XMLHttpRequest` 객체를 사용하는 것으로 JSON, XML, HTML, 일반 텍스트 형식 등 다양한 형식으로 주고 받을 수 있다.
 

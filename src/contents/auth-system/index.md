@@ -3,7 +3,7 @@ title: Authentication and Authorization
 date: 2022-12-02
 published: true
 category: network
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 인증과 인가
 ---
 
 <div align="center">
