@@ -73,4 +73,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  img {
+    @apply my-0 !important;
+  }
 }

@@ -65,7 +65,7 @@ const Card = (props: { size, variant, colorScheme }) => {
 }
 ```
 
-♨︎ __css는 우선순위가 낮아서 override하기 쌉가능
+♨︎ __css는 우선순위가 낮아서 override하기 가능
 
 ### Multipart
 
@@ -136,4 +136,4 @@ const MenuItem = (props) => {
 }
 ```
 
-compound component 패턴으로 만들기 개좋네
+compound component 패턴으로 만들기 좋다.
