@@ -4,9 +4,10 @@ import { useEffect, useState } from 'react';
 
 interface Props {
   data: string;
+  href: string;
 }
 
-export const OGBox = ({ data }: Props) => {
+export const OGBox = ({ data, href }: Props) => {
   const [og, setData] = useState<{
     image: string;
     title: string;
@@ -26,19 +27,23 @@ export const OGBox = ({ data }: Props) => {
     setData({ image, title, description, url });
   }, []);
 
-  return (
-    og && (
-      <a
-        href={og.url}
-        className='pointer w-full h-28 flex justify-between bg-slate-900 py-0 no-underline rounded-sm'>
-        <span className='flex flex-col h-full py-3 px-4 space-y-2 overflow-hidden'>
-          <span className='text-slate-200 font-semibold'>{og.title}</span>
-          <span className='h-full text-slate-200 text-sm overflow-hidden text-ellipsis'>
-            {og.description}
-          </span>
+  return og && og.title ? (
+    <a
+      href={og.url}
+      className='pointer w-full h-28 flex justify-between bg-slate-900 py-0 no-underline rounded-sm my-4'>
+      <span className='flex flex-col h-full py-3 px-4 space-y-2 overflow-hidden'>
+        <span className='text-slate-200 font-semibold'>{og.title}</span>
+        <span className='h-full text-slate-200 text-sm overflow-hidden text-ellipsis'>
+          {og.description}
         </span>
-        <img src={og.image} className='my-0 !important w-1/3 object-cover rounded-r-sm' />
-      </a>
-    )
+      </span>
+      <img
+        src={og.image}
+        onError={(element) => element.currentTarget.classList.add('hidden')}
+        className='my-0 !important w-1/3 object-cover rounded-r-sm'
+      />
+    </a>
+  ) : (
+    <a href={href}>{href}</a>
   );
 };

@@ -12,7 +12,7 @@ export const MDXOg = async (props: HTMLProps<HTMLAnchorElement>) => {
     const response = await fetch(link);
     const data = await response.text();
 
-    return <OGBox data={data} />;
+    return <OGBox data={data} href={link} />;
   } catch (error) {
     return <a {...props} />;
   }
