@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "34433058cabfcc1a",
+        "id": "f89e3b4221a46db0",
         "type": "tabs",
         "children": [
           {
-            "id": "43b3dbc72a1d7094",
+            "id": "b4addfb44e44660d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/IA/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247.5
   },
   "right": {
     "id": "0203b7ac9efbb14a",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/IA/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/socket-io/index.md",
+                "file": "src/contents/IA/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/contents/socket-io/index.md"
+                "file": "src/contents/IA/index.md"
               }
             }
           },
@@ -136,13 +136,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "946159f2205943e2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,14 +163,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "43b3dbc72a1d7094",
+  "active": "b4addfb44e44660d",
   "lastOpenFiles": [
-    "src/contents/socket-io-use/index.md",
+    "src/contents/ajax/index.md",
+    "src/contents/IA/index.md",
+    "src/contents/IA/images/1.png",
+    "Pasted image 20240713145143.png",
+    "src/contents/IA/images",
+    "src/contents/IA",
+    "src/contents/Untitled.md",
     "src/contents/socket-io/index.md",
+    "src/contents/socket-io-use/index.md",
     "src/contents/FSD/index.md",
     "src/contents/executaionAndVariant/index.md",
     "src/contents/FSD/images/1.png",
-    "src/contents/ajax/index.md",
     "src/contents/FSD/images/2.png",
     "src/contents/chakra-ui-component-style/index.md",
     "src/contents/FSD/images/3.png",
@@ -178,8 +192,6 @@
     "node_modules/@types/react-helmet/LICENSE",
     "node_modules/@types/react-helmet",
     "node_modules/react-helmet/lib/Helmet.js",
-    "node_modules/react-helmet/es/Helmet.js",
-    "node_modules/react-side-effect/lib/index.umd.js",
     "node_modules/react-helmet/CHANGELOG.md",
     "node_modules/react-helmet/ISSUE_TEMPLATE.md",
     "node_modules/react-helmet/CODE_OF_CONDUCT.md",
@@ -196,12 +208,7 @@
     "node_modules/@tanstack/react-query/build/codemods/coverage/sort-arrow-sprite.png",
     "node_modules/@tanstack/react-query/build/codemods/coverage/favicon.png",
     "node_modules/tailwindcss/lib/value-parser/README.md",
-    "node_modules/tailwindcss/src/value-parser/README.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/aria-activedescendant-has-tabindex.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/scope.md",
     "node_modules/highlight.js/styles/school-book.png",
-    "node_modules/highlight.js/styles/pojoaque.jpg",
-    "node_modules/highlight.js/styles/brown-papersq.png",
-    "node_modules/highlight.js/scss/school-book.png"
+    "node_modules/highlight.js/styles/pojoaque.jpg"
   ]
 }
