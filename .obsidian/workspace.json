@@ -18,8 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "645ddce4a75e4887",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/contents/chakra-ui-component-style/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/contents/chakra-ui-component-style/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/contents/chakra-ui-component-style/index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,8 +163,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "912a05e76c31fe5c",
+  "active": "263b9ab9fb6997b0",
   "lastOpenFiles": [
+    "src/contents/FSD/index.md",
+    "src/contents/ajax/index.md",
+    "src/contents/FSD/images/1.png",
+    "src/contents/FSD/images/2.png",
+    "src/contents/FSD/images/3.png",
+    "src/contents/FSD/images/4.png",
+    "src/contents/FSD/images",
+    "src/contents/functional-programming/index.md",
+    "src/contents/FSD.md",
+    "src/contents/FSD",
+    "src/contents/chakra-ui-component-style/index.md",
     "src/components/post/mdx-components/og-box.tsx",
     "node_modules/@types/react-helmet/package.json",
     "node_modules/@types/react-helmet/index.d.ts",
@@ -166,9 +185,6 @@
     "node_modules/react-helmet/lib/Helmet.js",
     "node_modules/react-helmet/es/Helmet.js",
     "node_modules/react-side-effect/lib/index.umd.js",
-    "node_modules/react-side-effect/lib/index.js",
-    "node_modules/react-helmet/package.json",
-    "node_modules/react-helmet/LICENSE",
     "node_modules/react-helmet/CHANGELOG.md",
     "node_modules/react-helmet/ISSUE_TEMPLATE.md",
     "node_modules/react-helmet/CODE_OF_CONDUCT.md",
@@ -190,18 +206,9 @@
     "node_modules/eslint-plugin-jsx-a11y/docs/rules/scope.md",
     "node_modules/eslint-plugin-jsx-a11y/docs/rules/role-supports-aria-props.md",
     "node_modules/eslint-plugin-jsx-a11y/docs/rules/tabindex-no-positive.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/role-has-required-aria-props.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/no-redundant-roles.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/prefer-tag-over-role.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/no-static-element-interactions.md",
-    "node_modules/eslint-plugin-jsx-a11y/docs/rules/no-interactive-element-to-noninteractive-role.md",
     "node_modules/highlight.js/styles/school-book.png",
     "node_modules/highlight.js/styles/pojoaque.jpg",
     "node_modules/highlight.js/styles/brown-papersq.png",
-    "node_modules/highlight.js/scss/school-book.png",
-    "node_modules/highlight.js/scss/pojoaque.jpg",
-    "node_modules/highlight.js/scss/brown-papersq.png",
-    "node_modules/psl/browserstack-logo.svg",
-    "node_modules/next-mdx-remote/header.png"
+    "node_modules/highlight.js/scss/school-book.png"
   ]
 }
