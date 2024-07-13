@@ -1,7 +1,7 @@
 ---
 title: IA
 published: true
-category: react
+category: etc
 subtitle: Information Architecture
 date: 2024-07-14
 ---
