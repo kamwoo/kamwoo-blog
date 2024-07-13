@@ -80,4 +80,4 @@ IA 문서는 주로 기획 단계에서 작성되기 시작하여, 지속적으�
 <div align='center'>
 <img src="/images/posts/IA/1.png" />
 </div>
-원본: 세균무기, 참조: https://plavement.tistory.com/27, 웹, 모바일을 위한 I.A, Jlight
+원본: 세균무기, 참조: https://plavement.tistory.com/27
