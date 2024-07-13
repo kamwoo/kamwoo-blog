@@ -4,34 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "862059a5c60ecbd3",
+        "id": "34433058cabfcc1a",
         "type": "tabs",
         "children": [
           {
-            "id": "912a05e76c31fe5c",
+            "id": "43b3dbc72a1d7094",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/contents/chakra-ui-component-style/index.md",
+                "file": "src/contents/FSD/index.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "645ddce4a75e4887",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/contents/FSD/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/contents/FSD/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/contents/FSD/index.md"
+              }
             }
           },
           {
@@ -163,19 +155,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "263b9ab9fb6997b0",
+  "active": "43b3dbc72a1d7094",
   "lastOpenFiles": [
-    "src/contents/FSD/index.md",
-    "src/contents/ajax/index.md",
     "src/contents/FSD/images/1.png",
+    "src/contents/ajax/index.md",
+    "src/contents/FSD/index.md",
     "src/contents/FSD/images/2.png",
+    "src/contents/chakra-ui-component-style/index.md",
     "src/contents/FSD/images/3.png",
     "src/contents/FSD/images/4.png",
     "src/contents/FSD/images",
     "src/contents/functional-programming/index.md",
     "src/contents/FSD.md",
     "src/contents/FSD",
-    "src/contents/chakra-ui-component-style/index.md",
     "src/components/post/mdx-components/og-box.tsx",
     "node_modules/@types/react-helmet/package.json",
     "node_modules/@types/react-helmet/index.d.ts",
