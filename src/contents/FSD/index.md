@@ -31,8 +31,8 @@ date: 2024-07-13
 - **경계 모호성**: 도메인별로 구분하는 방식이 결합도를 증가시키고, 응집력을 감소시켜 무분별한 참조가 발생했다. 이는 접근성을 낮추는 결과를 초래했다.
 
 
-<div align='center' width="50%">
-<img src="/images/posts/FSD/1.png" />
+<div align='center' >
+<img src="/images/posts/FSD/1.png" width="60%" />
 </div>
 
 ### 개선 방안
@@ -58,8 +58,8 @@ FSD는 Feature Sliced Design으로 모놀리식 폴더 구조를 가진다. 도�
 FSD가 가지는 컨벤션들은 아래와 같다.
 
 1. 폴더 구조
-    <div align='center' width="80%">
-		<img src="/images/posts/FSD/2.png" />
+    <div align='center'>
+		<img src="/images/posts/FSD/2.png"  width="80%" />
 	</div>
     
     프로젝트를 구성하는 폴더 구조의 컨벤션은 위 그림과 같다.
@@ -203,8 +203,8 @@ Widgets에서 컴포넌트가 잘 작성되었다면 페이지 단에서는 간�
 
 ---
 
-<div align='center' width="54%">
-<img src="/images/posts/FSD/3.png" />
+<div align='center' >
+<img src="/images/posts/FSD/3.png" width="66%" />
 </div>
 
 예를 들면 구글 페이지를 예시로, 위 Example 2를 사용하면 대략 아래와 같이 구조를 잡을 수 있다.

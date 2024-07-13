@@ -64,7 +64,7 @@ socket.on('connect', () => {})
     |---|---|---|
     |forceNew|새로운 Manager 인스턴스를 만들지|false|
     |multiplex|존재하는 Manager 인스턴스를 재사용할지 말지|true|
-    |transports|[http://socket.io/](http://socket.io/) 서버 연결 방법|["polling", "websocket"]|
+    |transports|socket.io 서버 연결 방법|["polling", "websocket"]|
     |upgrade|HTTP long polling에서 upgrade할지 말지|true|
     |path|경로|/socket.io/|
     |query|query parameter|-|
