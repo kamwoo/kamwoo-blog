@@ -2,7 +2,7 @@
 title: Facade Pattern
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 퍼사드 패턴을 사용한 복잡한 서브시스템을 간단한 인터페이스로 제공하는 방법
 date: 2022-03-03
 ---
 

@@ -2,7 +2,7 @@
 title: Infer
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript의 infer 키워드를 사용한 조건부 타입에서 타입 추론하는 방법
 date: 2022-08-03
 ---
 

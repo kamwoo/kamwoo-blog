@@ -2,7 +2,7 @@
 title: context isolation
 published: true
 category: electron
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: Electron context isolation을 통한 보안 강화와 contextBridge를 사용한 안전한 API 노출
 date: 2024-02-02
 ---
 

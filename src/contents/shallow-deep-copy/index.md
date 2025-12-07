@@ -2,7 +2,7 @@
 title: Shallow copy - Deep copy
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 얕은 복사와 깊은 복사, Object.assign, 전개 연산자, JSON.stringify를 사용한 복사 방법
 date: 2022-05-16
 ---
 

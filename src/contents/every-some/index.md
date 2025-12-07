@@ -2,7 +2,7 @@
 title: Every Some
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 배열 메서드 every와 some의 동작 원리와 공허참 개념, 검증 로직에의 활용
 date: 2022-05-11
 ---
 

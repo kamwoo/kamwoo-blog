@@ -3,7 +3,7 @@ title: Refs (advanced react)
 date: 2024-01-03
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React useRef와 useImperativeHandle을 사용한 DOM 접근과 선언적 API 구현 방법
 ---
 
 React는 Real DOM을 복잡한 코드를 추상화하여 컴포넌트를 작성하고 UX에 집중할 수 있게 해준다. 하지만 직접 DOM을 다뤄야하는 순간이 있기 때문에 ref를 사용하게 된다.

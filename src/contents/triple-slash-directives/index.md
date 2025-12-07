@@ -2,7 +2,7 @@
 title: triple-slash directives
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript triple-slash directives를 사용한 파일 참조, 타입 참조, 라이브러리 참조 방법
 date: 2022-08-01
 ---
 

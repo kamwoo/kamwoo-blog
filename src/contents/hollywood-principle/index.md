@@ -2,7 +2,7 @@
 title: Hollywood principle
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 헐리웃 원칙을 통한 고수준-저수준 구성요소 간 단방향 의존성 관리와 이벤트 처리
 date: 2022-02-22
 ---
 

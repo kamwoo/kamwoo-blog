@@ -2,7 +2,7 @@
 title: Web Resource
 published: true
 category: network
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 웹 리소스와 URI 구조, HTTP 요청과 응답 메시지의 구성 요소와 상태 코드
 date: 2022-06-15
 ---
 

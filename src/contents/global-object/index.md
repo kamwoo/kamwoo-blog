@@ -2,7 +2,7 @@
 title: js global object
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 전역 객체(window, global)의 특징과 암묵적 전역 변수 생성 메커니즘
 date: 2022-06-03
 ---
 

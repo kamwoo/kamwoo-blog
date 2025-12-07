@@ -3,7 +3,7 @@ title: re-render (advanced react)
 date: 2023-11-28
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React 컴포넌트 리렌더링 메커니즘과 상태 업데이트, 하위 컴포넌트 리렌더링, memo 최적화에 대한 심화 내용
 ---
 
 ## Key Point

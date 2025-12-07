@@ -2,7 +2,7 @@
 title: evaluation strategy
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 평가 전략(evaluation strategy)과 call by value의 동작 원리
 date: 2022-04-02
 ---
 

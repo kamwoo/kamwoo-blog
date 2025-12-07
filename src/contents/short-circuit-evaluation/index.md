@@ -2,7 +2,7 @@
 title: Short circuit evaluation
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 단축 평가(short circuit evaluation)와 ||, &&, ?., ?? 연산자를 활용한 기본값 설정과 보호 연산
 date: 2022-06-01
 ---
 

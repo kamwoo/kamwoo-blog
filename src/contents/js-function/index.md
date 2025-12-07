@@ -2,7 +2,7 @@
 title: Function
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 함수의 일급 객체 특성, 함수 선언문과 표현식, 화살표 함수, 즉시 실행 함수의 특징
 date: 2022-04-24
 ---
 

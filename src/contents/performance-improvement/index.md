@@ -3,7 +3,7 @@ title: 프론트엔드 성능 개선
 date: 2022-09-25
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 프론트엔드 성능 개선을 위한 Web Vitals 측정, 번들 크기 최적화, gzip 압축, 캐싱 전략 적용
 ---
 
 <div align="center">

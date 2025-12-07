@@ -3,7 +3,7 @@ title: HOC (advanced react)
 date: 2023-12-26
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React HOC(High Order Component) 패턴을 사용한 컴포넌트 로직 재사용과 forwardRef 활용
 ---
 
 ## HOC란

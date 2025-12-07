@@ -3,7 +3,7 @@ title: data fetching with race conditions (advanced react)
 date: 2024-01-26
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React에서 데이터 페칭 시 발생하는 race condition 문제와 해결 방법(cleanup, AbortController 등)
 ---
 
 ## keywords

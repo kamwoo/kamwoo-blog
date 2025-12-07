@@ -2,7 +2,7 @@
 title: New
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript new 연산자와 생성자 함수의 동작 과정과 익명 생성자 함수를 사용한 캡슐화
 date: 2022-05-03
 ---
 

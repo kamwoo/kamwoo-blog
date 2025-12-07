@@ -2,7 +2,7 @@
 title: ts compiler
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 컴파일러의 역할과 Babel과의 차이점에 대한 설명
 date: 2022-08-02
 ---
 

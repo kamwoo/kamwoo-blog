@@ -3,7 +3,7 @@ title: Closure (advanced react)
 date: 2024-01-02
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React에서 클로저와 stale closure 문제, useCallback과 React.memo에서의 클로저 활용과 ref를 통한 해결
 ---
 
 ## Key Point

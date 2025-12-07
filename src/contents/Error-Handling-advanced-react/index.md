@@ -3,7 +3,7 @@ title: Error Handling (advanced react)
 date: 2024-02-06
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React에서 try-catch의 한계와 ErrorBoundary를 사용한 에러 처리 및 비동기 에러 처리 방법
 ---
 
 ### try/catch를 사용해서 에러 핸들링을 할 때 주의할 점

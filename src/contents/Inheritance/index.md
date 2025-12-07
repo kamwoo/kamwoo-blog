@@ -2,7 +2,7 @@
 title: Inheritance
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 프로토타입 기반 상속의 종류인 위임형, 연결형, 함수형 상속과 각각의 특징
 date: 2022-06-02
 ---
 

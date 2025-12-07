@@ -3,7 +3,7 @@ title: Module
 date: 2022-09-12
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 모듈의 개념과 CommonJS, AMD, ESM(ES6 Module)의 특징과 동작 방식
 ---
 
 <div align="center">

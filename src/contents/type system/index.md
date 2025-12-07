@@ -2,7 +2,7 @@
 title: type system
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React 컴포넌트 타이핑, 컴파일과 런타임 차이, 이벤트 타입, 구조적 서브 타이핑에 대한 TypeScript 가이드
 date: 2022-08-05
 ---
 ## keyword

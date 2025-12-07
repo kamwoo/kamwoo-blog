@@ -2,7 +2,7 @@
 title: event delegate
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 이벤트 위임 패턴을 사용한 상위 노드에서 하위 노드 이벤트 제어와 이벤트 버블링과 캡처링
 date: 2022-06-05
 ---
 

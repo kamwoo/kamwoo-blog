@@ -3,7 +3,7 @@ title: Routing
 date: 2022-09-19
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 클라이언트 사이드 라우팅의 개념과 react-router-dom을 사용한 다양한 라우팅 관리 방식
 ---
 
 <div align="center">

@@ -2,7 +2,7 @@
 title: MFA-SPA
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: MPA와 SPA의 차이점, SSR과 CSR의 특징과 각각의 선택 기준
 date: 2022-06-11
 ---
 

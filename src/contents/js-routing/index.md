@@ -2,7 +2,7 @@
 title: js-routing
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 라우팅 방식 비교로 Link Tag, Ajax, Hash, Pjax 방식의 특징과 trade-off
 date: 2022-05-18
 ---
 

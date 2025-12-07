@@ -2,7 +2,7 @@
 title: object type
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript에서 배열을 객체로 변환하고 mapped type과 Record utility type을 활용하는 방법
 date: 2022-07-29
 ---
 

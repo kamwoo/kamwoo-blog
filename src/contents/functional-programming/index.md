@@ -2,7 +2,7 @@
 title: Functional Programming
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 함수형 프로그래밍의 개념과 순수 함수, 일급 함수를 통한 조합성과 모듈화에 대한 가이드
 date: 2022-05-28
 ---
 

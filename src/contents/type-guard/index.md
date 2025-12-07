@@ -2,7 +2,7 @@
 title: Type guard
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 타입 가드를 사용한 타입 좁히기(narrowing)와 typeof, instanceof, in 연산자 활용법
 date: 2022-07-15
 ---
 

@@ -2,7 +2,7 @@
 title: MIME Type
 published: true
 category: network
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: MIME Type의 개념과 Content-Type을 통한 파일 형식 식별 방법
 date: 2022-06-08
 ---
 

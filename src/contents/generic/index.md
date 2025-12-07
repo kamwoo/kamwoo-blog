@@ -2,7 +2,7 @@
 title: typescript generic
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 제네릭의 개념과 클래스, 함수, 팩토리 함수에서의 활용 방법
 date: 2022-07-11
 ---
 

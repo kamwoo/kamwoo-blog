@@ -2,7 +2,7 @@
 title: types
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript의 기본 타입들(primitive, array, tuple, enum, function, object, never 등)과 타입 어설션
 date: 2022-06-07
 ---
 

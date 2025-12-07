@@ -3,7 +3,7 @@ title: reconcilation (advanced react)
 date: 2024-01-08
 published: true
 category: react
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: React 재조정(Reconciliation) 과정에서 변경 감지 방식, DOM 엘리먼트 재사용, key의 역할에 대한 심화 내용
 ---
 
 ## Key Point

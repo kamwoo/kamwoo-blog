@@ -2,7 +2,7 @@
 title: typescript import
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 모듈 import 방법과 ambient 모듈 선언, namespace 사용 시 주의사항
 date: 2022-07-22
 ---
 

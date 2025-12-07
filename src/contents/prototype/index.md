@@ -2,7 +2,7 @@
 title: Prototype
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 프로토타입 기반 상속의 개념과 프로토타입 체이닝, 클래스 기반 상속과의 차이점
 date: 2022-05-13
 ---
 

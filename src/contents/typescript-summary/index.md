@@ -2,7 +2,7 @@
 title: ts summary
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript를 사용하는 이유, 타입 시스템, 타입 계층 구조, 제네릭, 가변성, 타입 넓히기에 대한 종합 정리
 date: 2022-09-22
 ---
 

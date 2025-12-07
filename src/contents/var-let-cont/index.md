@@ -2,7 +2,7 @@
 title: var let cont
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript의 var, let, const의 차이점과 스코프, 호이스팅, TDZ(Temporal Dead Zone)에 대한 설명
 date: 2022-04-12
 ---
 

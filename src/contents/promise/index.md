@@ -2,7 +2,7 @@
 title: promise-fetch
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript Promise와 async와 await를 사용한 비동기 처리 방법과 fetch API의 동작 원리
 date: 2022-05-22
 ---
 > 자바스크립트 비동기 처리에 사용되는 객체

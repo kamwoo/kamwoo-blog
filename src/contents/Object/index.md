@@ -3,7 +3,7 @@ title: 자바스크립트 객체
 date: 2022-05-12
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 객체의 개념과 생성 방법, 빌트인 객체, 호스트 객체, 래퍼 객체의 동작 원리
 ---
 
 ## 객체란

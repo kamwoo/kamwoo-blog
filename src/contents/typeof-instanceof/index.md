@@ -2,7 +2,7 @@
 title: typeof - instanceof
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: typeof와 instanceof 연산자의 동작 원리와 typeof null이 object를 반환하는 이유
 date: 2022-05-28
 ---
 

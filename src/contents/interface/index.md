@@ -2,7 +2,7 @@
 title: typescript interface
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript interface의 개념, 특징, implements, 옵셔널 프로퍼티, 인덱스 시그니처, 함수 타입에 대한 가이드
 date: 2022-07-08
 ---
 

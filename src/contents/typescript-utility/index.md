@@ -2,7 +2,7 @@
 title: typescript utility
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 유틸리티 타입들(Partial, Readonly, Record, Pick, Omit 등)의 사용법과 예제
 date: 2022-07-18
 ---
 

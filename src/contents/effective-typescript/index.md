@@ -2,7 +2,7 @@
 title: Effective typescript
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 컴파일러의 역할과 타입 선언, 타입 단언, 잉여 속성 체크, type과 interface의 차이점에 대한 가이드
 date: 2022-09-14
 ---
 
@@ -12,17 +12,11 @@ date: 2022-09-14
 2. 코드의 타입 오류를 체크한다.
 
 - 타입 오류가 있는 코드도 컴파일이 가능하다.
-    
-    컴파일은 타입체크와 독립적으로 동작한다.
-    
+  컴파일은 타입체크와 독립적으로 동작한다.
 - 런타임에는 타입 체크가 불가능하다.
-    
-    자바스크립트로 컴파일되는 과정에서 타입을 다 없어진다.
-    
+  자바스크립트로 컴파일되는 과정에서 타입을 다 없어진다.
 - 런타임 타입은 선언된 타입과 다를 수 있다.
-    
-    선언된 타입이 언제든지 달라질 수 있으므로 타입이 달라지는 혼란스러운 상황을 가능한 피해야 한다.
-    
+  선언된 타입이 언제든지 달라질 수 있으므로 타입이 달라지는 혼란스러운 상황을 가능한 피해야 한다.
 
 ### 타입 단언보다 타입 선언을 사용해야 한다.
 
@@ -42,15 +36,11 @@ const people = ['alice', 'bobo', 'jane'].map((name):Person => ({name}))
 타입 단언이 필요한 경우
 
 - 타입스크립트가 타입을 알 수 없을 때
-    
 - 타입스크립트보다 타입 정보를 더 잘 알 때
-    
 - DOM에 접근 하지 못하기 때문에
-    
-    ```tsx
-    const button = event.currentTarget as HTMLButtonElement;
-    ```
-    
+  ```tsx
+  const button = event.currentTarget as HTMLButtonElement;
+  ```
 
 서브 타입이 아니면 타입 단언을 사용할 수 없다.
 
@@ -69,24 +59,23 @@ const people = ['alice', 'bobo', 'jane'].map((name):Person => ({name}))
 
 ```tsx
 interface Room {
-	numDoors: number;
-	ceilingHeight: number;
+  numDoors: number;
+  ceilingHeight: number;
 }
 
 const r: Room = {
-	numDoors: 1,
-	ceilingHeight: 100,
-	elephant: 'pre' // 오류
-}
+  numDoors: 1,
+  ceilingHeight: 100,
+  elephant: 'pre', // 오류
+};
 
 const obj = {
-	numDoors: 1,
-	ceilingHeight: 100,
-	elephant: 'pre' 
-}
+  numDoors: 1,
+  ceilingHeight: 100,
+  elephant: 'pre',
+};
 
 const r: Room = obj; // 정상
-
 ```
 
 객체 리터럴을 변수에 할당하거나 함수에 매개변수로 전달할 때 잉여 속성 체크가 수행된다.
@@ -107,25 +96,22 @@ interface는 성언 병합을 할 수 있다.
 
 ```tsx
 interface State {
-	name: string,
-	capital: string,
+  name: string;
+  capital: string;
 }
 
 interface State {
-	age: number
+  age: number;
 }
 
 const a: State = {
-	name: 'kam',
-	capital: 'W',
-	age: 29
-}
+  name: 'kam',
+  capital: 'W',
+  age: 29,
+};
 ```
 
 - 복잡한 타입이라면 type을 사용한다.
-    
 - 간단한 객체로 일관성이나 보강 가능성이 있다면 interface를 사용한다.
-    
 - api에 대한 타입을 선언한다면 api가 변경될 때 사용자가 interface를 통해 새로운 필드를 병합할 수 있으므로 interface가 유용하다.
-    
-    하지만, 프로젝트 내부에서 사용되는 타입은 병합이 발생하면 안되기 때문에 type을 사용한다.
+  하지만, 프로젝트 내부에서 사용되는 타입은 병합이 발생하면 안되기 때문에 type을 사용한다.

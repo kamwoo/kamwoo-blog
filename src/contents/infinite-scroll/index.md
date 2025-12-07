@@ -2,7 +2,7 @@
 title: Infinite scroll
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: 무한 스크롤 구현 방법으로 scroll height 계산과 IntersectionObserver API 활용
 date: 2022-05-21
 ---
 

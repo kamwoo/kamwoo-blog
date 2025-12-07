@@ -2,7 +2,7 @@
 title: typescript class
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 클래스의 접근 제어자, 상속, getter와 setter, 정적 멤버, 추상 클래스, 싱글톤 패턴
 date: 2022-07-14
 ---
 

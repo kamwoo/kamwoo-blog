@@ -3,7 +3,7 @@ title: this
 date: 2022-04-18
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript의 this 바인딩 규칙과 기본 바인딩, 명시적 바인딩, 암시적 바인딩, new 바인딩, 화살표 함수에서의 this
 ---
 
 ## 정의

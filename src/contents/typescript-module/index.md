@@ -2,7 +2,7 @@
 title: typescript module
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 모듈 시스템과 import type, ambient 선언(.d.ts 파일)을 사용한 타입 정의
 date: 2022-06-29
 ---
 

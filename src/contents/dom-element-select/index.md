@@ -2,7 +2,7 @@
 title: DOM element select
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: DOM 요소 선택 방법으로 직접 선택(getElementBy, querySelector)과 관계적 선택(parentNode, children 등)
 date: 2022-06-06
 ---
 

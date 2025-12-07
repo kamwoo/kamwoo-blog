@@ -2,7 +2,7 @@
 title: namespace and module
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript namespace와 module의 차이점, namespace를 사용한 코드 구조화와 멀티 파일 관리
 date: 2022-07-03
 ---
 

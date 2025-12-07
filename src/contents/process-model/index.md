@@ -2,7 +2,7 @@
 title: process model
 published: true
 category: electron
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: Electron의 main 프로세스와 renderer 프로세스 구조, preload script와 utility process의 역할
 date: 2024-02-01
 ---
 ### main 과 renderer 프로세스

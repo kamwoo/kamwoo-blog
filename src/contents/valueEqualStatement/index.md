@@ -3,7 +3,7 @@ title: 값식문
 date: 2022-04-22
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript의 값, 식(표현식), 문(statement)의 개념과 표현식인 문과 표현식이 아닌 문의 차이
 ---
 
 ## 값

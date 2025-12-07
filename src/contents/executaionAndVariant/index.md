@@ -3,7 +3,7 @@ title: 실행 컨텍스트와 변수
 date: 2022-04-20
 published: true
 category: js
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: JavaScript 실행 컨텍스트의 생성 과정과 Variable Environment, Lexical Environment, 변수 선언의 차이
 ---
 
 ## Execution Context

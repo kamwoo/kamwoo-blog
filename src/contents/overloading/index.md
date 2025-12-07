@@ -2,7 +2,7 @@
 title: Overloading
 published: true
 category: typescript
-subtitle: A set of two-state buttons that can be toggled on or off
+subtitle: TypeScript 함수 오버로딩을 사용하여 다양한 매개변수 타입을 처리하는 방법
 date: 2022-07-22
 ---
 
