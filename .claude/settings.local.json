@@ -16,7 +16,8 @@
       "Bash(python3:*)",
       "Bash(xargs basename:*)",
       "Bash(head -20 /Users/wooyeongkam/kamwoo-blog/src/contents/*/index.md)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(yarn build:*)"
     ]
   }
 }

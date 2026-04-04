@@ -20,7 +20,7 @@ export default function EditPostPage({ params }: Props) {
   const { data, content } = matter(raw);
 
   const posts = getAllPostsAdmin();
-  const categories = [...new Set(posts.map((p) => p.data.category).filter(Boolean))].sort();
+  const categories = Array.from(new Set(posts.map((p) => p.data.category).filter(Boolean))).sort();
 
   return (
     <PostEditor
