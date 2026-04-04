@@ -22,7 +22,7 @@ date: 2022-06-02
 
 - 객체
     
-    var o = {a:1}
+    `var o = {a:1}`
     
     o객체는 Object.prototype을 가진다.
     
@@ -38,7 +38,7 @@ date: 2022-06-02
     
 - 함수
     
-    fuction f(){ return 2}
+    `fuction f(){ return 2}`
     
     Function.prototype을 상속받는다.
     
@@ -47,7 +47,7 @@ date: 2022-06-02
 
 상속받는 메소드
 
-1. var a = {a:1} // a → Object.prototype → null
+1. `var a = {a:1}` // a → Object.prototype → null
 2. var b = Object.create(a) // b → a → Object.prototype → null
 
 ### 하지만!!! prototype을 사용하지는 마라!

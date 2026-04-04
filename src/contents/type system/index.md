@@ -19,7 +19,7 @@ date: 2022-08-05
     }
     ```
     
-    React.FC는 제네릭을 통해서 함수의 Props의 타입을 정의하고 리턴값으로 React.ReactElement<any, any> | null을 반환하는 타입이다. 때문에 FC는 항상 반환타입이 정해져있다. 조건 렌더링을 할 경우에 undefined를 반환할 수 없다.
+    React.FC는 제네릭을 통해서 함수의 Props의 타입을 정의하고 리턴값으로 `React.ReactElement<any, any>` | null을 반환하는 타입이다. 때문에 FC는 항상 반환타입이 정해져있다. 조건 렌더링을 할 경우에 undefined를 반환할 수 없다.
     
     Props의 타입의 속성으로 children을 명시하고, 상황에 따라서 React.ReactNode와 React.ReactElement를 병행하여 사용한다.
     

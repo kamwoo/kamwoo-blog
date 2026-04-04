@@ -81,9 +81,9 @@ date: 2022-07-11
     
 7. C는 Model
     
-8. {new (U): T}는 Model을 나타낸다.
+8. `{new (U): T}`는 Model을 나타낸다.
     
-    {new (U): T}는 new (U) ⇒ T로도 쓸 수 있다.
+    `{new (U): T}`는 new (U) ⇒ T로도 쓸 수 있다.
     
     이말은 constructor에 U타입을 넣어서 T 즉 모델을 반환
     

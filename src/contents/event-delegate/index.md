@@ -59,6 +59,6 @@ table.onclick = function(event) {
 elem.addEventListener('click', callback, true)
 ```
 
-3번째 인자로 { capture: true }를 설정하면 캡처링이 된다.
+3번째 인자로 `{ capture: true }`를 설정하면 캡처링이 된다.
 
 상위 노드에서 이벤트를 부착하고 switch문으로 case 제어 개별 클래스로 만들 수 있다. (안해봄)

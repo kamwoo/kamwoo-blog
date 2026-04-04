@@ -22,8 +22,8 @@ WebRTC를 이용한 서비스는 크게 1:1, 1:N, N:N 3가지 방식으로 나�
 - 1:N 방식 → 스푼, 웨비나, 라이브 커머스, ..
     
 - N:N 방식 → 회의형 서비스 등
-    
-    <div align='center'>
+
+<div align='center'>
 <img src="/images/posts/web-rtc/webrtc1.png" />
 </div>
     

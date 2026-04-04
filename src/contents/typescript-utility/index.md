@@ -20,7 +20,7 @@ date: 2022-07-18
 3. `Record<K ,T>`
     T의 프로퍼티의 집합 K로 타입을 구성한다. 타입의 프로퍼티들을 다른 타입에 매핑시키는 데 사용한다.
     
-	```tsx
+```tsx
 	interface PageInfo {
 		title: string;
 	}
@@ -32,7 +32,7 @@ date: 2022-07-18
 		contact: { title: 'contact' },
 		home: { title: 'home' },
 	};
-	```
+```
 	K의 집합을 key로 구성하고, 각 key는 PageInfo로 type을 매핑한다.
     
 1. `Pick<T, K>`
@@ -171,7 +171,7 @@ date: 2022-07-18
     함수 타입에 this 매개변수를 제거한다.
     
 16. `ThisType<T>`
-	```tsx
+```tsx
 type ObjectDescriptor<D, M> = {
     data?: D;
     methods?: M & ThisType<D & M>;  // 메서드 안의 'this 타입은 D & M 입니다.

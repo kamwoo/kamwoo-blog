@@ -30,7 +30,7 @@ import type { APIResponseType } from "./api";
 import { getResponse, type APIResponseType} from "./api";
 ```
 
-import type처럼 사용해서 type을 가져오는 것이라고 명시할 수 있다.
+`import type`처럼 사용해서 type을 가져오는 것이라고 명시할 수 있다.
 
 ## d.ts
 

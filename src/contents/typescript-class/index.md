@@ -122,7 +122,7 @@ date: 2022-07-14
     
     readonly를 표기하면 읽기 전용 속성이 되어 다른 값으로 변경할 수 없다.
     
-    ```tsx
+```tsx
 class OnlyOne {
 
   private static instance:OnlyOne;

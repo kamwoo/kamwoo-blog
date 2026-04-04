@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(npm info:*)",
+      "Bash(npm install:*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(node:*)",
+      "Bash(grep -i \"^this\\\\|this$\")",
+      "Bash(npm ls:*)",
+      "Bash(grep -v \"^\\\\s*[0-9]*:\\\\s*\\\\`\\\\`\\\\`\\\\|^\\\\s*[0-9]*:\\\\s*[a-zA-Z]\")",
+      "Bash(python3 -c ':*)",
+      "Bash(grep -v \"^\\\\s*[0-9]*:.*\\\\`\\\\`\\\\`\\\\|\\\\`.*{.*\\\\`\")",
+      "Bash(read title:*)",
+      "Bash(grep -v \"^--$\")",
+      "Bash(python3:*)"
     ]
   }
 }
