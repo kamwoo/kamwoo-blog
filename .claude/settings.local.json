@@ -13,7 +13,10 @@
       "Bash(grep -v \"^\\\\s*[0-9]*:.*\\\\`\\\\`\\\\`\\\\|\\\\`.*{.*\\\\`\")",
       "Bash(read title:*)",
       "Bash(grep -v \"^--$\")",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(xargs basename:*)",
+      "Bash(head -20 /Users/wooyeongkam/kamwoo-blog/src/contents/*/index.md)",
+      "Bash(npx tsc:*)"
     ]
   }
 }
