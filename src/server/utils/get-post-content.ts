@@ -1,22 +1,26 @@
-import { Post, PostData, postSchema } from '@/types/post';
-import { readPosts } from './find-post-list';
+import path from 'path';
+import fs from 'fs';
+import { cache } from 'react';
+import { postSchema } from '@/types/post';
+import { getPostData } from './get-post-data';
 import matter from 'gray-matter';
 
-export const getPostContent = (title: string) => {
-  const posts = readPosts();
-  const data = posts.reduce((prev: Post[], post) => {
-    const { data, content } = postSchema.parse(matter(post));
+export const getPostContent = cache((title: string) => {
+  const decodedTitle = decodeURI(title);
+  const { folderMap } = getPostData();
+  const folderName = folderMap[decodedTitle];
 
-    if (data.published !== false) {
-      prev.push({ data, content });
-    }
+  if (!folderName) {
+    return { data: undefined, content: undefined };
+  }
 
-    return prev;
-  }, []);
+  const filePath = path.resolve(
+    process.cwd(),
+    `./src/contents/${folderName}/index.md`
+  );
 
-  const targetData = data.find(({ data }) => {
-    return data.title === decodeURI(title);
-  });
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  const { data, content } = postSchema.parse(matter(raw));
 
-  return { data: targetData?.data, content: targetData?.content };
-};
+  return { data, content };
+});

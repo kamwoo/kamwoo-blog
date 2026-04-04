@@ -2,6 +2,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { getPost, getPrevNextPostMatter } from '../api/post/query';
 import { PostBody } from '@/components/post/post-body';
+import { getPostData } from '@/server/utils/get-post-data';
+
+export async function generateStaticParams() {
+  const { data } = getPostData();
+  return data.map(({ title }) => ({ id: title }));
+}
 
 const Post = async ({ params }: { params: { id: string } }) => {
   const response = await getPost(params.id);

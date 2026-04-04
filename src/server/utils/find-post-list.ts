@@ -14,9 +14,8 @@ export const readPosts = () => {
     .readdirSync(baseDirPath)
     .filter((folderName) => fs.lstatSync(`${baseDirPath}/${folderName}`).isDirectory());
 
-  const postDataList = postFolders.map((folderName) => {
-    return fs.readFileSync(`${baseDirPath}/${folderName}/index.md`, 'utf-8');
-  });
-
-  return postDataList;
+  return postFolders.map((folderName) => ({
+    folderName,
+    raw: fs.readFileSync(`${baseDirPath}/${folderName}/index.md`, 'utf-8'),
+  }));
 };

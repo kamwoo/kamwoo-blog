@@ -9,7 +9,7 @@ export function MDXImage({
   alt = '',
 }: React.DetailedHTMLProps<React.ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>) {
   let widthFromSrc, heightFromSrc;
-  const url = new URL(src);
+  const url = new URL(src, 'http://localhost');
   const widthParam = url.searchParams.get('w') || url.searchParams.get('width');
   const heightParam = url.searchParams.get('h') || url.searchParams.get('height');
   if (widthParam) {
