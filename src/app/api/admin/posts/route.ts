@@ -5,6 +5,7 @@ import { getAllPostsAdmin } from '@/server/utils/get-all-posts-admin';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import matter from 'gray-matter';
+import { upsertFile } from '@/lib/github-api';
 import fs from 'fs';
 import path from 'path';
 
@@ -50,46 +51,45 @@ export async function POST(request: NextRequest) {
   }
 
   const { slug, frontmatter, content, tmpId } = parsed.data;
-  const cwd = process.cwd();
-  const contentsDir = path.resolve(cwd, 'src/contents', slug);
 
-  if (fs.existsSync(contentsDir)) {
-    return NextResponse.json({ error: '이미 존재하는 슬러그입니다' }, { status: 409 });
-  }
-
-  fs.mkdirSync(contentsDir, { recursive: true });
-
-  // 임시 업로드 파일을 실제 위치로 이동하고 content URL 교체
   let finalContent = content;
+
+  // 임시 업로드 파일을 GitHub에 커밋하고 content URL 교체
   if (tmpId && UUID_RE.test(tmpId)) {
-    const tmpBase = path.resolve(cwd, 'public/_tmp', tmpId);
     for (const type of ['images', 'videos'] as const) {
-      const tmpDir = path.join(tmpBase, type);
+      const tmpDir = path.join('/tmp', tmpId, type);
       if (!fs.existsSync(tmpDir)) continue;
 
-      const destPublic = path.resolve(cwd, 'public', type, 'posts', slug);
-      const destSrc = path.resolve(cwd, 'src/contents', slug, type);
-      fs.mkdirSync(destPublic, { recursive: true });
-      fs.mkdirSync(destSrc, { recursive: true });
-
-      for (const file of fs.readdirSync(tmpDir)) {
-        const src = path.join(tmpDir, file);
-        const dst = path.join(destPublic, file);
-        fs.renameSync(src, dst);
-        fs.copyFileSync(dst, path.join(destSrc, file));
-      }
+      const files = fs.readdirSync(tmpDir);
+      await Promise.all(
+        files.map(async (file) => {
+          const fileBuf = fs.readFileSync(path.join(tmpDir, file));
+          await upsertFile(
+            `src/contents/${slug}/${type}/${file}`,
+            fileBuf,
+            `chore: add ${type} for post ${slug}`,
+          );
+        }),
+      );
 
       finalContent = finalContent.replaceAll(
-        `/_tmp/${tmpId}/${type}/`,
-        `/${type}/posts/${slug}/`
+        `/api/admin/tmp/${tmpId}/${type}/`,
+        `/${type}/posts/${slug}/`,
       );
     }
     // 임시 디렉토리 정리
-    fs.rmSync(tmpBase, { recursive: true, force: true });
+    const tmpBase = path.join('/tmp', tmpId);
+    if (fs.existsSync(tmpBase)) {
+      fs.rmSync(tmpBase, { recursive: true, force: true });
+    }
   }
 
   const fileContent = matter.stringify(finalContent, frontmatter);
-  fs.writeFileSync(path.join(contentsDir, 'index.md'), fileContent, 'utf-8');
+  await upsertFile(
+    `src/contents/${slug}/index.md`,
+    fileContent,
+    `post: add ${slug}`,
+  );
 
   revalidatePath('/posts');
   revalidatePath('/posts/[id]', 'page');

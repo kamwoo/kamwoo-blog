@@ -4,6 +4,7 @@ import { sessionOptions, SessionData } from '@/lib/session';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import matter from 'gray-matter';
+import { upsertFile, deleteDir } from '@/lib/github-api';
 import fs from 'fs';
 import path from 'path';
 
@@ -67,7 +68,11 @@ export async function PUT(
 
   const { frontmatter, content } = parsed.data;
   const fileContent = matter.stringify(content, frontmatter);
-  fs.writeFileSync(filePath, fileContent, 'utf-8');
+  await upsertFile(
+    `src/contents/${params.slug}/index.md`,
+    fileContent,
+    `post: update ${params.slug}`,
+  );
 
   revalidatePath('/posts');
   revalidatePath('/posts/[id]', 'page');
@@ -88,13 +93,7 @@ export async function DELETE(
     return NextResponse.json({ error: 'Not found' }, { status: 404 });
   }
 
-  fs.rmSync(postDir, { recursive: true, force: true });
-
-  // public 이미지/동영상 정리
-  const publicImgDir = path.resolve(process.cwd(), 'public/images/posts', params.slug);
-  const publicVidDir = path.resolve(process.cwd(), 'public/videos/posts', params.slug);
-  if (fs.existsSync(publicImgDir)) fs.rmSync(publicImgDir, { recursive: true, force: true });
-  if (fs.existsSync(publicVidDir)) fs.rmSync(publicVidDir, { recursive: true, force: true });
+  await deleteDir(`src/contents/${params.slug}`, `post: delete ${params.slug}`);
 
   revalidatePath('/posts');
   revalidatePath('/posts/[id]', 'page');

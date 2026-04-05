@@ -13,12 +13,21 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const response = NextResponse.next();
-  const session = await getIronSession<SessionData>(request, response, sessionOptions);
-
-  if (!session.isAdmin) {
+  // 환경변수 누락 시 로그인 페이지로 (500 방지)
+  if (!process.env.SESSION_SECRET) {
     return NextResponse.redirect(new URL('/admin/login', request.url));
   }
 
-  return response;
+  try {
+    const response = NextResponse.next();
+    const session = await getIronSession<SessionData>(request, response, sessionOptions);
+
+    if (!session.isAdmin) {
+      return NextResponse.redirect(new URL('/admin/login', request.url));
+    }
+
+    return response;
+  } catch {
+    return NextResponse.redirect(new URL('/admin/login', request.url));
+  }
 }

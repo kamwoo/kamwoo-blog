@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getIronSession } from 'iron-session';
 import { sessionOptions, SessionData } from '@/lib/session';
+import { upsertFile } from '@/lib/github-api';
 import fs from 'fs';
 import path from 'path';
 
@@ -46,32 +47,30 @@ export async function POST(request: NextRequest) {
   }
 
   const type = isImage ? 'images' : 'videos';
-  const bytes = new Uint8Array(await file.arrayBuffer());
-  const cwd = process.cwd();
+  const arrayBuffer = await file.arrayBuffer();
+  const bytes = Buffer.from(arrayBuffer);
 
-  // create 모드: 임시 디렉토리에 저장
+  // create 모드: OS /tmp에 임시 저장하고 API 라우트로 서빙
   if (tmpId) {
     if (!UUID_RE.test(tmpId)) {
       return NextResponse.json({ error: '잘못된 tmpId입니다' }, { status: 400 });
     }
-    const dir = path.resolve(cwd, 'public/_tmp', tmpId, type);
+    const dir = path.join('/tmp', tmpId, type);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, originalName), bytes);
-    return NextResponse.json({ url: `/_tmp/${tmpId}/${type}/${originalName}` });
+    fs.writeFileSync(path.join(dir, originalName), new Uint8Array(arrayBuffer));
+    return NextResponse.json({ url: `/api/admin/tmp/${tmpId}/${type}/${originalName}` });
   }
 
-  // edit 모드: slug 기반 저장
+  // edit 모드: GitHub에 직접 커밋
   if (slug!.includes('/') || slug!.includes('..') || slug!.includes('\\')) {
     return NextResponse.json({ error: '잘못된 슬러그입니다' }, { status: 400 });
   }
 
-  const srcDir = path.resolve(cwd, 'src/contents', slug!, type);
-  fs.mkdirSync(srcDir, { recursive: true });
-  fs.writeFileSync(path.join(srcDir, originalName), bytes);
-
-  const publicDir = path.resolve(cwd, 'public', type, 'posts', slug!);
-  fs.mkdirSync(publicDir, { recursive: true });
-  fs.writeFileSync(path.join(publicDir, originalName), bytes);
+  await upsertFile(
+    `src/contents/${slug}/${type}/${originalName}`,
+    bytes,
+    `chore: add ${type} for post ${slug}`,
+  );
 
   return NextResponse.json({ url: `/${type}/posts/${slug}/${originalName}` });
 }
