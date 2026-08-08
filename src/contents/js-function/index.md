@@ -2,7 +2,7 @@
 title: Function
 published: true
 category: js
-subtitle: JavaScript 함수의 일급 객체 특성, 함수 선언문과 표현식, 화살표 함수, 즉시 실행 함수의 특징
+subtitle: JavaScript functions as first-class objects, declarations versus expressions, arrow functions and IIFE
 date: 2022-04-24
 ---
 

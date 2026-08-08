@@ -2,7 +2,7 @@
 title: Three.js GLTF
 published: true
 category: three.js
-subtitle: 전달 형식으로 설계된 glTF의 장점과 3D 파일 형식의 분류, Draco와 KTX2 압축
+subtitle: The advantages of glTF as a transmission format, the categories of 3D file formats and Draco and KTX2 compression
 date: 2026-08-05
 ---
 

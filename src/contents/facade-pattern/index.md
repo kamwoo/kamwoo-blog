@@ -2,7 +2,7 @@
 title: Facade Pattern
 published: true
 category: js
-subtitle: 퍼사드 패턴을 사용한 복잡한 서브시스템을 간단한 인터페이스로 제공하는 방법
+subtitle: Providing a simple interface over a complex subsystem with the facade pattern
 date: 2022-03-03
 ---
 

@@ -2,7 +2,7 @@
 title: type alias vs interface
 published: true
 category: typescript
-subtitle: Type alias와 interface의 차이점과 각각의 사용 시나리오에 대한 비교 분석
+subtitle: Differences between type alias and interface and when to use each
 date: 2022-08-06
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Websocke, HTTP Polling, SSE
+title: Websocket, HTTP Polling, SSE
 published: true
 category: network
-subtitle: Websocket concept
+subtitle: Comparing Websocket, HTTP polling and SSE
 date: 2023-04-13
 ---
 ---

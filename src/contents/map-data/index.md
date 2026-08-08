@@ -2,7 +2,7 @@
 title: Map Data
 published: true
 category: Map
-subtitle: Map에서 다루는 data
+subtitle: Data handled in Map
 date: 2023-12-01
 ---
 ## data

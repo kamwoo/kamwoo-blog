@@ -2,7 +2,7 @@
 title: typescript interface
 published: true
 category: typescript
-subtitle: TypeScript interface의 개념, 특징, implements, 옵셔널 프로퍼티, 인덱스 시그니처, 함수 타입에 대한 가이드
+subtitle: The concept of TypeScript interface with implements, optional properties, index signatures and function types
 date: 2022-07-08
 ---
 

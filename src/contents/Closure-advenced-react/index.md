@@ -3,7 +3,7 @@ title: Closure (advanced react)
 date: 2024-01-02
 published: true
 category: react
-subtitle: React에서 클로저와 stale closure 문제, useCallback과 React.memo에서의 클로저 활용과 ref를 통한 해결
+subtitle: Closures and the stale closure problem in React, using them with useCallback and React.memo, and solving it with ref
 ---
 
 ## Key Point

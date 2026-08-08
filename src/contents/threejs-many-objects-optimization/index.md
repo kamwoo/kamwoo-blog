@@ -1,8 +1,8 @@
 ---
-title: Three.js 다중 요소 렌더링 최적화
+title: Three.js Optimizing Many Objects
 published: true
 category: three.js
-subtitle: draw call 오버헤드가 생기는 이유와 geometry 병합, InstancedMesh를 사용한 개선
+subtitle: Why draw call overhead happens and improving it with geometry merging and InstancedMesh
 date: 2026-08-03
 ---
 

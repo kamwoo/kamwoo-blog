@@ -2,7 +2,7 @@
 title: typescript generic
 published: true
 category: typescript
-subtitle: TypeScript 제네릭의 개념과 클래스, 함수, 팩토리 함수에서의 활용 방법
+subtitle: The concept of TypeScript generics and how to use them with classes, functions and factory functions
 date: 2022-07-11
 ---
 

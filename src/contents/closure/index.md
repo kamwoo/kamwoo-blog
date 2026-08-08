@@ -2,7 +2,7 @@
 title: Closure
 published: true
 category: js
-subtitle: 값 캡처
+subtitle: Capturing values
 date: 2022-05-06
 ---
 

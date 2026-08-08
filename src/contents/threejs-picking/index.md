@@ -2,7 +2,7 @@
 title: Three.js picking
 published: true
 category: three.js
-subtitle: Raycaster를 사용한 광선 투사 피킹의 한계와 GPU에서 색상으로 피킹하는 방법
+subtitle: The limits of ray casting with Raycaster and picking by color on the GPU
 date: 2026-08-06
 ---
 

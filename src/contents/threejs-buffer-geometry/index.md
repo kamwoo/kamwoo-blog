@@ -2,7 +2,7 @@
 title: Three.js BufferGeometry
 published: true
 category: three.js
-subtitle: 정점 데이터를 평행 배열로 다루는 BufferGeometry의 구조와 인덱스를 사용한 정점 재사용
+subtitle: The structure of BufferGeometry as parallel arrays and reusing vertices with an index
 date: 2026-08-01
 ---
 

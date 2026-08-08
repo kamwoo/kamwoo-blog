@@ -1,8 +1,8 @@
 ---
-title: Three.js 후처리
+title: Three.js Post Processing
 published: true
 category: three.js
-subtitle: 렌더 타겟에 그린 결과에 효과를 입히는 후처리와 EffectComposer의 pass 구조
+subtitle: Applying effects to what was drawn into a render target and the pass structure of EffectComposer
 date: 2026-08-07
 ---
 

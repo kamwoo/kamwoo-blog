@@ -2,7 +2,7 @@
 title: ts summary
 published: true
 category: typescript
-subtitle: TypeScript를 사용하는 이유, 타입 시스템, 타입 계층 구조, 제네릭, 가변성, 타입 넓히기에 대한 종합 정리
+subtitle: Why to use TypeScript, the type system, the type hierarchy, generics, variance and type widening
 date: 2022-09-22
 ---
 

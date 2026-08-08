@@ -3,7 +3,7 @@ title: Portal (advanced react)
 date: 2024-01-18
 published: true
 category: react
-subtitle: React Portal을 사용한 쌓임 맥락(Stacking Context) 문제 해결과 모달 구현 방법
+subtitle: Solving stacking context problems and implementing modals with React Portal
 ---
 
 ## Keyword

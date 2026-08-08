@@ -2,7 +2,7 @@
 title: New
 published: true
 category: js
-subtitle: JavaScript new 연산자와 생성자 함수의 동작 과정과 익명 생성자 함수를 사용한 캡슐화
+subtitle: How the JavaScript new operator and constructor functions work and encapsulation with anonymous constructors
 date: 2022-05-03
 ---
 

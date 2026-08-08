@@ -2,7 +2,7 @@
 title: Three.js shadow
 published: true
 category: three.js
-subtitle: 그림자 맵의 동작 원리와 그림자를 만들 수 있는 조명, 그림자 품질과 카메라 공간의 관계
+subtitle: How shadow maps work, which lights can cast shadows and the relation between shadow quality and camera volume
 date: 2026-07-30
 ---
 

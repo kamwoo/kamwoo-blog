@@ -1,9 +1,9 @@
 ---
-title: reconcilation (advanced react)
+title: reconciliation (advanced react)
 date: 2024-01-08
 published: true
 category: react
-subtitle: React 재조정(Reconciliation) 과정에서 변경 감지 방식, DOM 엘리먼트 재사용, key의 역할에 대한 심화 내용
+subtitle: How React reconciliation detects changes, reuses DOM elements and the role of key
 ---
 
 ## Key Point

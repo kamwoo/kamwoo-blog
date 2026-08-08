@@ -2,7 +2,7 @@
 title: Declaration Merging
 published: true
 category: typescript
-subtitle: TypeScript 선언 병합(Declaration Merging)의 개념과 interface, namespace, 모듈 보강 방법
+subtitle: The concept of TypeScript declaration merging with interface, namespace and module augmentation
 date: 2022-06-19
 ---
 

@@ -3,7 +3,7 @@ title: Routing
 date: 2022-09-19
 published: true
 category: react
-subtitle: 클라이언트 사이드 라우팅의 개념과 react-router-dom을 사용한 다양한 라우팅 관리 방식
+subtitle: The concept of client-side routing and managing routes with react-router-dom
 ---
 
 <div align="center">

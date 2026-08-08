@@ -3,7 +3,7 @@ title: this
 date: 2022-04-18
 published: true
 category: js
-subtitle: JavaScript의 this 바인딩 규칙과 기본 바인딩, 명시적 바인딩, 암시적 바인딩, new 바인딩, 화살표 함수에서의 this
+subtitle: JavaScript this binding rules including default, explicit, implicit and new binding and this in arrow functions
 ---
 
 ## 정의

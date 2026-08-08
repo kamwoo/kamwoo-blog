@@ -2,7 +2,7 @@
 title: Overloading
 published: true
 category: typescript
-subtitle: TypeScript 함수 오버로딩을 사용하여 다양한 매개변수 타입을 처리하는 방법
+subtitle: Handling various parameter types with TypeScript function overloading
 date: 2022-07-22
 ---
 

@@ -2,7 +2,7 @@
 title: Three.js geometry
 published: true
 category: three.js
-subtitle: BufferGeometry의 attribute 구성과 segment, Three.js가 제공하는 프리셋 지오메트리 정리
+subtitle: BufferGeometry attributes and segments and a tour of the preset geometries Three.js provides
 date: 2026-07-25
 ---
 

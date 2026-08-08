@@ -1,8 +1,8 @@
 ---
-title: Three.js 메모리 해제하기
+title: Three.js Disposing Memory
 published: true
 category: three.js
-subtitle: GC가 회수하지 못하는 GPU 리소스와 dispose를 통한 geometry, texture, material 해제
+subtitle: GPU resources the GC cannot reclaim and releasing geometry, texture and material with dispose
 date: 2026-08-08
 ---
 

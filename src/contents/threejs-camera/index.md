@@ -2,7 +2,7 @@
 title: Three.js Camera
 published: true
 category: three.js
-subtitle: PerspectiveCamera의 frustum 설정과 z-fighting이 생기는 이유, OrthographicCamera의 사용 시점
+subtitle: Setting up the PerspectiveCamera frustum, why z-fighting happens and when to use OrthographicCamera
 date: 2026-07-29
 ---
 

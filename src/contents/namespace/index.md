@@ -2,7 +2,7 @@
 title: namespace and module
 published: true
 category: typescript
-subtitle: TypeScript namespace와 module의 차이점, namespace를 사용한 코드 구조화와 멀티 파일 관리
+subtitle: Differences between TypeScript namespace and module and structuring code across multiple files
 date: 2022-07-03
 ---
 

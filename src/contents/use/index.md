@@ -1,9 +1,9 @@
 ---
-title: useEffect와 useCallback과 useMemo와 React.memo
+title: useEffect, useCallback, useMemo and React.memo
 date: 2022-10-18
 published: true
 category: react
-subtitle: useEffect, useCallback, useMemo, React.memo의 사용법과 성능 최적화를 위한 활용 방법
+subtitle: How to use useEffect, useCallback, useMemo and React.memo for performance optimization
 ---
 
 # useEffect

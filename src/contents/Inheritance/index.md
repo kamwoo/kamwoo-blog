@@ -2,7 +2,7 @@
 title: Inheritance
 published: true
 category: js
-subtitle: JavaScript 프로토타입 기반 상속의 종류인 위임형, 연결형, 함수형 상속과 각각의 특징
+subtitle: Delegation, concatenative and functional inheritance in JavaScript prototype-based inheritance
 date: 2022-06-02
 ---
 

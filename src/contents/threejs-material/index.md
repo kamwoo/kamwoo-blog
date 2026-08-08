@@ -2,7 +2,7 @@
 title: Three.js material
 published: true
 category: three.js
-subtitle: 렌더링 가능 객체별 재질과 NodeMaterial 상속 구조, 조명 계산 방식에 따른 성능 차이
+subtitle: Materials per renderable object type, the NodeMaterial inheritance tree and performance by lighting calculation
 date: 2026-07-26
 ---
 

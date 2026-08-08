@@ -2,7 +2,7 @@
 title: Every Some
 published: true
 category: js
-subtitle: JavaScript 배열 메서드 every와 some의 동작 원리와 공허참 개념, 검증 로직에의 활용
+subtitle: How the array methods every and some work, vacuous truth, and using them for validation logic
 date: 2022-05-11
 ---
 

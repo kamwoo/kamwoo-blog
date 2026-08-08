@@ -2,7 +2,7 @@
 title: Execution Context
 published: true
 category: js
-subtitle: JavaScript 실행 컨텍스트의 생성 과정과 Variable Environment, Lexical Environment, This Binding에 대한 설명
+subtitle: How the JavaScript execution context is created including Variable Environment, Lexical Environment and This Binding
 date: 2022-04-06
 ---
 

@@ -3,7 +3,7 @@ title: memoization (advanced react)
 date: 2023-12-11
 published: true
 category: react
-subtitle: React에서 useMemo, useCallback, React.memo 사용 시 주의사항과 참조 안정성 유지 방법
+subtitle: Pitfalls of useMemo, useCallback and React.memo and how to keep references stable
 ---
 
 ## key Point

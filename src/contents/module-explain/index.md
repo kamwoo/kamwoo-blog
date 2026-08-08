@@ -3,7 +3,7 @@ title: Module
 date: 2022-09-12
 published: true
 category: js
-subtitle: JavaScript 모듈의 개념과 CommonJS, AMD, ESM(ES6 Module)의 특징과 동작 방식
+subtitle: The concept of JavaScript modules and how CommonJS, AMD and ESM work
 ---
 
 <div align="center">

@@ -1,8 +1,8 @@
 ---
-title: var let cont
+title: var let const
 published: true
 category: js
-subtitle: JavaScript의 var, let, const의 차이점과 스코프, 호이스팅, TDZ(Temporal Dead Zone)에 대한 설명
+subtitle: Differences between var, let and const in JavaScript with scope, hoisting and the Temporal Dead Zone
 date: 2022-04-12
 ---
 

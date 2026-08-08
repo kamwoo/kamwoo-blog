@@ -2,7 +2,7 @@
 title: Infinite scroll
 published: true
 category: js
-subtitle: 무한 스크롤 구현 방법으로 scroll height 계산과 IntersectionObserver API 활용
+subtitle: Implementing infinite scroll with scroll height calculation and the IntersectionObserver API
 date: 2022-05-21
 ---
 

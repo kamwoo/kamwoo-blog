@@ -2,7 +2,7 @@
 title: Shallow copy - Deep copy
 published: true
 category: js
-subtitle: JavaScript 얕은 복사와 깊은 복사, Object.assign, 전개 연산자, JSON.stringify를 사용한 복사 방법
+subtitle: Shallow and deep copying in JavaScript with Object.assign, the spread operator and JSON.stringify
 date: 2022-05-16
 ---
 

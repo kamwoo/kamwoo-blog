@@ -2,7 +2,7 @@
 title: triple-slash directives
 published: true
 category: typescript
-subtitle: TypeScript triple-slash directives를 사용한 파일 참조, 타입 참조, 라이브러리 참조 방법
+subtitle: Referencing files, types and libraries with TypeScript triple-slash directives
 date: 2022-08-01
 ---
 

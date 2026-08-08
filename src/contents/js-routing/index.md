@@ -2,7 +2,7 @@
 title: js-routing
 published: true
 category: js
-subtitle: JavaScript 라우팅 방식 비교로 Link Tag, Ajax, Hash, Pjax 방식의 특징과 trade-off
+subtitle: Comparing JavaScript routing approaches with Link Tag, Ajax, Hash and Pjax and their trade-offs
 date: 2022-05-18
 ---
 

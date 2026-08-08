@@ -2,7 +2,7 @@
 title: AJAX
 published: true
 category: js
-subtitle: Asynchronous Javascript And XML
+subtitle: Asynchronous JavaScript And XML
 date: 2022-06-17
 ---
 

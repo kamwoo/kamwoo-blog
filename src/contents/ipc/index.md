@@ -2,7 +2,7 @@
 title: IPC
 published: true
 category: electron
-subtitle: Electron IPC(Inter-process communication)를 사용한 main과 renderer 프로세스 간 통신 방법
+subtitle: Communicating between the main and renderer processes with Electron IPC
 date: 2024-02-03
 ---
 

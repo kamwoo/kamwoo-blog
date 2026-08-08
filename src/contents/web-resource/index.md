@@ -2,7 +2,7 @@
 title: Web Resource
 published: true
 category: network
-subtitle: 웹 리소스와 URI 구조, HTTP 요청과 응답 메시지의 구성 요소와 상태 코드
+subtitle: Web resources and URI structure and the components of HTTP request and response messages with status codes
 date: 2022-06-15
 ---
 

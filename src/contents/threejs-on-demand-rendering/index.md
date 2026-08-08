@@ -1,8 +1,8 @@
 ---
-title: Three.js 불필요한 렌더링 없애기
+title: Three.js On-Demand Rendering
 published: true
 category: three.js
-subtitle: requestAnimationFrame 상시 루프의 낭비와 변경이 있을 때만 그리는 on-demand 렌더링
+subtitle: The waste of an always-running requestAnimationFrame loop and rendering only when something changes
 date: 2026-08-02
 ---
 

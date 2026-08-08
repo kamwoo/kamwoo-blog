@@ -2,7 +2,7 @@
 title: object pool
 published: true
 category: js
-subtitle: 객체 풀 패턴을 사용한 메모리 관리와 GC 부담을 줄이는 정적 메모리 JavaScript 기법
+subtitle: Managing memory with the object pool pattern and reducing GC pressure with static memory techniques
 date: 2022-03-15
 ---
 

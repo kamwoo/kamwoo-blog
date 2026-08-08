@@ -2,7 +2,7 @@
 title: object type
 published: true
 category: typescript
-subtitle: TypeScript에서 배열을 객체로 변환하고 mapped type과 Record utility type을 활용하는 방법
+subtitle: Converting arrays into objects in TypeScript and using mapped types and the Record utility type
 date: 2022-07-29
 ---
 

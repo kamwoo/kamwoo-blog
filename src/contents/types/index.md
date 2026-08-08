@@ -2,7 +2,7 @@
 title: types
 published: true
 category: typescript
-subtitle: TypeScript의 기본 타입들(primitive, array, tuple, enum, function, object, never 등)과 타입 어설션
+subtitle: TypeScript basic types such as primitive, array, tuple, enum, function, object and never, plus type assertions
 date: 2022-06-07
 ---
 

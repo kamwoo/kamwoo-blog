@@ -1,9 +1,9 @@
 ---
-title: 실행 컨텍스트와 변수
+title: Execution Context and Variables
 date: 2022-04-20
 published: true
 category: js
-subtitle: JavaScript 실행 컨텍스트의 생성 과정과 Variable Environment, Lexical Environment, 변수 선언의 차이
+subtitle: How the JavaScript execution context is created and how Variable Environment, Lexical Environment and variable declarations differ
 ---
 
 ## Execution Context

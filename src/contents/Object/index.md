@@ -1,9 +1,9 @@
 ---
-title: 자바스크립트 객체
+title: JavaScript Object
 date: 2022-05-12
 published: true
 category: js
-subtitle: JavaScript 객체의 개념과 생성 방법, 빌트인 객체, 호스트 객체, 래퍼 객체의 동작 원리
+subtitle: The concept of JavaScript objects and how they are created, plus built-in, host and wrapper objects
 ---
 
 ## 객체란

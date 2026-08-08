@@ -1,9 +1,9 @@
 ---
-title: 값식문
+title: Value, Expression, Statement
 date: 2022-04-22
 published: true
 category: js
-subtitle: JavaScript의 값, 식(표현식), 문(statement)의 개념과 표현식인 문과 표현식이 아닌 문의 차이
+subtitle: The concepts of value, expression and statement in JavaScript and how expression statements differ from non-expression statements
 ---
 
 ## 값

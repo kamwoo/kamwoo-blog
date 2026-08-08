@@ -2,7 +2,7 @@
 title: js global object
 published: true
 category: js
-subtitle: JavaScript 전역 객체(window, global)의 특징과 암묵적 전역 변수 생성 메커니즘
+subtitle: Characteristics of the JavaScript global object such as window and global, and how implicit globals are created
 date: 2022-06-03
 ---
 

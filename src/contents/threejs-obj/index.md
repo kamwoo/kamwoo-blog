@@ -2,7 +2,7 @@
 title: Three.js OBJ
 published: true
 category: three.js
-subtitle: OBJLoader와 MTLLoader로 OBJ 모델을 불러오는 방법과 크기, 방향축, 텍스처 용량 문제
+subtitle: Loading OBJ models with OBJLoader and MTLLoader and dealing with scale, axis orientation and texture size
 date: 2026-08-04
 ---
 

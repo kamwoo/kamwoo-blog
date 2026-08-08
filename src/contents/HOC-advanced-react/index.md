@@ -3,7 +3,7 @@ title: HOC (advanced react)
 date: 2023-12-26
 published: true
 category: react
-subtitle: React HOC(High Order Component) 패턴을 사용한 컴포넌트 로직 재사용과 forwardRef 활용
+subtitle: Reusing component logic with the React HOC pattern and forwarding refs with forwardRef
 ---
 
 ## HOC란

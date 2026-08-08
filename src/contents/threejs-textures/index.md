@@ -2,7 +2,7 @@
 title: Three.js Textures
 published: true
 category: three.js
-subtitle: 텍스처 로딩과 GPU 메모리, 밉맵 필터링(magFilter, minFilter)과 반복 설정
+subtitle: Texture loading and GPU memory, mipmap filtering with magFilter and minFilter, and wrapping settings
 date: 2026-07-27
 ---
 

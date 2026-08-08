@@ -2,7 +2,7 @@
 title: process model
 published: true
 category: electron
-subtitle: Electron의 main 프로세스와 renderer 프로세스 구조, preload script와 utility process의 역할
+subtitle: The main and renderer process structure of Electron and the role of preload scripts and utility processes
 date: 2024-02-01
 ---
 ### main 과 renderer 프로세스

@@ -2,7 +2,7 @@
 title: typescript utility
 published: true
 category: typescript
-subtitle: TypeScript 유틸리티 타입들(Partial, Readonly, Record, Pick, Omit 등)의 사용법과 예제
+subtitle: How to use the TypeScript utility types Partial, Readonly, Record, Pick and Omit with examples
 date: 2022-07-18
 ---
 

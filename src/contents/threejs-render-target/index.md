@@ -1,8 +1,8 @@
 ---
-title: Three.js 렌더 타겟
+title: Three.js Render Target
 published: true
 category: three.js
-subtitle: 화면 대신 텍스처에 렌더링하는 렌더 타겟의 개념과 그림자, 피킹, 후처리에서의 활용
+subtitle: Rendering into a texture instead of the screen and using it for shadows, picking and post processing
 date: 2026-07-31
 ---
 

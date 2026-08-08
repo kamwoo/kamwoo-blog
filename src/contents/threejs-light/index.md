@@ -2,7 +2,7 @@
 title: Three.js Light
 published: true
 category: three.js
-subtitle: AmbientLight부터 RectAreaLight까지 조명의 종류와 특징, 조명 개수가 성능에 미치는 영향
+subtitle: Light types from AmbientLight to RectAreaLight and how the number of lights affects performance
 date: 2026-07-28
 ---
 

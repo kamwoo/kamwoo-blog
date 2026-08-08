@@ -2,7 +2,7 @@
 title: Hollywood principle
 published: true
 category: js
-subtitle: 헐리웃 원칙을 통한 고수준-저수준 구성요소 간 단방향 의존성 관리와 이벤트 처리
+subtitle: Managing one-way dependencies between high-level and low-level components through the Hollywood principle
 date: 2022-02-22
 ---
 
