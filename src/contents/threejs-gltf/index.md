@@ -1,5 +1,5 @@
 ---
-title: Three.js GLTF
+title: GLTF
 published: true
 category: three.js
 subtitle: The advantages of glTF as a transmission format, the categories of 3D file formats and Draco and KTX2 compression

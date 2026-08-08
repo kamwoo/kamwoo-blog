@@ -1,5 +1,5 @@
 ---
-title: Three.js Camera
+title: Camera
 published: true
 category: three.js
 subtitle: Setting up the PerspectiveCamera frustum, why z-fighting happens and when to use OrthographicCamera

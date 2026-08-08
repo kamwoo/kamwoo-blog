@@ -1,5 +1,5 @@
 ---
-title: Three.js getting started
+title: getting started
 published: true
 category: three.js
 subtitle: A WebGPURenderer based App class boilerplate with setAnimationLoop, Timer and OrbitControls

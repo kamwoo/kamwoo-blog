@@ -1,5 +1,5 @@
 ---
-title: Three.js material
+title: material
 published: true
 category: three.js
 subtitle: Materials per renderable object type, the NodeMaterial inheritance tree and performance by lighting calculation

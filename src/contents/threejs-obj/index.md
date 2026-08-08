@@ -1,5 +1,5 @@
 ---
-title: Three.js OBJ
+title: OBJ
 published: true
 category: three.js
 subtitle: Loading OBJ models with OBJLoader and MTLLoader and dealing with scale, axis orientation and texture size

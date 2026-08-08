@@ -1,5 +1,5 @@
 ---
-title: Three.js picking
+title: picking
 published: true
 category: three.js
 subtitle: The limits of ray casting with Raycaster and picking by color on the GPU

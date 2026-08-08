@@ -1,5 +1,5 @@
 ---
-title: Three.js, WebGL and WebGPU
+title: WebGL and WebGPU
 published: true
 category: three.js
 subtitle: The difference between the WebGL and WebGPU that Three.js runs on and comparing the state machine and pipeline approaches
@@ -347,5 +347,5 @@ pipeline과 셰이더 컴파일, 버퍼 생성 같은 무거운 초기화는 최
 Three.js를 쓸 때 직접 이 API를 만질 일은 거의 없다. 그래도 알아두면 판단이 되는 지점이 있다.
 
 - draw call 수가 성능을 좌우한다는 말의 근거가 여기에 있다. 물체 하나가 늘어날 때마다 pipeline 설정과 제출이 한 번씩 늘어난다.
-- 그래서 [Three.js Optimizing Many Objects](/posts/Three.js%20Optimizing%20Many%20Objects)에서 geometry를 합치거나 인스턴싱을 쓰는 것이 효과가 있다.
+- 그래서 [Optimizing Many Objects](/posts/Optimizing%20Many%20Objects)에서 geometry를 합치거나 인스턴싱을 쓰는 것이 효과가 있다.
 - WebGPU를 쓸 수 있는 환경이라면 `WebGPURenderer`로 바꾸는 것만으로도 CPU 병목이 줄어들 여지가 있다.

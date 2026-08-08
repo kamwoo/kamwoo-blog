@@ -1,5 +1,5 @@
 ---
-title: Three.js Light
+title: Light
 published: true
 category: three.js
 subtitle: Light types from AmbientLight to RectAreaLight and how the number of lights affects performance

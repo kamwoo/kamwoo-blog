@@ -1,5 +1,5 @@
 ---
-title: Three.js On-Demand Rendering
+title: On-Demand Rendering
 published: true
 category: three.js
 subtitle: The waste of an always-running requestAnimationFrame loop and rendering only when something changes

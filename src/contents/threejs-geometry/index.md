@@ -1,5 +1,5 @@
 ---
-title: Three.js geometry
+title: geometry
 published: true
 category: three.js
 subtitle: BufferGeometry attributes and segments and a tour of the preset geometries Three.js provides

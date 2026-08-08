@@ -1,5 +1,5 @@
 ---
-title: Three.js Post Processing
+title: Post Processing
 published: true
 category: three.js
 subtitle: Applying effects to what was drawn into a render target and the pass structure of EffectComposer

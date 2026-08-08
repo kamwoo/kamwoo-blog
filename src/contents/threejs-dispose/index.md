@@ -1,5 +1,5 @@
 ---
-title: Three.js Disposing Memory
+title: Disposing Memory
 published: true
 category: three.js
 subtitle: GPU resources the GC cannot reclaim and releasing geometry, texture and material with dispose

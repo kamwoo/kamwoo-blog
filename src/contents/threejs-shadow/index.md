@@ -1,5 +1,5 @@
 ---
-title: Three.js shadow
+title: shadow
 published: true
 category: three.js
 subtitle: How shadow maps work, which lights can cast shadows and the relation between shadow quality and camera volume

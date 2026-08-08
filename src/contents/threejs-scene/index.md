@@ -1,5 +1,5 @@
 ---
-title: Three.js Scene
+title: Scene
 published: true
 category: three.js
 subtitle: The scene graph and Object3D hierarchy, local versus world coordinates and when matrices are updated

@@ -1,5 +1,5 @@
 ---
-title: Three.js BufferGeometry
+title: BufferGeometry
 published: true
 category: three.js
 subtitle: The structure of BufferGeometry as parallel arrays and reusing vertices with an index

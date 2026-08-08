@@ -1,5 +1,5 @@
 ---
-title: Three.js Render Target
+title: Render Target
 published: true
 category: three.js
 subtitle: Rendering into a texture instead of the screen and using it for shadows, picking and post processing
