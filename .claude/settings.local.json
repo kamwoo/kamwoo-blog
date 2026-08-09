@@ -17,7 +17,10 @@
       "Bash(xargs basename:*)",
       "Bash(head -20 /Users/wooyeongkam/kamwoo-blog/src/contents/*/index.md)",
       "Bash(npx tsc:*)",
-      "Bash(yarn build:*)"
+      "Bash(yarn build:*)",
+      "mcp__claude_ai_Notion__notion-search",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "Bash(sort -t: -k2)"
     ]
   }
 }
