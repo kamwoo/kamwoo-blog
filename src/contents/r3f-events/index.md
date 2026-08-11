@@ -2,7 +2,7 @@
 title: Events and Interaction
 published: true
 category: react-three-fiber
-subtitle: raycast 위에 얹힌 pointer event와 전파, 그리고 비용
+subtitle: raycast 위에 얹힌 pointer event와 전파, 비용
 date: 2026-08-10
 ---
 
@@ -32,9 +32,9 @@ DOM에서 오던 감각과 제일 크게 어긋나는 부분이 2번이다. DOM�
   onPointerMove={(e) => {}}
   onPointerOver={(e) => {}}
   onPointerOut={(e) => {}}
-  onPointerEnter={(e) => {}}   // 그룹 경계에 들어갈 때
-  onPointerLeave={(e) => {}}   // 그룹 경계에서 나올 때
-  onPointerMissed={(e) => {}}  // ray에 아무것도 안 맞았을 때
+  onPointerEnter={(e) => {}} // 그룹 경계에 들어갈 때
+  onPointerLeave={(e) => {}} // 그룹 경계에서 나올 때
+  onPointerMissed={(e) => {}} // ray에 아무것도 안 맞았을 때
   onWheel={(e) => {}}
 />
 ```
@@ -47,20 +47,20 @@ DOM에서 오던 감각과 제일 크게 어긋나는 부분이 2번이다. DOM�
 
 ---
 
-| 필드 | 의미 |
-| --- | --- |
-| `object` | 광선에 맞은 객체 |
-| `eventObject` | 핸들러가 붙어 있는 객체 (전파 중 구분용) |
-| `point` | 교차 지점의 **월드 좌표** (Vector3) |
-| `distance` | 카메라로부터의 거리 |
-| `face` / `faceIndex` | 맞은 삼각형 면과 법선 |
-| `uv` | 교차 지점의 UV 좌표 |
-| `instanceId` | InstancedMesh에서 몇 번째 인스턴스인지 |
-| `intersections` | **관통한 모든 교차의 배열** (거리순) |
-| `ray` | 발사된 Ray |
-| `unprojectedPoint` | 포인터를 언프로젝트한 지점 |
-| `delta` | pointerdown부터 이동한 픽셀 거리 |
-| `stopPropagation()` | 전파 중단 |
+| 필드                 | 의미                                     |
+| -------------------- | ---------------------------------------- |
+| `object`             | 광선에 맞은 객체                         |
+| `eventObject`        | 핸들러가 붙어 있는 객체 (전파 중 구분용) |
+| `point`              | 교차 지점의 **월드 좌표** (Vector3)      |
+| `distance`           | 카메라로부터의 거리                      |
+| `face` / `faceIndex` | 맞은 삼각형 면과 법선                    |
+| `uv`                 | 교차 지점의 UV 좌표                      |
+| `instanceId`         | InstancedMesh에서 몇 번째 인스턴스인지   |
+| `intersections`      | **관통한 모든 교차의 배열** (거리순)     |
+| `ray`                | 발사된 Ray                               |
+| `unprojectedPoint`   | 포인터를 언프로젝트한 지점               |
+| `delta`              | pointerdown부터 이동한 픽셀 거리         |
+| `stopPropagation()`  | 전파 중단                                |
 
 `object`와 `eventObject`의 구분이 유용하다. `<group>`에 핸들러 하나를 붙여두면 `eventObject`는 항상 그 그룹이고, `object`는 실제로 맞은 자식이다. 자식 수백 개에 핸들러를 각각 붙이는 대신 이 조합을 쓰면 검사 비용이 크게 줄어든다.
 

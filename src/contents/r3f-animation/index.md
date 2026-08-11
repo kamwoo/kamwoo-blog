@@ -2,7 +2,7 @@
 title: Animation
 published: true
 category: react-three-fiber
-subtitle: useFrame, spring, useAnimations로 나누는 네 층
+subtitle: useFrame, spring, useAnimations
 date: 2026-08-10
 ---
 
@@ -12,11 +12,11 @@ date: 2026-08-10
 
 R3F에서 움직임을 만드는 방법은 크게 넷으로 나뉜다. 무엇을 쓸지 헷갈릴 때는 **무엇이 진행률을 정하는가**를 기준으로 고르면 된다.
 
-| 층위 | 방법 | 성격 |
-| --- | --- | --- |
-| ① 수동 | `useFrame` + 수학 | 완전 통제, 절차적 움직임 |
-| ② 선언형 | react-spring / motion | 상태 전환에 반응하는 UI 애니메이션 |
-| ③ 클립 재생 | `useAnimations` | 디자이너가 만든 애니메이션 재생 |
+| 층위        | 방법                        | 성격                                |
+| ----------- | --------------------------- | ----------------------------------- |
+| ① 수동      | `useFrame` + 수학           | 완전 통제, 절차적 움직임            |
+| ② 선언형    | react-spring / motion       | 상태 전환에 반응하는 UI 애니메이션  |
+| ③ 클립 재생 | `useAnimations`             | 디자이너가 만든 애니메이션 재생     |
 | ④ 외부 구동 | ScrollControls, 데이터 연동 | 시간이 아닌 다른 것이 진행률을 정함 |
 
 ## useFrame으로 직접 만들기
@@ -126,10 +126,7 @@ function ClickableBox() {
   });
 
   return (
-    <animated.mesh
-      scale={scale}
-      position-y={positionY}
-      onClick={() => setActive(!active)}>
+    <animated.mesh scale={scale} position-y={positionY} onClick={() => setActive(!active)}>
       <boxGeometry />
       <animated.meshStandardMaterial color={color} />
     </animated.mesh>
@@ -165,10 +162,16 @@ function Robot() {
 
   useEffect(() => {
     actions[names[0]]?.reset().fadeIn(0.3).play();
-    return () => { actions[names[0]]?.fadeOut(0.3); };
+    return () => {
+      actions[names[0]]?.fadeOut(0.3);
+    };
   }, [actions, names]);
 
-  return <group ref={group}><primitive object={scene} /></group>;
+  return (
+    <group ref={group}>
+      <primitive object={scene} />
+    </group>
+  );
 }
 ```
 
@@ -183,11 +186,11 @@ action.play();
 action.stop();
 action.reset();
 
-action.setLoop(THREE.LoopRepeat, Infinity);   // LoopOnce, LoopPingPong
-action.clampWhenFinished = true;              // LoopOnce에서 마지막 프레임 유지
-action.timeScale = 1.5;                       // 재생 속도
-action.time = 0.5;                            // 특정 시점으로 스크럽
-action.weight = 0.5;                          // 블렌딩 가중치
+action.setLoop(THREE.LoopRepeat, Infinity); // LoopOnce, LoopPingPong
+action.clampWhenFinished = true; // LoopOnce에서 마지막 프레임 유지
+action.timeScale = 1.5; // 재생 속도
+action.time = 0.5; // 특정 시점으로 스크럽
+action.weight = 0.5; // 블렌딩 가중치
 action.setEffectiveTimeScale(2);
 ```
 
@@ -210,7 +213,7 @@ useEffect(() => {
 
   to.reset().play();
   if (from && from !== to) {
-    from.crossFadeTo(to, 0.4, true);   // 0.4초에 걸쳐 교차 페이드
+    from.crossFadeTo(to, 0.4, true); // 0.4초에 걸쳐 교차 페이드
   }
   prev.current = state;
 }, [state, actions]);
@@ -252,7 +255,7 @@ function TestMesh({ id }: { id: string }) {
       target.current.x = data.x;
       target.current.z = data.z;
       target.current.heading = data.heading;
-    });   // 리렌더 없음
+    }); // 리렌더 없음
   }, [id]);
 
   useFrame((_, delta) => {

@@ -2,7 +2,7 @@
 title: Performance Optimization
 published: true
 category: react-three-fiber
-subtitle: r3f-perf로 측정하고 병목 단계를 좁혀 해법 고르기
+subtitle: 성능 측정 및 분석, 대응 방식
 date: 2026-08-12
 ---
 
