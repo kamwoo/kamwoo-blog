@@ -2,7 +2,7 @@
 title: IPC
 published: true
 category: electron
-subtitle: Communicating between the main and renderer processes with Electron IPC
+subtitle: Electron IPC로 main과 renderer process 사이 통신하기
 date: 2024-02-03
 ---
 

@@ -2,7 +2,7 @@
 title: 3C4P
 published: true
 category: etc
-subtitle: A pattern for turning ideas into logic and structure while building strategy
+subtitle: 아이디어를 로직과 구조로 옮기는 전략 수립 패턴
 date: 2023-11-24
 ---
 

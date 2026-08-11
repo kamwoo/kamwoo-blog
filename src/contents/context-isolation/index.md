@@ -2,7 +2,7 @@
 title: context isolation
 published: true
 category: electron
-subtitle: Hardening Electron with context isolation and exposing safe APIs through contextBridge
+subtitle: contextBridge로 Electron 보안 강화하기
 date: 2024-02-02
 ---
 

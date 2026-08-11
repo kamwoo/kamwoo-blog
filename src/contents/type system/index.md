@@ -2,7 +2,7 @@
 title: type system
 published: true
 category: typescript
-subtitle: Typing React components, compile time versus runtime, event types and structural subtyping in TypeScript
+subtitle: 컴파일 타임과 런타임, event 타입, 구조적 서브타이핑
 date: 2022-08-05
 ---
 ## keyword

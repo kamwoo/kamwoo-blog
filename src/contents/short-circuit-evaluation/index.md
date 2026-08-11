@@ -2,7 +2,7 @@
 title: Short circuit evaluation
 published: true
 category: js
-subtitle: JavaScript short circuit evaluation and setting defaults and guarding with the ||, &&, ?. and ?? operators
+subtitle: 단축 평가와 논리 연산자, ?., ??로 기본값 주고 방어하기
 date: 2022-06-01
 ---
 

@@ -2,7 +2,7 @@
 title: typescript utility
 published: true
 category: typescript
-subtitle: How to use the TypeScript utility types Partial, Readonly, Record, Pick and Omit with examples
+subtitle: Partial, Readonly, Record, Pick, Omit 사용법
 date: 2022-07-18
 ---
 

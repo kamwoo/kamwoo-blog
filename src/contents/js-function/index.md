@@ -2,7 +2,7 @@
 title: Function
 published: true
 category: js
-subtitle: JavaScript functions as first-class objects, declarations versus expressions, arrow functions and IIFE
+subtitle: 일급 객체로서의 함수와 선언문, 표현식, 화살표 함수, IIFE
 date: 2022-04-24
 ---
 

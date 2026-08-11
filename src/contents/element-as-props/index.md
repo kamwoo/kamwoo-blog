@@ -3,7 +3,7 @@ title: element as props (advanced react)
 date: 2023-12-07
 published: true
 category: react
-subtitle: Passing elements as props in React and applying default props with cloneElement
+subtitle: element를 props로 넘기고 cloneElement로 기본값 주기
 ---
 
 **확장성 있는 컴포넌트 구현**

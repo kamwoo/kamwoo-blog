@@ -2,7 +2,7 @@
 title: WebRTC Base
 published: true
 category: network
-subtitle: WebRTC concept
+subtitle: WebRTC 개념
 date: 2022-06-17
 ---
 

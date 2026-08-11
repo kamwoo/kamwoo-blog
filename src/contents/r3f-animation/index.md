@@ -2,7 +2,7 @@
 title: Animation
 published: true
 category: react-three-fiber
-subtitle: Four layers of animation in R3F — manual useFrame math, declarative springs, clip playback with useAnimations, and externally driven motion
+subtitle: useFrame, spring, useAnimations로 나누는 네 층
 date: 2026-08-10
 ---
 

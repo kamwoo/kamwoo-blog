@@ -2,7 +2,7 @@
 title: MFA-SPA
 published: true
 category: js
-subtitle: Differences between MPA and SPA, the characteristics of SSR and CSR and how to choose between them
+subtitle: MPA와 SPA, SSR과 CSR의 차이와 선택 기준
 date: 2022-06-11
 ---
 

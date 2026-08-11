@@ -2,7 +2,7 @@
 title: Shallow copy - Deep copy
 published: true
 category: js
-subtitle: Shallow and deep copying in JavaScript with Object.assign, the spread operator and JSON.stringify
+subtitle: Object.assign, spread, JSON.stringify로 복사하기
 date: 2022-05-16
 ---
 

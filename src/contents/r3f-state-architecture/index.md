@@ -2,7 +2,7 @@
 title: State and Component Architecture
 published: true
 category: react-three-fiber
-subtitle: Splitting state by update frequency, why continuous values never belong in React state, and how to decompose a scene into components
+subtitle: 갱신 빈도로 상태를 나누고 씬을 컴포넌트로 쪼개기
 date: 2026-08-11
 ---
 

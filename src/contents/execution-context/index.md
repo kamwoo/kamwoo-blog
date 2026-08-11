@@ -2,7 +2,7 @@
 title: Execution Context
 published: true
 category: js
-subtitle: How the JavaScript execution context is created including Variable Environment, Lexical Environment and This Binding
+subtitle: execution context를 이루는 세 가지 요소
 date: 2022-04-06
 ---
 

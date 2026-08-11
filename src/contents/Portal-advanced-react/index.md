@@ -3,7 +3,7 @@ title: Portal (advanced react)
 date: 2024-01-18
 published: true
 category: react
-subtitle: Solving stacking context problems and implementing modals with React Portal
+subtitle: Portal로 stacking context 문제를 피하고 modal 만들기
 ---
 
 ## Keyword

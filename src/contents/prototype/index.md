@@ -2,7 +2,7 @@
 title: Prototype
 published: true
 category: js
-subtitle: The concept of JavaScript prototype-based inheritance, prototype chaining and how it differs from class-based inheritance
+subtitle: prototype chaining과 class 기반 상속과의 차이
 date: 2022-05-13
 ---
 

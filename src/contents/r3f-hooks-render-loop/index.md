@@ -2,7 +2,7 @@
 title: Hooks and Render Loop
 published: true
 category: react-three-fiber
-subtitle: The two clocks in an R3F app, and what useThree, useFrame and useLoader each do in them
+subtitle: 두 개의 시계와 useThree, useFrame, useLoader
 date: 2026-08-09
 ---
 

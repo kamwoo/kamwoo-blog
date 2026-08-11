@@ -2,7 +2,7 @@
 title: typescript import
 published: true
 category: typescript
-subtitle: Importing TypeScript modules, ambient module declarations and caveats when using namespace
+subtitle: module import와 ambient module 선언
 date: 2022-07-22
 ---
 

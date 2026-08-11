@@ -2,7 +2,7 @@
 title: drei
 published: true
 category: react-three-fiber
-subtitle: The helper collection for R3F — controls, Environment, shadows, layout, Html, text, debugging tools and performance components
+subtitle: controls, Environment, shadow, Html, 성능 컴포넌트
 date: 2026-08-10
 ---
 

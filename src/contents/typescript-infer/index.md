@@ -2,7 +2,7 @@
 title: Infer
 published: true
 category: typescript
-subtitle: Inferring types inside conditional types with the TypeScript infer keyword
+subtitle: conditional type 안에서 타입 뽑아내기
 date: 2022-08-03
 ---
 

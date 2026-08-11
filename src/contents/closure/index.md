@@ -2,7 +2,7 @@
 title: Closure
 published: true
 category: js
-subtitle: Capturing values
+subtitle: 함수가 값을 가두는 방식
 date: 2022-05-06
 ---
 

@@ -2,7 +2,7 @@
 title: typeof - instanceof
 published: true
 category: js
-subtitle: How the typeof and instanceof operators work and why typeof null returns object
+subtitle: typeof와 instanceof의 동작과 typeof null
 date: 2022-05-28
 ---
 

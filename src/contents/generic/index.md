@@ -2,7 +2,7 @@
 title: typescript generic
 published: true
 category: typescript
-subtitle: The concept of TypeScript generics and how to use them with classes, functions and factory functions
+subtitle: class, 함수, factory 함수에서 generic 사용하기
 date: 2022-07-11
 ---
 

@@ -2,7 +2,7 @@
 title: getting started
 published: true
 category: three.js
-subtitle: A WebGPURenderer based App class boilerplate with setAnimationLoop, Timer and OrbitControls
+subtitle: WebGPURenderer 기반 App class 보일러플레이트
 date: 2026-07-23
 ---
 

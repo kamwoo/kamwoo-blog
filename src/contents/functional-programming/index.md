@@ -2,7 +2,7 @@
 title: Functional Programming
 published: true
 category: js
-subtitle: The concept of functional programming and composability and modularity through pure and first-class functions
+subtitle: 순수 함수와 일급 함수로 만드는 조합성과 모듈성
 date: 2022-05-28
 ---
 

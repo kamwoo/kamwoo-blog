@@ -2,7 +2,7 @@
 title: React Three Fiber Basics
 published: true
 category: react-three-fiber
-subtitle: What a React renderer really is, how JSX tags become three.js instances, and what the Canvas component sets up for you
+subtitle: React renderer의 정체와 Canvas가 대신 세팅해주는 것들
 date: 2026-08-09
 ---
 

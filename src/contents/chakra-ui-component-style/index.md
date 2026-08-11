@@ -2,7 +2,7 @@
 title: chakra ui - component style
 published: true
 category: react
-subtitle: chakra ui customize component
+subtitle: chakra ui의 component style 커스터마이징
 date: 2024-02-14
 ---
 

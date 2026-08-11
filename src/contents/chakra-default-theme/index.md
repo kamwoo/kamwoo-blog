@@ -2,7 +2,7 @@
 title: chakra ui - default theme(Foundation)
 published: true
 category: react
-subtitle: chakra ui foundation
+subtitle: chakra ui의 기본 theme, Foundation
 date: 2024-02-12
 ---
 theme object에 아래 사항을 정의한다

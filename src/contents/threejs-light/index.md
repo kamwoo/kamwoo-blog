@@ -2,7 +2,7 @@
 title: Light
 published: true
 category: three.js
-subtitle: Light types from AmbientLight to RectAreaLight and how the number of lights affects performance
+subtitle: AmbientLight부터 RectAreaLight까지, 광원 수와 성능
 date: 2026-07-28
 ---
 

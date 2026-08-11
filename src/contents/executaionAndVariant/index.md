@@ -3,7 +3,7 @@ title: Execution Context and Variables
 date: 2022-04-20
 published: true
 category: js
-subtitle: How the JavaScript execution context is created and how Variable Environment, Lexical Environment and variable declarations differ
+subtitle: execution context 생성 과정과 변수 선언
 ---
 
 ## Execution Context

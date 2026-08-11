@@ -2,7 +2,7 @@
 title: Inheritance
 published: true
 category: js
-subtitle: Delegation, concatenative and functional inheritance in JavaScript prototype-based inheritance
+subtitle: 위임, 결합, 함수형으로 나눠 보는 prototype 상속
 date: 2022-06-02
 ---
 

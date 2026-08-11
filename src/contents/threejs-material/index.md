@@ -2,7 +2,7 @@
 title: material
 published: true
 category: three.js
-subtitle: Materials per renderable object type, the NodeMaterial inheritance tree and performance by lighting calculation
+subtitle: 렌더 대상별 material과 NodeMaterial 상속 구조
 date: 2026-07-26
 ---
 

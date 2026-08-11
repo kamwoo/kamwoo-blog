@@ -2,7 +2,7 @@
 title: FSD
 published: true
 category: react
-subtitle: Feature-Sliced Design
+subtitle: 기능 단위로 나누는 Feature-Sliced Design 구조
 date: 2024-07-13
 ---
 

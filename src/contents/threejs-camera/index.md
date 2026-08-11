@@ -2,7 +2,7 @@
 title: Camera
 published: true
 category: three.js
-subtitle: Setting up the PerspectiveCamera frustum, why z-fighting happens and when to use OrthographicCamera
+subtitle: PerspectiveCamera의 절두체와 z-fighting
 date: 2026-07-29
 ---
 

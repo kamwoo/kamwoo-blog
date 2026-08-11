@@ -2,7 +2,7 @@
 title: JSX Mapping Rules
 published: true
 category: react-three-fiber
-subtitle: How R3F turns tags into classes, the difference between args and ordinary props, pierced props, attach, and when to reach for primitive
+subtitle: args와 pierced props, attach, primitive
 date: 2026-08-09
 ---
 

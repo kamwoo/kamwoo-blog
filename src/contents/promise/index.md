@@ -2,7 +2,7 @@
 title: promise-fetch
 published: true
 category: js
-subtitle: Handling asynchronous work with JavaScript Promise, async and await, and how the fetch API works
+subtitle: Promise와 async, await로 비동기 다루기와 fetch API의 동작
 date: 2022-05-22
 ---
 > 자바스크립트 비동기 처리에 사용되는 객체

@@ -2,7 +2,7 @@
 title: how to use socket.io
 published: true
 category: network
-subtitle: How to organize namespaces and events in socket.io
+subtitle: socket.io의 namespace와 event 구성하기
 date: 2024-03-02
 ---
 ### **namespace와 event를 분류하는 방법**

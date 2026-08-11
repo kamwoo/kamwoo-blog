@@ -2,7 +2,7 @@
 title: typescript interface
 published: true
 category: typescript
-subtitle: The concept of TypeScript interface with implements, optional properties, index signatures and function types
+subtitle: implements와 optional property, index signature
 date: 2022-07-08
 ---
 

@@ -2,7 +2,7 @@
 title: Loading Models and Textures
 published: true
 category: react-three-fiber
-subtitle: useGLTF and the cache it shares, why gltfjsx is worth it, compression priorities, and handling loading states with Suspense
+subtitle: useGLTF와 공유 캐시, gltfjsx, 압축 우선순위, Suspense
 date: 2026-08-10
 ---
 

@@ -3,7 +3,7 @@ title: data fetching with race conditions (advanced react)
 date: 2024-01-26
 published: true
 category: react
-subtitle: Race conditions when fetching data in React and fixing them with cleanup and AbortController
+subtitle: race condition과 cleanup, AbortController
 ---
 
 ## keywords

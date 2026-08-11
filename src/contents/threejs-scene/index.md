@@ -2,7 +2,7 @@
 title: Scene
 published: true
 category: three.js
-subtitle: The scene graph and Object3D hierarchy, local versus world coordinates and when matrices are updated
+subtitle: scene graph와 local, world 좌표, 행렬 갱신 시점
 date: 2026-07-24
 ---
 

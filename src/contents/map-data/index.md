@@ -2,7 +2,7 @@
 title: Map Data
 published: true
 category: Map
-subtitle: Data handled in Map
+subtitle: 지도에서 다루는 raster data와 vector data
 date: 2023-12-01
 ---
 ## data

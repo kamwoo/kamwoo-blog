@@ -2,7 +2,7 @@
 title: OBJ
 published: true
 category: three.js
-subtitle: Loading OBJ models with OBJLoader and MTLLoader and dealing with scale, axis orientation and texture size
+subtitle: OBJLoader와 MTLLoader, 그리고 스케일과 축, 텍스처 크기 문제
 date: 2026-08-04
 ---
 

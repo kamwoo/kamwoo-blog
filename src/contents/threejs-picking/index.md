@@ -2,7 +2,7 @@
 title: picking
 published: true
 category: three.js
-subtitle: The limits of ray casting with Raycaster and picking by color on the GPU
+subtitle: Raycaster의 한계와 GPU에서 색으로 picking하기
 date: 2026-08-06
 ---
 

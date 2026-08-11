@@ -2,7 +2,7 @@
 title: event delegate
 published: true
 category: js
-subtitle: Controlling child node events from a parent node with event delegation, and event bubbling and capturing
+subtitle: event delegation과 bubbling, capturing
 date: 2022-06-05
 ---
 

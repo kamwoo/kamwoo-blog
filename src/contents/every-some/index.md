@@ -2,7 +2,7 @@
 title: Every Some
 published: true
 category: js
-subtitle: How the array methods every and some work, vacuous truth, and using them for validation logic
+subtitle: every와 some의 동작, vacuous truth와 검증 로직
 date: 2022-05-11
 ---
 

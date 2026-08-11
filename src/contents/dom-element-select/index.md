@@ -2,7 +2,7 @@
 title: DOM element select
 published: true
 category: js
-subtitle: Selecting DOM elements directly with getElementBy and querySelector and relationally with parentNode and children
+subtitle: getElementBy와 querySelector로 DOM 요소 선택하기
 date: 2022-06-06
 ---
 

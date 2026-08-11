@@ -2,7 +2,7 @@
 title: shadow
 published: true
 category: three.js
-subtitle: How shadow maps work, which lights can cast shadows and the relation between shadow quality and camera volume
+subtitle: shadow map의 동작과 그림자를 만드는 광원, 품질과 카메라 볼륨
 date: 2026-07-30
 ---
 

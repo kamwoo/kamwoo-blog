@@ -2,7 +2,7 @@
 title: First Scene
 published: true
 category: react-three-fiber
-subtitle: Canvas defaults for the renderer and camera, the right-handed y-up coordinate system, and assembling a scene you can actually debug
+subtitle: Canvas 기본값과 y-up 좌표계, 디버깅 가능한 씬 만들기
 date: 2026-08-09
 ---
 

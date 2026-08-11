@@ -2,7 +2,7 @@
 title: Facade Pattern
 published: true
 category: js
-subtitle: Providing a simple interface over a complex subsystem with the facade pattern
+subtitle: 복잡한 subsystem을 단순한 interface로 감싸기
 date: 2022-03-03
 ---
 

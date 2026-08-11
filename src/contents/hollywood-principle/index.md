@@ -2,7 +2,7 @@
 title: Hollywood principle
 published: true
 category: js
-subtitle: Managing one-way dependencies between high-level and low-level components through the Hollywood principle
+subtitle: 상위와 하위 컴포넌트의 의존 방향 뒤집기
 date: 2022-02-22
 ---
 

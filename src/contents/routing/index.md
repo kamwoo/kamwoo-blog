@@ -3,7 +3,7 @@ title: Routing
 date: 2022-09-19
 published: true
 category: react
-subtitle: The concept of client-side routing and managing routes with react-router-dom
+subtitle: client side routing과 react-router-dom
 ---
 
 <div align="center">

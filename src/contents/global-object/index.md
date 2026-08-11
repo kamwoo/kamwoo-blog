@@ -2,7 +2,7 @@
 title: js global object
 published: true
 category: js
-subtitle: Characteristics of the JavaScript global object such as window and global, and how implicit globals are created
+subtitle: window, global 같은 전역 객체와 암묵적 전역
 date: 2022-06-03
 ---
 

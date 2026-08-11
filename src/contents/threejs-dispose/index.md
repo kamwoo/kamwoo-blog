@@ -2,7 +2,7 @@
 title: Disposing Memory
 published: true
 category: three.js
-subtitle: GPU resources the GC cannot reclaim and releasing geometry, texture and material with dispose
+subtitle: GC가 회수하지 못하는 GPU 자원과 dispose로 해제하기
 date: 2026-08-08
 ---
 

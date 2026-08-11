@@ -3,7 +3,7 @@ title: Frontend Performance Improvement
 date: 2022-09-25
 published: true
 category: js
-subtitle: Measuring Web Vitals, reducing bundle size, gzip compression and caching strategies for frontend performance
+subtitle: Web Vitals 측정과 번들 크기, gzip, 캐싱 전략
 ---
 
 <div align="center">

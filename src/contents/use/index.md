@@ -3,7 +3,7 @@ title: useEffect, useCallback, useMemo and React.memo
 date: 2022-10-18
 published: true
 category: react
-subtitle: How to use useEffect, useCallback, useMemo and React.memo for performance optimization
+subtitle: 리렌더를 줄이기 위한 메모이제이션 훅 사용법
 ---
 
 # useEffect

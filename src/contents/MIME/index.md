@@ -2,7 +2,7 @@
 title: MIME Type
 published: true
 category: network
-subtitle: The concept of MIME types and identifying file formats through Content-Type
+subtitle: Content-Type으로 파일 형식 구분하기
 date: 2022-06-08
 ---
 

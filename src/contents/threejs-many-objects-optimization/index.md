@@ -2,7 +2,7 @@
 title: Optimizing Many Objects
 published: true
 category: three.js
-subtitle: Why draw call overhead happens and improving it with geometry merging and InstancedMesh
+subtitle: draw call 오버헤드와 geometry 병합, InstancedMesh
 date: 2026-08-03
 ---
 

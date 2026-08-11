@@ -2,7 +2,7 @@
 title: functional methods
 published: true
 category: js
-subtitle: Rewriting imperative code in a functional style
+subtitle: 명령형 코드를 함수형으로 바꿔보기
 date: 2022-05-29
 ---
 

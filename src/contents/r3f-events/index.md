@@ -2,7 +2,7 @@
 title: Events and Interaction
 published: true
 category: react-three-fiber
-subtitle: Pointer events built on raycasting, why propagation goes through objects instead of up a tree, and how to keep interaction cheap
+subtitle: raycast 위에 얹힌 pointer event와 전파, 그리고 비용
 date: 2026-08-10
 ---
 

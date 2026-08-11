@@ -2,7 +2,7 @@
 title: evaluation strategy
 published: true
 category: js
-subtitle: The JavaScript evaluation strategy and how call by value works
+subtitle: JavaScript의 평가 전략과 call by value
 date: 2022-04-02
 ---
 

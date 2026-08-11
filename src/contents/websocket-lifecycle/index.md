@@ -2,7 +2,7 @@
 title: Websocket Life Cycle
 published: true
 category: network
-subtitle: Websocket handshaking
+subtitle: Websocket 연결의 handshaking 과정
 date: 2023-04-14
 ---
 

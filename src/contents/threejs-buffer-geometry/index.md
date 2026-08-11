@@ -2,7 +2,7 @@
 title: BufferGeometry
 published: true
 category: three.js
-subtitle: The structure of BufferGeometry as parallel arrays and reusing vertices with an index
+subtitle: 병렬 배열로 이루어진 구조와 index로 정점 재사용하기
 date: 2026-08-01
 ---
 

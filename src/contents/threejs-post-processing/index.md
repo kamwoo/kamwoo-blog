@@ -2,7 +2,7 @@
 title: Post Processing
 published: true
 category: three.js
-subtitle: Applying effects to what was drawn into a render target and the pass structure of EffectComposer
+subtitle: render target에 효과 입히기와 EffectComposer
 date: 2026-08-07
 ---
 

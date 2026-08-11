@@ -2,7 +2,7 @@
 title: auth routing
 published: true
 category: next
-subtitle: Controlling page access based on permissions
+subtitle: 권한에 따라 page 접근 제어하기
 date: 2024-02-29
 ---
 ## 개요

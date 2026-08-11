@@ -2,7 +2,7 @@
 title: object pool
 published: true
 category: js
-subtitle: Managing memory with the object pool pattern and reducing GC pressure with static memory techniques
+subtitle: 객체를 재사용해서 GC 부담 줄이기
 date: 2022-03-15
 ---
 

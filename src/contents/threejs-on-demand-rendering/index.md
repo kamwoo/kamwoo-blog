@@ -2,7 +2,7 @@
 title: On-Demand Rendering
 published: true
 category: three.js
-subtitle: The waste of an always-running requestAnimationFrame loop and rendering only when something changes
+subtitle: 계속 도는 requestAnimationFrame의 낭비와 변할 때만 그리기
 date: 2026-08-02
 ---
 

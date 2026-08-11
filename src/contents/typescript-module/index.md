@@ -2,7 +2,7 @@
 title: typescript module
 published: true
 category: typescript
-subtitle: The TypeScript module system with import type and ambient declarations in .d.ts files
+subtitle: import type과 .d.ts의 ambient 선언
 date: 2022-06-29
 ---
 

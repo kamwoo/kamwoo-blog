@@ -2,7 +2,7 @@
 title: types
 published: true
 category: typescript
-subtitle: TypeScript basic types such as primitive, array, tuple, enum, function, object and never, plus type assertions
+subtitle: primitive, array, tuple, enum, never와 타입 단언
 date: 2022-06-07
 ---
 

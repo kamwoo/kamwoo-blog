@@ -3,7 +3,7 @@ title: re-render (advanced react)
 date: 2023-11-28
 published: true
 category: react
-subtitle: How React re-rendering works with state updates, child component re-renders and memo optimization
+subtitle: state 변경과 자식 컴포넌트 리렌더, memo 최적화
 ---
 
 ## Key Point

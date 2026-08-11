@@ -2,7 +2,7 @@
 title: Bind
 published: true
 category: js
-subtitle: Binding the this value you want to a function
+subtitle: 함수에 원하는 this 묶기
 date: 2022-05-05
 ---
 

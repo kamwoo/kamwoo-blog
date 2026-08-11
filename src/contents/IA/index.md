@@ -2,7 +2,7 @@
 title: IA
 published: true
 category: etc
-subtitle: Information Architecture
+subtitle: 정보를 구조화하는 Information Architecture
 date: 2024-07-14
 ---
 ### 개요

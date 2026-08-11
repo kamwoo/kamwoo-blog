@@ -3,7 +3,7 @@ title: checkmate hotfix
 date: 2022-10-18
 published: true
 category: etc
-subtitle: Fixing a mobile layout bug and 401 error handling, and implementing an interceptor
+subtitle: 모바일 layout 버그와 401 처리, interceptor 구현
 ---
 
 <div align='center'>

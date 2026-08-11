@@ -2,7 +2,7 @@
 title: typescript class
 published: true
 category: typescript
-subtitle: TypeScript class access modifiers, inheritance, getters and setters, static members, abstract classes and the singleton pattern
+subtitle: 접근 제어자, static, abstract class, singleton
 date: 2022-07-14
 ---
 

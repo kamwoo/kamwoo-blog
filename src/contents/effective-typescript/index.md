@@ -2,7 +2,7 @@
 title: Effective typescript
 published: true
 category: typescript
-subtitle: The role of the TypeScript compiler, type declarations, type assertions, excess property checks and type versus interface
+subtitle: compiler의 역할과 타입 선언, 타입 단언, 잉여 속성 검사
 date: 2022-09-14
 ---
 

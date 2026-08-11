@@ -2,7 +2,7 @@
 title: GLTF
 published: true
 category: three.js
-subtitle: The advantages of glTF as a transmission format, the categories of 3D file formats and Draco and KTX2 compression
+subtitle: 전송 포맷으로서의 glTF와 Draco, KTX2 압축
 date: 2026-08-05
 ---
 

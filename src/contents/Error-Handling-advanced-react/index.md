@@ -3,7 +3,7 @@ title: Error Handling (advanced react)
 date: 2024-02-06
 published: true
 category: react
-subtitle: The limits of try-catch in React and handling errors with ErrorBoundary including asynchronous errors
+subtitle: try-catch의 한계와 ErrorBoundary로 에러 다루기
 ---
 
 ### try/catch를 사용해서 에러 핸들링을 할 때 주의할 점

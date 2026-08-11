@@ -2,7 +2,7 @@
 title: ts compiler
 published: true
 category: typescript
-subtitle: The role of the TypeScript compiler and how it differs from Babel
+subtitle: TypeScript compiler의 역할과 Babel과의 차이
 date: 2022-08-02
 ---
 

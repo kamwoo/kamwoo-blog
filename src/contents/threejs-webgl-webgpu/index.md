@@ -2,7 +2,7 @@
 title: WebGL and WebGPU
 published: true
 category: three.js
-subtitle: The difference between the WebGL and WebGPU that Three.js runs on and comparing the state machine and pipeline approaches
+subtitle: state machine과 pipeline으로 비교하는 WebGL과 WebGPU
 date: 2026-07-22
 ---
 

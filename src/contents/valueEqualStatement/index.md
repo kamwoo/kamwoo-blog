@@ -3,7 +3,7 @@ title: Value, Expression, Statement
 date: 2022-04-22
 published: true
 category: js
-subtitle: The concepts of value, expression and statement in JavaScript and how expression statements differ from non-expression statements
+subtitle: 값과 표현식, 문의 구분과 표현식인 문
 ---
 
 ## 값

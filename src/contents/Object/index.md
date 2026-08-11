@@ -3,7 +3,7 @@ title: JavaScript Object
 date: 2022-05-12
 published: true
 category: js
-subtitle: The concept of JavaScript objects and how they are created, plus built-in, host and wrapper objects
+subtitle: 객체 생성 방식과 built-in, host, wrapper object
 ---
 
 ## 객체란

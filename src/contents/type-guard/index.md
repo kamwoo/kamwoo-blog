@@ -2,7 +2,7 @@
 title: Type guard
 published: true
 category: typescript
-subtitle: Narrowing types with TypeScript type guards using typeof, instanceof and the in operator
+subtitle: typeof, instanceof, in으로 타입 좁히기
 date: 2022-07-15
 ---
 

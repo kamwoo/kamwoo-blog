@@ -2,7 +2,7 @@
 title: Socket.io
 published: true
 category: network
-subtitle: socket.io concept
+subtitle: socket.io 개념
 date: 2024-03-01
 ---
 ### socket.io란

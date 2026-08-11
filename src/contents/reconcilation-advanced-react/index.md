@@ -3,7 +3,7 @@ title: reconciliation (advanced react)
 date: 2024-01-08
 published: true
 category: react
-subtitle: How React reconciliation detects changes, reuses DOM elements and the role of key
+subtitle: reconciliation의 변경 감지와 DOM 재사용, key의 역할
 ---
 
 ## Key Point
