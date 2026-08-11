@@ -270,3 +270,125 @@ function TestMesh({ id }: { id: string }) {
 `heading`에 `dampAngle`을 쓴 것도 앞서 말한 이유다. 방위각이 359도에서 1도로 넘어갈 때 한 바퀴 되돌지 않는다.
 
 `subscribe`가 해제 함수를 돌려주도록 만들어 `useEffect`에서 그대로 반환하면 정리 코드가 짧아진다.
+
+## 세 가지를 한 씬에
+
+---
+
+앞의 층위들을 한 화면에 올려놓고 비교해봤다. 도넛은 `useFrame`으로 떠 있고, 원판은 클릭하면 스프링으로 커지며, 구는 1초마다 바뀌는 목표를 향해 감쇠하며 따라간다.
+
+<div align='center'>
+<video src="/videos/posts/r3f-animation/animation.mov" height="400" controls></video>
+</div>
+
+**① 시간의 함수로 떠 있는 도넛**
+
+```tsx
+export const Floater = ({ index }: { index: number }) => {
+  const meshRef = useRef<Mesh>(null);
+
+  useFrame(({ clock }) => {
+    if (!meshRef.current) return;
+
+    const t = clock.getElapsedTime() + index * 0.9;
+    meshRef.current.position.y = Math.sin(t) * 0.25 + 0.6;
+    meshRef.current.rotation.y = t * 0.4;
+  });
+
+  return (
+    <mesh ref={meshRef} position-x={(index - 1) * 2} castShadow>
+      <torusGeometry args={[0.3, 0.1, 96, 24]} />
+      <meshStandardMaterial color='#8a929c' roughness={0.2} metalness={0.8} />
+    </mesh>
+  );
+};
+```
+
+전부 `f(t)`다. `index * 0.9`를 시간에 더해 위상만 어긋나게 하면 컴포넌트 하나로 셋의 리듬을 다르게 만들 수 있다. 상태를 누적하지 않으니 프레임이 몇 개 밀려도 세 개의 간격이 틀어지지 않는다.
+
+`position-x`는 [pierced props](/posts/JSX%20Mapping%20Rules)다. y는 매 프레임 직접 쓰고 x는 JSX로 한 번만 정하는 식으로 나눠뒀다.
+
+**② 클릭에 반응하는 스프링 원판**
+
+```tsx
+export const Pad = ({ x }: { x: number }) => {
+  const [on, setOn] = useState(false);
+
+  const { scale, color, emissiveIntensity } = useSpring({
+    scale: on ? 1.25 : 1,
+    color: on ? '#4a90d9' : '#3a4048',
+    emissiveIntensity: on ? 1.5 : 0,
+    config: { tension: 300, friction: 18 },
+  });
+
+  return (
+    <animated.mesh
+      position={[x, 0.05, 0]}
+      scale={scale}
+      onClick={(e) => {
+        e.stopPropagation();
+        setOn((on) => !on);
+      }}
+      receiveShadow>
+      <cylinderGeometry args={[0.7, 0.7, 0.1, 48]} />
+      <animated.meshStandardMaterial
+        color={color}
+        emissive='#4a90d9'
+        emissiveIntensity={emissiveIntensity}
+        roughness={0.4}
+      />
+    </animated.mesh>
+  );
+};
+```
+
+리렌더는 `on`이 바뀔 때 한 번뿐이고, 그 뒤의 전환은 스프링이 프레임마다 객체를 직접 고쳐서 만든다. `emissiveIntensity`처럼 재질 속성에 스프링을 걸려면 `meshStandardMaterial` 쪽에도 `animated.`를 붙여야 한다. 겉의 mesh에만 붙이면 색과 발광은 아무 반응이 없다.
+
+`stopPropagation`은 [광선이 원판을 관통해](/posts/Events%20and%20Interaction) 뒤의 것까지 켜지는 것을 막는다.
+
+**③ 목표를 좇는 구**
+
+```tsx
+const WAYPOINTS = [
+  { x: 1, z: 1 },
+  { x: 1, z: -1 },
+  { x: -1, z: -1 },
+  { x: -1, z: 1 },
+];
+
+export const Chaser = () => {
+  const meshRef = useRef<Mesh>(null);
+  const positionRef = useRef({ x: 0, y: 0.35, z: 0 });
+  const indexRef = useRef(0);
+
+  useFrame((_state, delta) => {
+    if (!meshRef.current) return;
+    const { x, y, z } = positionRef.current;
+
+    easing.damp3(meshRef.current.position, [x, y, z], 0.35, delta);
+  });
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      const { x, z } = WAYPOINTS[indexRef.current];
+      positionRef.current = { x, y: 0.35, z };
+      indexRef.current = (indexRef.current + 1) % WAYPOINTS.length;
+    }, 1000);
+
+    return () => clearInterval(id);
+  }, []);
+
+  return (
+    <mesh ref={meshRef}>
+      <sphereGeometry args={[0.3, 48, 24]} />
+      <meshStandardMaterial color='#e07a3f' roughness={0.15} metalness={0.6} />
+    </mesh>
+  );
+};
+```
+
+앞 절의 실시간 데이터 구조를 `setInterval`로 흉내낸 것이다. 소켓 대신 타이머가 목표를 던지고 있을 뿐, **목표는 ref에 넣고 보간은 프레임에서 한다**는 골격은 같다.
+
+1초에 한 번만 값이 바뀌는데도 움직임이 끊기지 않는 이유가 여기에 있다. 목표가 순간이동해도 `damp3`가 0.35초에 걸쳐 따라가므로 화면에서는 연속된 이동으로 보인다. 목표를 `ref`에 두었으니 1초마다 리렌더가 일어나지도 않는다.
+
+`indexRef`를 state로 두지 않은 것도 같은 이유다. 이 값은 화면에 나타나지 않고 다음 목표를 고르는 데만 쓰이므로, 상태로 만들면 재조정만 늘고 얻는 게 없다.

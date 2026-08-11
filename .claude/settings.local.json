@@ -20,7 +20,8 @@
       "Bash(yarn build:*)",
       "mcp__claude_ai_Notion__notion-search",
       "mcp__claude_ai_Notion__notion-fetch",
-      "Bash(sort -t: -k2)"
+      "Bash(sort -t: -k2)",
+      "Bash(ffprobe -v error -show_entries format=duration,size -show_entries stream=width,height,codec_name \"/Users/wooyeongkam/kamwoo-blog/src/contents/r3f-animation/videos/Screen Recording 2026-08-10 at 2.49.19 AM.mov\")"
     ]
   }
 }
