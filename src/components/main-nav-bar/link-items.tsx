@@ -15,11 +15,11 @@ export const LinkItems = ({
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>Posts</text>
       </Link>
 
-      {/* <Link href='/portfolios' onClick={onClick}>
+      <Link href='/projects' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>
-          Portfolios
+          Projects
         </text>
-      </Link> */}
+      </Link>
 
       <Link href='https://github.com/kamwoo' onClick={onClick}>
         <text className='font-medium text-sm text-neutral-400 hover:text-neutral-200'>Github</text>
