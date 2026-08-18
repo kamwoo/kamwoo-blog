@@ -200,7 +200,7 @@ import { Detailed } from '@react-three/drei';
 
 레이캐스트는 광선과 삼각형의 교차를 전부 계산하는 방식이라 비싸다. 포인터가 움직이는 동안 매 프레임 돈다는 점까지 생각하면 더 그렇다.
 
-- **BVH**: drei의 `Bvh`로 감싸면 공간 분할 트리를 타므로 삼각형을 전부 도는 것보다 훨씬 빠르다. 정밀한 판정이 필요할 때.
+- **BVH**: drei의 `Bvh`로 감싸면 공간 분할 트리를 타므로 삼각형을 전부 도는 것보다 훨씬 빠르다. 정밀한 판정이 필요할 때. [BVH](/posts/BVH)에 원리를 정리해뒀다.
 - **히트박스**: 실제 모델은 `raycast={null}`로 빼고, 단순한 박스를 `visible={false}`로 겹쳐 그것만 검사하게 한다. [Events and Interaction](/posts/Events%20and%20Interaction)에 자세히 적었다.
 - **GPU 피킹**: 객체마다 고유 색을 칠한 화면을 [렌더 타겟](/posts/Render%20Target)에 그려두고 해당 픽셀의 색을 읽는 방식이다. 삼각형 수와 무관하게 일정한 비용이 든다. [picking](/posts/picking)에 원리를 정리해뒀다.
 
